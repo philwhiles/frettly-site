@@ -1,0 +1,309 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frettly – Guitar Scales &amp; Chords Companion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Frettly is a macOS app for exploring guitar scales, chords, and fretboard patterns in a clean, document-based workflow." />
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+          "Segoe UI", sans-serif;
+        background: radial-gradient(circle at top, #1f2937 0, #020617 55%, #000 100%);
+        color: #e5e7eb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      main {
+        width: 100%;
+        max-width: 720px;
+        padding: 2.5rem 1.5rem 3rem;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2.5rem;
+      }
+      .logo {
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        font-size: 0.95rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .logo-mark {
+        width: 24px;
+        height: 24px;
+        border-radius: 999px;
+        border: 1px solid rgba(248, 250, 252, 0.5);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+      }
+      .pill {
+        border-radius: 999px;
+        padding: 0.25rem 0.75rem;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        border: 1px solid rgba(148, 163, 184, 0.5);
+        color: #9ca3af;
+      }
+      h1 {
+        margin: 0 0 0.5rem;
+        font-size: clamp(2.2rem, 5vw, 3rem);
+      }
+      h2 {
+        margin: 0 0 1.5rem;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #9ca3af;
+      }
+      p {
+        margin: 0 0 1rem;
+        line-height: 1.7;
+      }
+      .grid {
+        display: grid;
+        gap: 1.5rem;
+      }
+      @media (min-width: 720px) {
+        .grid {
+          grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.8fr);
+          align-items: start;
+          gap: 2.75rem;
+        }
+      }
+      .card {
+        border-radius: 1.25rem;
+        border: 1px solid rgba(148, 163, 184, 0.35);
+        background: linear-gradient(
+          135deg,
+          rgba(15, 23, 42, 0.9),
+          rgba(17, 24, 39, 0.6)
+        );
+        padding: 1.5rem 1.75rem;
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
+      }
+      .cta-row {
+        margin-top: 1.75rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        align-items: center;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        padding: 0.7rem 1.4rem;
+        border-radius: 999px;
+        border: 1px solid rgba(148, 163, 184, 0.4);
+        background: rgba(15, 23, 42, 0.9);
+        color: #e5e7eb;
+        font-size: 0.95rem;
+        text-decoration: none;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      .btn-primary {
+        background: linear-gradient(135deg, #f97316, #facc15);
+        border-color: transparent;
+        color: #111827;
+        font-weight: 600;
+      }
+      .email {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 0.9rem;
+        padding: 0.45rem 0.7rem;
+        border-radius: 0.5rem;
+        background: rgba(15, 23, 42, 0.9);
+        border: 1px solid rgba(55, 65, 81, 0.9);
+        display: inline-block;
+        margin-top: 0.35rem;
+      }
+      .meta {
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        color: #6b7280;
+      }
+      .meta strong {
+        color: #e5e7eb;
+        font-weight: 500;
+      }
+      .fret-preview {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 0.35rem;
+        margin-top: 1.25rem;
+      }
+      .fret-string {
+        height: 40px;
+        border-radius: 999px;
+        border: 1px solid rgba(75, 85, 99, 0.85);
+        background: radial-gradient(circle at 15% 0, #facc15 0, #f97316 18%, #020617 70%);
+        position: relative;
+        overflow: hidden;
+      }
+      .fret-note {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        width: 14px;
+        height: 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(248, 250, 252, 0.9);
+        background: rgba(248, 250, 252, 0.95);
+        box-shadow: 0 0 16px rgba(250, 204, 21, 0.9);
+      }
+      .fret-string:nth-child(2) .fret-note {
+        left: 40%;
+        opacity: 0.85;
+        box-shadow: 0 0 12px rgba(96, 165, 250, 0.9);
+      }
+      .fret-string:nth-child(3) .fret-note {
+        left: 70%;
+        opacity: 0.75;
+        box-shadow: 0 0 10px rgba(52, 211, 153, 0.9);
+      }
+      .list {
+        margin: 1rem 0 0;
+        padding-left: 1.1rem;
+        font-size: 0.9rem;
+        color: #9ca3af;
+      }
+      .list li {
+        margin-bottom: 0.35rem;
+      }
+      footer {
+        margin-top: 2rem;
+        font-size: 0.75rem;
+        color: #4b5563;
+        text-align: center;
+      }
+      a.inline {
+        color: #93c5fd;
+        text-decoration: none;
+      }
+      a.inline:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <span class="logo-mark">F</span>
+          Frettly
+        </div>
+        <div class="pill">macOS · in development</div>
+      </header>
+
+```
+  <section class="grid">
+    <div>
+      <h1>Explore your fretboard with context, not chaos.</h1>
+      <h2>
+        Frettly is a focused macOS companion for visualising guitar scales,
+        chords, tunings, and patterns on a document-like canvas you can
+        actually live in.
+      </h2>
+      <p>
+        Build pages of panels, each showing a chord, scale, or pattern.
+        Rearrange them, compare voicings, experiment with tunings, and keep
+        your ideas organised as you practise and write.
+      </p>
+      <p>
+        Frettly is currently under active development. If you'd like to hear
+        when it's ready — or are up for testing early builds — I’d be happy
+        to hear from you:
+      </p>
+      <p>
+        Drop a line at:
+        <span class="email">hello@frettly.app</span>
+      </p>
+
+      <div class="cta-row">
+        <a
+          class="btn btn-primary"
+          href="mailto:hello@frettly.app?subject=Frettly%20beta&amp;body=Hi%20Phil%2C%0A%0AI%27d%20like%20to%20hear%20more%20about%20Frettly%20and%20beta%20access.%0A%0A-%20"
+        >
+          Join the beta list
+        </a>
+        <a class="btn" href="#more-info">
+          Read about the idea
+        </a>
+      </div>
+
+      <div id="more-info" class="meta">
+        <strong>Built for:</strong> players who like to see the
+        relationships between notes, intervals, and shapes laid out clearly
+        — not buried in menus and modes.
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top: 0; margin-bottom: 0.75rem; font-size: 1rem;">
+        A page-based fretboard notebook
+      </h3>
+      <p style="font-size: 0.9rem; margin-bottom: 0.75rem;">
+        A Frettly document is made of panels: one for a scale, one for a
+        chord, another for an idea you’re working on. Save different
+        documents for different projects, tunings, or bands.
+      </p>
+      <ul class="list">
+        <li>Multiple fretboards per document</li>
+        <li>Scales &amp; chords rendered on the neck</li>
+        <li>Interval-focused view to see function, not just dots</li>
+        <li>Designed for mouse &amp; trackpad, not touch</li>
+      </ul>
+
+      <div class="fret-preview" aria-hidden="true">
+        <div class="fret-string"><span class="fret-note"></span></div>
+        <div class="fret-string"><span class="fret-note"></span></div>
+        <div class="fret-string"><span class="fret-note"></span></div>
+        <div class="fret-string"></div>
+        <div class="fret-string"></div>
+        <div class="fret-string"></div>
+      </div>
+
+      <div class="meta">
+        If you’re a fellow guitar theory tinkerer, your feedback on
+        workflows and visualisation will be especially welcome.
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Frettly. Site content and app in
+    development by Phil Whiles.
+  </footer>
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</main>
+```
+
+  </body>
+</html>
+
