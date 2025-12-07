@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frettly – Instruments &amp; tunings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Switching instruments and tunings in Frettly and updating all panels at once."
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <span class="logo-mark">F</span>
+          Frettly
+        </div>
+        <div class="pill">macOS · in development</div>
+      </header>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/help/index.html">Help &amp; Info</a>
+      </nav>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/help/index.html">Help &amp; Info</a>
+        <span aria-hidden="true">›</span>
+        <span>Instruments &amp; tunings</span>
+      </nav>
+
+      <section class="card">
+        <h1>Instruments &amp; tunings</h1>
+
+        <p>
+          Frettly supports Guitar, Bass Guitar, Mandolin, Banjo and Ukulele. Each
+          document is tied to a chosen instrument and tuning, and all panels update
+          together when you change that choice.
+        </p>
+
+        <ul>
+          <li>Set the instrument for a document when you first create it.</li>
+          <li>
+            Choose from standard tunings or alternate tunings for that instrument.
+          </li>
+          <li>
+            When you change tuning, all panels in the document refresh to reflect
+            the new layout.
+          </li>
+          <li>
+            Keep separate documents for different instruments, tunings or projects.
+          </li>
+        </ul>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/help-instruments-and-tunings.png"
+            alt="Frettly showing instrument and tuning controls with panels updated"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            A document updated from standard guitar tuning to an alternate tuning,
+            with all panels refreshed.
+          </figcaption>
+        </figure>
+      </section>
+
+      <footer>
+        &copy; <span id="year"></span> Frettly. Site content and app in
+        development by Phil Whiles.
+      </footer>
+
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </main>
+  </body>
+</html>
+

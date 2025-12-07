@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frettly – Scales &amp; modes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Using Frettly to visualise scales and modes across the guitar fretboard."
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <span class="logo-mark">F</span>
+          Frettly
+        </div>
+        <div class="pill">macOS · in development</div>
+      </header>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/help/index.html">Help &amp; Info</a>
+      </nav>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/help/index.html">Help &amp; Info</a>
+        <span aria-hidden="true">›</span>
+        <span>Scales &amp; modes</span>
+      </nav>
+
+      <section class="card">
+        <h1>Scales &amp; modes</h1>
+
+        <p>
+          Scales and modes are at the heart of Frettly. Panels let you see how a
+          scale lays across the entire neck, and how different modes relate to one
+          another.
+        </p>
+
+        <ul>
+          <li>Select a scale or mode to see all its notes on the fretboard.</li>
+          <li>
+            Create multiple panels in a document to compare related scales and
+            modes.
+          </li>
+          <li>
+            Switch between note names and interval labels to see relationships more
+            clearly.
+          </li>
+          <li>
+            Focus practice by zooming into one position, then zooming back out to
+            see the bigger picture.
+          </li>
+        </ul>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/help-scales-and-modes.png"
+            alt="Frettly scale and mode panels showing notes across the fretboard"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            A document comparing a scale and a related mode on adjacent panels.
+          </figcaption>
+        </figure>
+      </section>
+
+      <footer>
+        &copy; <span id="year"></span> Frettly. Site content and app in
+        development by Phil Whiles.
+      </footer>
+
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </main>
+  </body>
+</html>
+

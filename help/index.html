@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frettly – Help &amp; Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Help and information for using Frettly: documents, panels, fretboard navigation, tunings and more."
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <span class="logo-mark">F</span>
+          Frettly
+        </div>
+        <div class="pill">macOS · in development</div>
+      </header>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
+      </nav>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <span>Help &amp; Info</span>
+      </nav>
+
+      <section class="card">
+        <h1>Help &amp; Info</h1>
+        <p>
+          This section collects short guides to key parts of Frettly. Each topic
+          focuses on a particular scenario or feature, with a screenshot showing
+          what you can expect to see in the app.
+        </p>
+
+        <ul>
+          <li>
+            <a href="documents-and-panels.html">Documents &amp; panels</a><br />
+            <span class="meta">
+              How Frettly documents are structured and how panels fit into them.
+            </span>
+          </li>
+
+          <li>
+            <a href="fretboard-navigation.html">Fretboard navigation</a><br />
+            <span class="meta">
+              Scrolling, zooming and moving around the fretboard view.
+            </span>
+          </li>
+
+          <li>
+            <a href="chords-panel.html">Chords panel</a><br />
+            <span class="meta">
+              Viewing, comparing and rearranging chord shapes and voicings.
+            </span>
+          </li>
+
+          <li>
+            <a href="scales-and-modes.html">Scales &amp; modes</a><br />
+            <span class="meta">
+              Laying out scales and modes across the neck for practice.
+            </span>
+          </li>
+
+          <li>
+            <a href="instruments-and-tunings.html">Instruments &amp; tunings</a><br />
+            <span class="meta">
+              Switching between Guitar, Bass, Mandolin, Banjo and Ukulele, and changing tunings.
+            </span>
+          </li>
+
+          <li>
+            <a href="left-handed-and-visual-options.html">
+              Left-handed &amp; visual options
+            </a><br />
+            <span class="meta">
+              Flipping handedness, showing notes or intervals, and hiding details.
+            </span>
+          </li>
+        </ul>
+      </section>
+
+      <footer>
+        &copy; <span id="year"></span> Frettly. Site content and app in
+        development by Phil Whiles.
+      </footer>
+
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </main>
+  </body>
+</html>
+
