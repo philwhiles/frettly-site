@@ -1,11 +1,13 @@
 <!doctype html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Frettly – Guitar Scales &amp; Chords Companion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Frettly is a macOS app for exploring guitar scales, chords, and fretboard patterns in a clean, document-based workflow." />
+    <meta
+      name="description"
+      content="Frettly is a macOS app for exploring guitar scales, chords, and fretboard patterns in a clean, document-based workflow."
+    />
     <style>
       :root {
         color-scheme: dark;
@@ -34,7 +36,7 @@
         justify-content: space-between;
         align-items: center;
         gap: 1rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 1.25rem;
       }
       .logo {
         font-weight: 700;
@@ -64,12 +66,37 @@
         border: 1px solid rgba(148, 163, 184, 0.5);
         color: #9ca3af;
       }
+
+      /* simple top nav for future pages */
+      .nav {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        font-size: 0.8rem;
+        color: #9ca3af;
+      }
+      .nav a {
+        color: #9ca3af;
+        text-decoration: none;
+        padding: 0.2rem 0.5rem;
+        border-radius: 999px;
+      }
+      .nav a:hover {
+        background: rgba(148, 163, 184, 0.15);
+        color: #e5e7eb;
+      }
+      .nav a[aria-current="page"] {
+        background: rgba(148, 163, 184, 0.25);
+        color: #f9fafb;
+      }
+
       h1 {
         margin: 0 0 0.5rem;
         font-size: clamp(2.2rem, 5vw, 3rem);
       }
       h2 {
-        margin: 0 0 1.5rem;
+        margin: 0 0 1.1rem;
         font-weight: 400;
         font-size: 1rem;
         color: #9ca3af;
@@ -148,44 +175,8 @@
         color: #e5e7eb;
         font-weight: 500;
       }
-      .fret-preview {
-        display: grid;
-        grid-template-columns: repeat(6, minmax(0, 1fr));
-        gap: 0.35rem;
-        margin-top: 1.25rem;
-      }
-      .fret-string {
-        height: 40px;
-        border-radius: 999px;
-        border: 1px solid rgba(75, 85, 99, 0.85);
-        background: radial-gradient(circle at 15% 0, #facc15 0, #f97316 18%, #020617 70%);
-        position: relative;
-        overflow: hidden;
-      }
-      .fret-note {
-        position: absolute;
-        top: 50%;
-        left: 55%;
-        transform: translate(-50%, -50%);
-        width: 14px;
-        height: 14px;
-        border-radius: 999px;
-        border: 1px solid rgba(248, 250, 252, 0.9);
-        background: rgba(248, 250, 252, 0.95);
-        box-shadow: 0 0 16px rgba(250, 204, 21, 0.9);
-      }
-      .fret-string:nth-child(2) .fret-note {
-        left: 40%;
-        opacity: 0.85;
-        box-shadow: 0 0 12px rgba(96, 165, 250, 0.9);
-      }
-      .fret-string:nth-child(3) .fret-note {
-        left: 70%;
-        opacity: 0.75;
-        box-shadow: 0 0 10px rgba(52, 211, 153, 0.9);
-      }
       .list {
-        margin: 1rem 0 0;
+        margin: 0.5rem 0 0;
         padding-left: 1.1rem;
         font-size: 0.9rem;
         color: #9ca3af;
@@ -206,6 +197,15 @@
       a.inline:hover {
         text-decoration: underline;
       }
+      .icon-wrapper {
+        text-align: center;
+        margin: 1.25rem 0 1.5rem;
+      }
+      .icon-wrapper img {
+        max-width: 40vw;
+        height: auto;
+        border-radius: 24px;
+      }
     </style>
   </head>
   <body>
@@ -218,94 +218,101 @@
         <div class="pill">macOS · in development</div>
       </header>
 
+      <nav class="nav">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/help/index.html">Help &amp; Info</a>
+      </nav>
 
-  <section class="grid">
-    <div>
-      <p style="text-align: center; margin-top: 2rem; margin-bottom: 1rem;">
-        <img
-          src="images/icon.png"
-          alt="Frettly app icon"
-          width="192"
-          height="192"
-          style="max-width: 40vw; height: auto; border-radius: 24px;"
-        >
-      </p>
-      <h1>Frettly - the comprehensive fretboard explorer</h1>
-      <h2>
-        Frettly is a macOS application dedicated to enabling players of fretted instruments to visualise, experiment and explore scales,
-        modes and chords in a document-like canvas. 
-      </h2>
-      <h2>
-        Supporting Guitar, Bass Guitar, Mandolin, Banjo and Ukelele, each document you create 
-        can show multiple scales/chords/modes for the documents chosen instrument, and each instrument type supports multiple possible tunings.<br/>
-      </h2>
-      <p>
-        Frettly is currently under active development. If you'd like to hear
-        when it's ready — or are up for testing early builds — I’d be happy
-        to hear from you:
-      </p>
-      <p>
-        Drop a line at:
-        <span class="email">hello@frettly.app</span>
-      </p>
+      <section class="grid">
+        <div>
+          <div class="icon-wrapper">
+            <img
+              src="images/icon.png"
+              alt="Frettly app icon"
+              width="192"
+              height="192"
+            />
+          </div>
 
-      <div class="cta-row">
-        <a
-          class="btn btn-primary"
-          href="mailto:hello@frettly.app?subject=Frettly%20beta&amp;body=Hi%20Phil%2C%0A%0AI%27d%20like%20to%20hear%20more%20about%20Frettly%20and%20beta%20access.%0A%0A-%20"
-        >
-          Join the beta list
-        </a>
-        <a class="btn" href="#more-info">
-          Read about the idea
-        </a>
-      </div>
+          <h1>Frettly - the comprehensive fretboard explorer</h1>
 
-      <div id="more-info" class="meta">
-        <strong>Built for:</strong> players who like to see the
-        relationships between notes, intervals, and shapes laid out clearly.
-      </div>
-    </div>
+          <h2>
+            Frettly is a macOS application dedicated to enabling players of fretted
+            instruments to visualise, experiment and explore scales,
+            modes and chords in a document-like canvas.
+          </h2>
 
-    <div class="card">
-      <h3 style="margin-top: 0; margin-bottom: 0.75rem; font-size: 1rem;">
-        A document based fretboard notebook
-      </h3>
-      <p style="font-size: 0.9rem; margin-bottom: 0.75rem;">
-        <ul>
-          <li>Frettly documents are made of panels, each displaying a given scale, chord or mode</li>
-          <li>Scroll up/down in the document or 'Jump to' a specific panel in a document</li>
-          <li>Frettly panels can be dragged within the document to re-arrange them</li>
-          <li>Fretboards can be horizontally scrolled</li>
-          <li>Fretboards can be zoomed in/out</li>
-          <li>Flip all the panels in a document from right to left handed</li>
-          <li>Modify a documents instrument/tuning and all panels update to show that instrument</li>
-          <li>Notes or intervals displayed can be selectively hidden</li>
-          <li>Easily flip between displaying notes or intervals</li>
-          <li>Toggle the display of either the notes or intervals</li>
-          <li>Click any note or interval to hear the notes singly or with sustain</li>
-          <li>Save different documents for different learnings, projects or tunings.</li>
-        </ul>
-      </p>
+          <h2>
+            Supporting Guitar, Bass Guitar, Mandolin, Banjo and Ukulele, each document you create
+            can show multiple scales/chords/modes for the document’s chosen instrument, and each instrument type supports multiple possible tunings.
+          </h2>
 
-      <div class="meta">
-        If you’re a fellow guitar theory tinkerer, your feedback on
-        workflows and visualisation will be especially welcome.
-      </div>
-    </div>
-  </section>
+          <p>
+            Frettly is currently under active development. If you'd like to hear
+            when it's ready — or are up for testing early builds — I’d be happy
+            to hear from you:
+          </p>
 
-  <footer>
-    &copy; <span id="year"></span> Frettly. Site content and app in
-    development by Phil Whiles.
-  </footer>
-  <script>
-    document.getElementById("year").textContent =
-      new Date().getFullYear();
-  </script>
-</main>
-```
+          <p>
+            Drop a line at:
+            <span class="email">hello@frettly.app</span>
+          </p>
 
+          <div class="cta-row">
+            <a
+              class="btn btn-primary"
+              href="mailto:hello@frettly.app?subject=Frettly%20beta&amp;body=Hi%20Phil%2C%0A%0AI%27d%20like%20to%20hear%20more%20about%20Frettly%20and%20beta%20access.%0A%0A-%20"
+            >
+              Join the beta list
+            </a>
+            <a class="btn" href="#more-info">
+              Read about the idea
+            </a>
+          </div>
+
+          <div id="more-info" class="meta">
+            <strong>Built for:</strong> players who like to see the
+            relationships between notes, intervals, and shapes laid out clearly.
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top: 0; margin-bottom: 0.75rem; font-size: 1rem;">
+            A document-based fretboard notebook
+          </h3>
+
+          <ul class="list">
+            <li>Frettly documents are made of panels, each displaying a given scale, chord or mode</li>
+            <li>Scroll up/down in the document or “Jump to” a specific panel in a document</li>
+            <li>Frettly panels can be dragged within the document to re-arrange them</li>
+            <li>Fretboards can be horizontally scrolled</li>
+            <li>Fretboards can be zoomed in/out</li>
+            <li>Flip all the panels in a document from right to left handed</li>
+            <li>Modify a document’s instrument/tuning and all panels update to show that instrument</li>
+            <li>Notes or intervals displayed can be selectively hidden</li>
+            <li>Easily flip between displaying notes or intervals</li>
+            <li>Toggle the display of either the notes or the intervals</li>
+            <li>Click any note or interval to hear the notes singly or with sustain</li>
+            <li>Save different documents for different learnings, projects or tunings.</li>
+          </ul>
+
+          <div class="meta">
+            If you’re a fellow guitar theory tinkerer, your feedback on
+            workflows and visualisation will be especially welcome.
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        &copy; <span id="year"></span> Frettly. Site content and app in
+        development by Phil Whiles.
+      </footer>
+
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </main>
   </body>
 </html>
-
