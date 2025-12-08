@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frettly – Chords panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Using the chords panel in Frettly to view and compare chord shapes and voicings."
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <span class="logo-mark">F</span>
+          Frettly
+        </div>
+        <div class="pill">macOS · in development</div>
+      </header>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/help/index.html">Help &amp; Info</a>
+      </nav>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/help/index.html">Help &amp; Info</a>
+        <span aria-hidden="true">›</span>
+        <span>Chords panel</span>
+      </nav>
+
+      <section class="card">
+        <h1>Document window overview</h1>
+
+        <p>
+          The image below shows a document with two fretboards, and the document level controls marked.
+          From left to right those controls are:
+        </p>
+
+        <ul>
+          <li>Edit document settings - change the entire documents instrument/tuning/handedness</li>
+          <li>Jump to - with a document containing many fretboards, this allows you to quickly jump to any of those fretboards rather than scrolling up and down hunting for it</li>
+          <li>Toggle the note audio - between single note play and sustained play. In single play mode, click a note
+          and you will hear the note played on the instrument, and as soon as the mouse is released the audio will cutout (Hint, click and HOLD the mouse).
+          In sustained mode, each note clicked will play for a few seconds before fading, and multiple notes can be played in quick succession to get a feel
+          for the combination of those notes when played together</li>
+          <li>Add fretboard - add as many as you like to a document!</li>
+        </ul>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/document-window-overview-001.png"
+            alt="Frettly document window example"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            An overview of the document window and its controls
+          </figcaption>
+        </figure>
+
+
+      </section>
+
+
+      <!-- Shared lightbox overlay -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <div class="lightbox-inner">
+          <button class="lightbox-close" aria-label="Close">&times;</button>
+          <img id="lightbox-img" alt="" />
+          <p id="lightbox-caption"></p>
+        </div>
+      </div>
+
+      <footer>
+        &copy; <span id="year"></span> Frettly. Site content and app in
+        development by Phil Whiles.
+      </footer>
+
+      <script src="/lightbox.js"></script>
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </main>
+  </body>
+</html>
+
