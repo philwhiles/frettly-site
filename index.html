@@ -22,7 +22,6 @@
 
       <nav class="nav">
         <a href="/" aria-current="page">Home</a>
-        <a href="/gallery.html">Gallery</a>
         <a href="/the-idea.html">Motivation</a>
         <a href="/purchase-frettly.html">Purchase</a>
         <a href="/help/index.html">Help &amp; Info</a>
@@ -46,7 +45,15 @@
             instruments to visualise, experiment and explore scales,
             modes and chords in a document-like canvas.
           </h2>
-
+        <figure class="gallery-figure">
+          <img
+            src="/images/headliner.png"
+            alt="This is Frettly"
+            class="gallery-image"
+            loading="lazy"
+          />
+        </figure>
+        <br/>
           <h2>
             Supporting <b><em>Guitar, Bass Guitar, Mandolin, Banjo and Ukulele</em></b>, each document you create
             can show multiple scales/chords/modes for the document’s chosen instrument, and each
@@ -98,7 +105,7 @@
             <li>Modify a document’s instrument/tuning and all panels update to show that instrument</li>
             <li>Notes or intervals displayed can be selectively hidden</li>
             <li>Toggle the display of either the notes or the intervals</li>
-            <li>Save different documents for different learnings, projects or tunings.</li>
+            <li>Save different documents for different learnings, projects or tunings</li>
           </ul>
 
           <div class="meta">
@@ -113,6 +120,16 @@
         development by Phil Whiles.
       </footer>
 
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <div class="lightbox-inner">
+          <button class="lightbox-close" aria-label="Close">&times;</button>
+          <img id="lightbox-img" alt="" />
+          <p id="lightbox-caption"></p>
+        </div>
+      </div>
+
+
+      <script src="/lightbox.js"></script>
       <script>
         document.getElementById("year").textContent =
           new Date().getFullYear();
