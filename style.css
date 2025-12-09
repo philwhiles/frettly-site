@@ -222,45 +222,38 @@ a.inline:hover {
   padding: 0 0.1rem;
 }
 
-/* Help TOC lists inside cards */
-.card > ul {
-  list-style: none;
+/* Feature list: panel-style items, not clickable */
+ul.list {
+  list-style: none;          /* no bullets */
   margin: 1.25rem 0 0;
   padding: 0;
+  font-size: 0.9rem;
+  color: #e5e7eb;            /* a bit brighter than #9ca3af */
 }
 
-.card > ul > li {
+ul.list li {
   border-radius: 0.75rem;
   padding: 0.65rem 0.9rem;
   margin-bottom: 0.45rem;
-  background: rgba(15, 23, 42, 0.6);
-  border: 1px solid rgba(31, 41, 55, 0.9);
-  transition: background 0.15s ease, border-color 0.15s ease,
-    transform 0.12s ease;
+
+  /* Slightly lighter than the card/page background */
+  background: rgba(31, 41, 55, 0.9);      /* around #1f2937 */
+
+  /* Brighter, more visible border */
+  border: 1px solid rgba(148, 163, 184, 0.75);  /* ~slate-300/400 */
+
+  /* No hover-state: non-interactive */
 }
 
-.card > ul > li:hover {
-  background: rgba(31, 41, 55, 0.9);
-  border-color: rgba(148, 163, 184, 0.8);
-  transform: translateY(-1px);
+/* Default unordered lists (non-feature lists) */
+ul:not(.list) {
+  margin: 0 0 1.1rem 1.25rem;  /* keep a nice left indent + bottom gap */
+  padding-left: 0;             /* rely on margin for indent */
 }
 
-.card > ul > li > a {
-  display: inline-block;
-  color: #e5e7eb;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.card > ul > li > a:hover {
-  text-decoration: underline;
-}
-
-.card > ul > li .meta {
-  display: block;
-  margin-top: 0.15rem;
-  font-size: 0.8rem;
-  color: #9ca3af;
+ul:not(.list) li {
+  margin-bottom: 0.2rem;       /* extra vertical spacing between items */
+  line-height: 1.4;            /* match paragraph line height so it feels consistent */
 }
 
 /* Gallery layout */
@@ -362,5 +355,11 @@ a.inline:hover {
 
 .lightbox-close:hover {
   background: rgba(31, 41, 55, 0.95);
+}
+/* Let long buttons wrap inside CTA rows so they don't overflow */
+.cta-row .btn {
+  white-space: normal;
+  text-align: center;
+  max-width: 100%;
 }
 
