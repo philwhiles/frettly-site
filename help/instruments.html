@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frettly – Chords panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="An overview of the instruments supported by Frettly"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <span class="logo-mark">F</span>
+          Frettly
+        </div>
+        <div class="pill">macOS · in development</div>
+      </header>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/help/index.html">Help &amp; Info</a>
+      </nav>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/help/index.html">Help &amp; Info</a>
+        <span aria-hidden="true">›</span>
+        <span>Instruments</span>
+      </nav>
+
+      <section class="card">
+        <h1>Instruments</h1>
+
+        <p>
+        Frettly can display scales/chord/modes and the notes with them, across the fretboard of several
+        different instrument types, each of which comes with multiple available tunings. When the notes/intervals
+        are clicked on the fretboard, Frettly plays the note pitch perfect and with samples which are instrument specific.
+        </p>
+
+        <ul>
+          <li>Guitar (six string)</li>
+          <li>Guitar (seven string)</li>
+          <li>Bass Guitar (four string)</li>
+          <li>Bass Guitar (five string)</li>
+          <li>Banjo (five string)</li>
+          <li>Banjo (four string)</li>
+          <li>Mandolin (four string)</li>
+          <li>Ukulele (four string)</li>
+        </ul>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/instruments-guitar.png"
+            alt="Frettly fretboard for guitar"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            Guitar (six string)
+          </figcaption>
+        </figure>
+        <br/>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/instruments-bass.png"
+            alt="Frettly fretboard for bass guitar"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            Bass Guitar (four string)
+          </figcaption>
+        </figure>
+        <br/>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/instruments-banjo.png"
+            alt="Frettly fretboard for banjo"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            Banjo (five string)
+          </figcaption>
+        </figure>
+        <br/>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/instruments-mandolin.png"
+            alt="Frettly fretboard for six string guitar"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            Mandolin (four string)
+          </figcaption>
+        </figure>
+        <br/>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/instruments-ukulele.png"
+            alt="Frettly fretboard for ukulele"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            Ukulele (four string)
+          </figcaption>
+        </figure>
+        <br/>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/instruments-guitar-lefty.png"
+            alt="Frettly fretboard for left handed guitar"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            And don't forget, ANY instrument can be left handed!
+          </figcaption>
+        </figure>
+
+      </section>
+
+
+      <!-- Shared lightbox overlay -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <div class="lightbox-inner">
+          <button class="lightbox-close" aria-label="Close">&times;</button>
+          <img id="lightbox-img" alt="" />
+          <p id="lightbox-caption"></p>
+        </div>
+      </div>
+
+      <footer>
+        &copy; <span id="year"></span> Frettly. Site content and app in
+        development by Phil Whiles.
+      </footer>
+
+      <script src="/lightbox.js"></script>
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </main>
+  </body>
+</html>
+

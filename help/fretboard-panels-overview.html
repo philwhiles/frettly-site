@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frettly – Chords panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Using the fretboard panels within Frettly"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <span class="logo-mark">F</span>
+          Frettly
+        </div>
+        <div class="pill">macOS · in development</div>
+      </header>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/help/index.html">Help &amp; Info</a>
+      </nav>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/help/index.html">Help &amp; Info</a>
+        <span aria-hidden="true">›</span>
+        <span>Fretboard panels</span>
+      </nav>
+
+      <section class="card">
+        <h1>Fretboard panels overview</h1>
+
+        <p>
+        Frettly was designed not to simply show a single fretboard with a scale, which would
+        reset next time the application was started, but as a macOS document based application
+        capable of displaying <b><em>many</em></b> fretboards at a time, collected within each
+        document.
+        </p>
+        <ul>
+          <li>Remember - all fretboards within the same document are for that documents current 
+            instrument/tuning/handedness configuration</li>
+          <li>When fretboards are added to the document, they are appended to the bottom of the document.
+        Click and drag a fretboard, and drop it before or after any other fretboard to re-order your
+        fretboards.</li>
+          <li>Zoom the fretboards within a document with standard macOS ⌘+ and ⌘- key combos</li>
+          <li>If a fretboards frets are off screen, scroll the fretboard with trackpad or mouse</li>
+          <li>To edit the type/root/pattern of a fret board, click the pencil icon at the top 
+            right of the fretboard to poen its edit dialog.</li>
+          <li>The edit dialog (pencil icon again!) also allows you to delete a fretboard from the document</li>
+          <li>The icon to the left of that same pencil toggles the fretboards displaying of either notes or intervals</li>
+          <li>The coloured buttons centered above each fretboard serve several purposes
+            <ul>
+              <li>Display the colour coded note and its interval within the scale/mode/chord</li>
+              <li>Hover over one of those buttons and the occurrences on the fretboard are highlighted</li>
+              <li>Click one of those buttons, and that note/interval will be removed from the fretboard (you can click again to bring it back!)</li>
+          </ul>
+          </li>
+        </ul>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/fretboard-notes-intervals.png"
+            alt="Frettly fretboard notes/intervals toggled"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            Two fretboards one showing notes (default), the other showing intervals. (Toggle button highlighted)
+          </figcaption>
+        </figure>
+        <br/>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/fretboard-note-hover.png"
+            alt="Frettly fretboard single note/interval hover"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            Shows the use of hover over a note/interval button (highlighted) to show that notes occurrences across the fretboard
+          </figcaption>
+        </figure>
+        <br/>
+
+        <figure class="gallery-figure">
+          <img
+            src="../images/fretboard-note-hidden.png"
+            alt="Frettly fretboard single note/interval hidden"
+            class="gallery-image"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            Shows the use of the toggled note (highlighted) button to hide note's occurrences across the fretboard
+          </figcaption>
+        </figure>
+        <br/>
+
+      </section>
+
+
+      <!-- Shared lightbox overlay -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <div class="lightbox-inner">
+          <button class="lightbox-close" aria-label="Close">&times;</button>
+          <img id="lightbox-img" alt="" />
+          <p id="lightbox-caption"></p>
+        </div>
+      </div>
+
+      <footer>
+        &copy; <span id="year"></span> Frettly. Site content and app in
+        development by Phil Whiles.
+      </footer>
+
+      <script src="/lightbox.js"></script>
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </main>
+  </body>
+</html>
+
