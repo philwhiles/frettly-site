@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Frettly – Chords panel</title>
+    <title>Frettly – Instruments and tunings</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
@@ -17,7 +17,7 @@
           <span class="logo-mark">F</span>
           Frettly
         </div>
-        <div class="pill">macOS · in development</div>
+        <div class="pill">macOS · In Beta</div>
       </header>
 
       <nav class="nav">
@@ -25,7 +25,7 @@
         <a href="/the-idea.html">Motivation</a>
         <a href="/purchase-frettly.html">Purchase</a>
         <a href="/privacy.html">Privacy</a>
-        <a href="/help/index.html">Help &amp; Info</a>
+        <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
       </nav>
 
       <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -37,105 +37,156 @@
       </nav>
 
       <section class="card">
-        <h1>Instruments</h1>
+        <h1>Instruments and tunings</h1>
 
         <p>
-        Frettly can display scales/chord/modes and the notes with them, across the fretboard of several
-        different instrument types, each of which comes with multiple available tunings. When the notes/intervals
-        are clicked on the fretboard, Frettly plays the note pitch perfect and with samples which are instrument specific.
+          Frettly can display scales, chords, and modes — and the notes within them — across the fretboards of different
+          instrument types, each of which includes multiple tunings. When you click a note or interval on the fretboard,
+          Frettly plays the note pitch-perfect, in the octave and string position you clicked, using instrument-specific samples.
         </p>
 
-        <ul>
-          <li>Guitar (six string)</li>
-          <li>Guitar (seven string)</li>
-          <li>Bass Guitar (four string)</li>
-          <li>Bass Guitar (five string)</li>
-          <li>Bass Guitar (six string)</li>
-          <li>Banjo (five string)</li>
-          <li>Banjo (four string)</li>
-          <li>Mandolin (four string)</li>
-          <li>Ukulele (four string)</li>
+        <ul class="list">
+          <li>
+            <h2 style="margin-top: 0;">Guitar (six-string)</h2>
+            <ul class="multi-col-list">
+              <li>Standard (E, A, D, G, B, E)</li>
+              <li>Celtic (D, A, D, G, A, D)</li>
+              <li>Dobro (G, B, D, G, B, D)</li>
+              <li>Asus4 (E, A, D, E, A, E)</li>
+              <li>Half-step down (Eb, Ab, Db, Gb, Bb, Eb)</li>
+              <li>B modal (B, F#, C#, F#, B, D#)</li>
+              <li>Full step down (D, G, C, F, A, D)</li>
+              <li>1.5 steps down (Db, Gb, B, E, Ab, Db)</li>
+              <li>Two steps down (C, F, Bb, Eb, G, C)</li>
+              <li>Baritone (B, E, A, D, F#, B)</li>
+              <li>Drop D (D, A, D, G, B, E)</li>
+              <li>Drop C# (C#, G#, C#, F#, A#, D#)</li>
+              <li>Drop C (C, G, C, F, A, D)</li>
+              <li>Drop B (B, F#, B, E, G#, C#)</li>
+              <li>Drop A# (A#, F, A#, D#, G, C)</li>
+              <li>Drop A (A, E, A, D, F#, B)</li>
+              <li>Drop G# (G#, D#, G#, C#, F, A#)</li>
+              <li>Drop E (E, B, E, A, C#, F#)</li>
+              <li>Double drop D (D, A, D, G, B, D)</li>
+              <li>Double drop C# (C#, G#, C#, F#, A#, C#)</li>
+              <li>Double drop C (C, G, C, F, A, C)</li>
+              <li>Double drop B (B, F#, B, E, G#, B)</li>
+              <li>Double drop A# (Bb, F, Bb, Eb, G, Bb)</li>
+              <li>Double drop A (A, E, A, D, F#, A)</li>
+              <li>Cross note C (C, G, C, G, C, Eb)</li>
+              <li>Cross note D (D, A, D, F, A, D)</li>
+              <li>Cross note E (E, B, E, G, B, E)</li>
+              <li>Cross note F (F, Ab, C, F, C, F)</li>
+              <li>Cross note G (D, G, D, G, Bb, D)</li>
+              <li>Cross note A (E, A, E, A, C, E)</li>
+              <li>Open A (E, A, C#, E, A, E)</li>
+              <li>Open B (B, F#, B, F#, B, D#)</li>
+              <li>Open C (C, G, C, G, C, E)</li>
+              <li>Open D (D, A, D, F#, A, D)</li>
+              <li>Open E (E, B, E, G#, B, E)</li>
+              <li>Open F (F, A, C, F, C, F)</li>
+              <li>Open G (D, G, D, G, B, D)</li>
+              <li>Math rock (F, A, C, G, C, E)</li>
+            </ul>
+          </li>
+
+          <li>
+            <h2 style="margin-top: 0;">Guitar (seven-string)</h2>
+            <ul class="multi-col-list">
+              <li>Standard (B, E, A, D, G, B, E)</li>
+              <li>Drop A (A, E, A, D, G, B, E)</li>
+              <li>High A (E, A, D, G, B, E, A)</li>
+              <li>A standard (A, D, G, C, F, A, D)</li>
+            </ul>
+          </li>
+
+          <li>
+            <h2 style="margin-top: 0;">Banjo (five-string)</h2>
+            <ul class="multi-col-list">
+              <li>Standard G (G, D, G, B, D)</li>
+              <li>Double C (G, C, G, C, D)</li>
+              <li>Sawmill / Mountain minor (G, D, G, C, D)</li>
+              <li>Open D (F#, D, F#, A, D)</li>
+              <li>C tuning (G, C, G, B, D)</li>
+            </ul>
+          </li>
+
+          <li>
+            <h2 style="margin-top: 0;">Banjo (four-string)</h2>
+            <ul class="multi-col-list">
+              <li>Tenor tuning (C, G, D, A)</li>
+              <li>Irish tuning (G, D, A, E)</li>
+              <li>Chicago tuning (D, G, B, E)</li>
+              <li>Plectrum tuning (C, G, B, D)</li>
+            </ul>
+          </li>
+
+          <li>
+            <h2 style="margin-top: 0;">Bass guitar (four-string)</h2>
+            <ul class="multi-col-list">
+              <li>Standard (E, A, D, G)</li>
+              <li>Half-step down (Eb, Ab, Db, Gb)</li>
+              <li>Full step down (D, G, C, F)</li>
+              <li>1.5 steps down (Db, Gb, B, E)</li>
+              <li>Two steps down (C, F, Bb, Eb)</li>
+              <li>Drop D (D, A, D, G)</li>
+              <li>Drop C# (C#, G#, C#, F#)</li>
+              <li>Drop C (C, G, C, F)</li>
+              <li>Drop B (B, F#, B, E)</li>
+              <li>Drop A# (Bb, F, Bb, Eb)</li>
+              <li>Drop A (A, E, A, D)</li>
+            </ul>
+          </li>
+
+          <li>
+            <h2 style="margin-top: 0;">Bass guitar (five-string)</h2>
+            <ul class="multi-col-list">
+              <li>Standard (B, E, A, D, G)</li>
+              <li>High C (E, A, D, G, C)</li>
+              <li>Drop A (A, E, A, D, G)</li>
+              <li>Whole step down (A, D, G, C, F)</li>
+            </ul>
+          </li>
+
+          <li>
+            <h2 style="margin-top: 0;">Mandolin</h2>
+            <ul class="multi-col-list">
+              <li>Standard (G, D, A, E)</li>
+              <li>Cross G (G, D, G, D)</li>
+              <li>Old-time (A, D, A, E)</li>
+              <li>Fiddle cross (A, E, A, E)</li>
+              <li>Open G (G, D, G, B)</li>
+              <li>Open D (D, A, D, F#)</li>
+              <li>Open A (A, E, A, C#)</li>
+              <li>Lowered F (F, C, G, D)</li>
+              <li>Lowered E (E, B, F#, C#)</li>
+            </ul>
+          </li>
+
+          <li>
+            <h2 style="margin-top: 0;">Ukulele</h2>
+            <ul class="multi-col-list">
+              <li>Standard (G, C, E, A)</li>
+              <li>Baritone (D, G, B, E)</li>
+              <li>Open G (G, B, D, G)</li>
+              <li>Open A (A, C, E, A)</li>
+              <li>Open D (D, A, D, F#)</li>
+              <li>Open C (C, G, C, E)</li>
+              <li>Low A (A, C, E, A)</li>
+              <li>Low G (G, C, E, A)</li>
+              <li>D tuning (A, D, F#, B)</li>
+              <li>Slack key D (D, A, D, A)</li>
+            </ul>
+          </li>
+
+          <li>
+            <p style="margin: 0;">
+              Is your favourite tuning missing? Drop me a line and I’ll add it to the next release of Frettly:
+            </p>
+            <span class="email">hello@frettly.app</span>
+          </li>
         </ul>
-
-        <figure class="gallery-figure">
-          <img
-            src="../images/instruments-guitar.png"
-            alt="Frettly fretboard for guitar"
-            class="gallery-image"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            Guitar (six string)
-          </figcaption>
-        </figure>
-        <br/>
-
-        <figure class="gallery-figure">
-          <img
-            src="../images/instruments-bass.png"
-            alt="Frettly fretboard for bass guitar"
-            class="gallery-image"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            Bass Guitar (four string)
-          </figcaption>
-        </figure>
-        <br/>
-
-        <figure class="gallery-figure">
-          <img
-            src="../images/instruments-banjo.png"
-            alt="Frettly fretboard for banjo"
-            class="gallery-image"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            Banjo (five string)
-          </figcaption>
-        </figure>
-        <br/>
-
-        <figure class="gallery-figure">
-          <img
-            src="../images/instruments-mandolin.png"
-            alt="Frettly fretboard for six string guitar"
-            class="gallery-image"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            Mandolin (four string)
-          </figcaption>
-        </figure>
-        <br/>
-
-        <figure class="gallery-figure">
-          <img
-            src="../images/instruments-ukulele.png"
-            alt="Frettly fretboard for ukulele"
-            class="gallery-image"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            Ukulele (four string)
-          </figcaption>
-        </figure>
-        <br/>
-
-        <figure class="gallery-figure">
-          <img
-            src="../images/instruments-guitar-lefty.png"
-            alt="Frettly fretboard for left handed guitar"
-            class="gallery-image"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            And don't forget, ANY instrument can be left handed!
-          </figcaption>
-        </figure>
-
       </section>
-
 
       <!-- Shared lightbox overlay -->
       <div id="lightbox" class="lightbox" aria-hidden="true">
@@ -153,10 +204,8 @@
 
       <script src="/lightbox.js"></script>
       <script>
-        document.getElementById("year").textContent =
-          new Date().getFullYear();
+        document.getElementById("year").textContent = new Date().getFullYear();
       </script>
     </main>
   </body>
 </html>
-
