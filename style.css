@@ -270,24 +270,25 @@ ul:not(.list) li {
   margin-bottom: 1.75rem;
 }
 
+/* Make the figure shrink-wrap its contents, then center it */
 .gallery-figure {
-  margin: 0.9rem 0 0;
+  display: table;     /* shrink to content width */
+  margin: 0.9rem auto 0;
 }
 
+/* Your image is already display:block; keep it */
 .gallery-image {
   display: block;
   width: 100%;
-  height: auto;
-  border-radius: 0.75rem;
-  border: 1px solid rgba(148, 163, 184, 0.4);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.55);
+  margin: 0 auto;
 }
 
-/* Optional: figcaption styling */
+/* Caption aligns with image width */
 .gallery-figure figcaption {
+  display: block;
   margin-top: 0.5rem;
-  font-size: 0.8rem;
-  color: #9ca3af;
+  text-align: center;
+  max-width: 100%;    /* match the figure/image width */
 }
 
 /* Lightbox overlay for gallery image preview */
@@ -362,4 +363,47 @@ ul:not(.list) li {
   text-align: center;
   max-width: 100%;
 }
+/* Wider layout on desktop */
+@media (min-width: 900px) {
+  main {
+    max-width: 980px;   /* try 960–1100 to taste */
+  }
+}
 
+@media (min-width: 1200px) {
+  main {
+    max-width: 1100px;  /* keeps it comfy on big monitors */
+  }
+}
+.gallery-image { width: 100%; margin: 0 auto; display: block; }
+
+.gallery-image.size-s { max-width: 520px; }
+.gallery-image.size-m { max-width: 720px; }
+.gallery-image.size-l { max-width: 920px; }
+/* Multi-column list (semantic UL, no table) */
+.multi-col-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+
+  column-width: 14rem;   /* target column width; browser chooses column count */
+  column-gap: 1.25rem;
+
+  /* optional, helps readability in long lists */
+  font-size: 0.9rem;
+  color: #e5e7eb;
+}
+
+.multi-col-list li {
+  break-inside: avoid;   /* don't split an item across columns */
+  padding: 0.25rem 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25); /* optional */
+}
+
+/* Responsive tweak: fewer columns on small screens */
+@media (max-width: 520px) {
+  .multi-col-list {
+    column-width: auto;
+    columns: 1;
+  }
+}
