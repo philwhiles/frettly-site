@@ -35,7 +35,7 @@
           </p>
           <p>
             <strong>Last updated:</strong> 24 December 2025<br />
-            <strong>Controller / contact:</strong> Phil Whiles — <em>[add your contact email here]</em>
+            <strong>Controller / contact:</strong> Phil Whiles — <em><span class="email">hello@frettly.app</span></em>
           </p>
 
           <h2>Frettly (the app)</h2>
@@ -128,8 +128,14 @@
       </div>
 
       <footer>
-        © 2025 Frettly. Site content and app in development by Phil Whiles.
+        &copy; <span id="year"></span> Frettly. Site content and app in
+        development by Phil Whiles.
       </footer>
+
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
     </main>
   </body>
 </html>
