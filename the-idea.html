@@ -131,9 +131,15 @@
     </aside>
   </div>
 
-  <footer>
-    © 2025 Frettly. Site content and app in development by Phil Whiles.
-  </footer>
+      <footer>
+        &copy; <span id="year"></span> Frettly. Site content and app in
+        development by Phil Whiles.
+      </footer>
+
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
 </main>
 
   </body>
