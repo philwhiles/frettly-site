@@ -17,12 +17,11 @@
           <span class="logo-mark">F</span>
           Frettly
         </div>
-        <div class="pill">macOS · In Beta</div>
+        <div class="pill">macOS · 14.0.0+</div>
       </header>
 
       <nav class="nav">
         <a href="/">Home</a>
-        <a href="/the-idea.html">Motivation</a>
         <a href="/purchase-frettly.html">Purchase</a>
         <a href="/privacy.html">Privacy</a>
         <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
@@ -85,7 +84,7 @@
 
             <li>
         <h2 style="margin-top: 0;">Scale chords derivation</h2>
-              For fretboards with a content type of <strong>Scale</strong>, the button to the right of the configuration icon opens a dialog showing
+              For fretboards with a content type of <strong>Scale</strong> supporting diatonic chord derivation, the button to the right of the configuration icon opens a dialog showing
               the diatonic chords in that key.
 
               <figure class="gallery-figure">
@@ -103,7 +102,12 @@
             <p></p>
               <p>
                 For each diatonic chord, the triad notes are shown. Each chord can be previewed (using “Pattern play”), added individually to the document,
-                or added as part of a single “Add all” action.
+                or added as part of a single “Add all” action. If "Add all" is used, subsequent use of Undo (⌘Z) in the document window will undo the 
+                addition of all seven chord fretboards.
+              </p>
+              <p>
+                This dialog has a help feature which when selected slides out a side panel explaining how each chord in the list has been derived from the source
+                scale, their parent key.
               </p>
             </li>
 
@@ -195,6 +199,7 @@
               </p>
             </li>
 
+            <a name="marking"/>
             <li>
         <h2 style="margin-top: 0;">Fretboard controls - marking</h2>
               To the right of the chips is a bank of additional fretboard controls. The first group of three buttons relates to marking notes.
@@ -212,39 +217,76 @@
               </figure>
 
             <p></p>
-              <p>
-                Each note on a fretboard can be marked. Marked notes display a dashed circle around the note.
-                Marking mode is enabled by clicking the first button (the marker pen). When enabled, it turns yellow.
-                Once notes are marked, the button also shows the count of marked notes on that fretboard (some may be off-screen).
-                While marking mode is enabled, clicking a note marks it — the usual play modes do not operate until marking mode is disabled. Once notes are marked, click the marker pen button again, and you are returned to standard fretboard mode, where the document's play mode will determine how the note(s) are played when clicked, and marked notes remain on screen alongside unmarked notes.
-              </p>
+<p>
+  You can <em>mark</em> individual notes on a fretboard. Marked notes are highlighted with a dashed circle.
+</p>
 
+<p>
+  To enable marking, click the first button (the marker pen). When marking is on, the button turns yellow.
+  Click any note to toggle its mark. The marker button also shows how many notes are marked on that fretboard
+  (including notes that may be off-screen).
+</p>
               <figure class="gallery-figure">
                 <img
-                  src="/images/help-marking.png"
-                  alt="Marking notes on a fretboard"
-                  class="gallery-image size-s"
+                  src="/images/fretboard-marked.png"
+                  alt="Fretboard in marking mode"
+                  class="gallery-image size-l"
                   loading="lazy"
                 />
                 <figcaption class="meta">
-                  Marking notes on a fretboard
+                  Fretboard in marking mode
                 </figcaption>
               </figure>
 
             <p></p>
+<p>
+  While marking is enabled, clicking notes only marks/unmarks them — the usual play interactions are paused until
+  you turn marking off. Click the marker pen again to return to normal fretboard mode. Your chosen document play mode
+  then applies as usual, and any marked notes remain visible alongside unmarked notes.
+</p>
+
+
+
+            <p></p>
               <p>
                 The other buttons in the marking group remain disabled until at least one note is marked.
-                The second button clears all marks, and uses a two-step confirmation: the first click arms the action (the button turns red),
-                and the second click — while armed and within five seconds — performs the clear. Otherwise, it returns to an unarmed state.
+                The second button erases all marks within that fretboard. The erasure can be undone with Undo (⌘Z).
               </p>
 
               <p>
                 The third button is “View marked notes”. It is also disabled until there are marked notes.
                 You may prefer to rely on the dashed outline alone to spot marked notes, or you can use “View marked notes” to hide unmarked notes.
+                When “View marked notes” is enabled it will be coloured yellow.
               </p>
 
+
+              <figure class="gallery-figure">
+                <img
+                  src="/images/fretboard-marked-only.png"
+                  alt="Fretboard showing only marked notes"
+                  class="gallery-image size-l"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Fretboard showing only marked notes
+                </figcaption>
+              </figure>
+
+            <p></p>
+<p>
+  <strong>Pattern play while viewing marked notes only</strong>
+</p>
+
+<p>
+  When <em>View marked notes</em> is active on a fretboard showing a <strong>chord</strong> pattern (rather than a scale),
+  Pattern Play behaves differently. The sequence begins with the highest pitched marked note on the string you click, then moves to the next higher string,
+  choosing the marked note furthest from the nut on each string. If a string has no marked notes, it’s skipped.
+  Once the highest string has been played, all notes selected so far are strummed together. In effect, Frettly previews
+  the chord voicing defined by your marked notes.
+</p>
+
               <p>When might you want to use marked notes and view marked notes only?
-              Perhaps when you want to break down a scale into playable positions along
+              Perhaps when you want to focus on a specific chord fingering, or to break down a scale into playable positions along
               the fretboard, as is commonly done for such as the Pentatonic scales:
               </p>
 
@@ -252,7 +294,7 @@
                 <img
                   src="/images/help-fretboard-view-marked-pentatonic.png"
                   alt="Viewing marked notes on a fretboard"
-                  class="gallery-image size-s"
+                  class="gallery-image size-l"
                   loading="lazy"
                 />
                 <figcaption class="meta">
@@ -264,8 +306,21 @@
             </li>
 
             <li>
+        <h2 style="margin-top: 0;">Fretboard controls - pin fretboard</h2>
+              The fourth button is the pin fretboard control. 
+When a document is reloaded, fretboards will display from the nut onwards by default.
+If you use the Pin button on a fretboard, when the document is saved and reloaded,
+that fretboard will return to the last pinned position. Particularly useful when you have
+marked notes further down which are ordinarily not in view when the fretboard starts at
+the nut again. If a fretboard is scrolled once pinned, the pin is cancelled, and when the
+document window is resized or the document zoom level is changed, all pins are cancelled,
+as those actions change what may or may not be shown in the fretboards.
+            <p></p>
+            </li>
+
+        <li>
         <h2 style="margin-top: 0;">Fretboard controls - notepad</h2>
-              The fourth button is the notepad control. A new fretboard starts with an empty notepad, so the button appears plain.
+              The fifth button is the notepad control. A new fretboard starts with an empty notepad, so the button appears plain.
               Clicking it toggles the notepad’s visibility. Once the notepad contains text, the button turns yellow to remind you that notes are present.
               Notepads are saved with their fretboards in the Frettly document.
 
@@ -273,7 +328,7 @@
                 <img
                   src="/images/help-fretboard-notepad.png"
                   alt="Fretboard notepad"
-                  class="gallery-image size-m"
+                  class="gallery-image size-l"
                   loading="lazy"
                 />
                 <figcaption class="meta">
@@ -285,15 +340,26 @@
 
             <li>
         <h2 style="margin-top: 0;">Fretboard controls - labelling mode</h2>
-              The fifth button toggles between viewing notes and viewing intervals.
+              The sixth button toggles between viewing notes and viewing intervals.
               By default, fretboards show note labels, and the tooltip shows the corresponding interval.
               When you switch to interval labels, the tooltip text changes accordingly.
 
               <figure class="gallery-figure">
                 <img
+                  src="/images/help-fretboard-notes.png"
+                  alt="Fretboard showing note labels"
+                  class="gallery-image size-l"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Fretboard showing note labels
+                </figcaption>
+              </figure>
+              <figure class="gallery-figure">
+                <img
                   src="/images/help-fretboard-intervals.png"
                   alt="Fretboard showing interval labels"
-                  class="gallery-image size-m"
+                  class="gallery-image size-l"
                   loading="lazy"
                 />
                 <figcaption class="meta">
@@ -305,18 +371,20 @@
 
             <li>
         <h2 style="margin-top: 0;">Fretboard controls - delete fretboard</h2>
-              The sixth button is the delete control. Like “Clear marks”, it uses a two-step confirmation:
-              the first click arms it, and the second click within five seconds deletes the fretboard, its notepad, and all marks.
+              The seventh button is the delete fretboard control. The deletion can be undone with Undo (⌘Z).
             </li>
 
             <li>
         <h2 style="margin-top: 0;">Fretboard controls - duplicate fretboard</h2>
-              The seventh button duplicates the current fretboard, inserting the copy below the original.
-              Only the fretboard’s type, root, and pattern are duplicated — notepad text and marks are not.
+              The eighth button duplicates the current fretboard, inserting the copy below the original.
+              Only the fretboard’s type, root, and pattern are duplicated — notepad content and marks are not.
             </li>
           </ul>
       </section>
 
+      <footer>
+        &copy; <span id="year"></span> Frettly. Site content and Frettly macOS application by Efford Studio Limited.
+      </footer>
       <!-- Shared lightbox overlay -->
       <div id="lightbox" class="lightbox" aria-hidden="true">
         <div class="lightbox-inner">
@@ -326,11 +394,10 @@
         </div>
       </div>
 
-      <footer>
-        &copy; <span id="year"></span> Frettly. Site content and app in
-        development by Phil Whiles.
-      </footer>
 
+      <footer>
+        &copy; <span id="year"></span> Efford Studio Limited. Frettly app and site content. All rights reserved.
+      </footer>
       <script src="/lightbox.js"></script>
       <script>
         document.getElementById("year").textContent = new Date().getFullYear();
