@@ -377,6 +377,7 @@ ul:not(.list) li {
 }
 .gallery-image { width: 100%; margin: 0 auto; display: block; }
 
+.gallery-image.size-vs { max-width: 420px; }
 .gallery-image.size-s { max-width: 520px; }
 .gallery-image.size-m { max-width: 720px; }
 .gallery-image.size-l { max-width: 920px; }

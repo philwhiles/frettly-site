@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frettly – Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Application wide settings in Frettly"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <span class="logo-mark">F</span>
+          Frettly
+        </div>
+        <div class="pill">macOS · 14.0.0+</div>
+      </header>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/purchase-frettly.html">Purchase</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
+      </nav>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/help/index.html">Help &amp; Info</a>
+        <span aria-hidden="true">›</span>
+        <span>Frettly Settings  </span>
+      </nav>
+
+      <section class="card">
+        <h1>Frettly Settings</h1>
+        <p>
+          While each fretboard has controls within it which determine the characteristics of just that fretboard, and each document has document wide 
+          configuration (instrument, tuning and handedness) which apply to all of the fretboards within it, Frettly has application wide settings, found in 
+          menubar item “Frettly” -> “Settings”.
+        </p>
+        <p>
+          Settings are divided into tabs:
+          <ul>
+          <li>
+            General - Miscellaneous settings
+          </li>
+          <li>
+            Documents - Settings which affect document level functionality
+          </li>
+          <li>
+            Fretboards - Settings which affect fretboard level functionality
+          </li>
+          <li>
+            Support - Help related
+          </li>
+          </ul>
+        </p>
+
+          <ul class="list">
+
+            <li>
+              <h2 style="margin-top: 0;">General</h2>
+              <ul>
+                <li>
+              On first installation, Frettly presents an introductory welcome page, offering to create a new document, open an existing one, or open
+              the inbuilt example document. That welcome page can be set to not re-appear on future application launch, but should you wish to have
+              it re-appear, the option is here.
+                </li>
+              </ul>
+
+              <figure class="gallery-figure">
+                <img
+                  src="/images/help-settings-general.png"
+                  alt="Frettly Settings - General"
+                  class="gallery-image size-vs"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Frettly Settings - General
+                </figcaption>
+              </figure>
+            <p></p>
+            </li>
+
+            <li>
+              <h2 style="margin-top: 0;">Documents</h2>
+              <ul>
+                <li>
+              When documents are first created, in the new document dialog prompting for instrument, tuning and handedness, the latter initially defaults
+              to right-handed, favouring the majority of players. If you are in the minority, set the default to be left-handed here.
+                </li>
+                <li>
+              The play mode when clicking fretboard notes has three settings, sustained, single or pattern run. The default mode for
+              new documents can be set in this tab. The play mode can be changed within the document at any time once it has at least 
+              one fretboard.
+                </li>
+              </ul>
+
+              <figure class="gallery-figure">
+                <img
+                  src="/images/help-settings-documents.png"
+                  alt="Frettly Settings - Documents"
+                  class="gallery-image size-vs"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Frettly Settings - Documents
+                </figcaption>
+              </figure>
+            <p></p>
+            </li>
+
+            <li>
+              <h2 style="margin-top: 0;">Fretboards</h2>
+              <ul>
+                <li>
+                  Background - choose here which wood graphic you would like for all fretboards in all documents. The choice you make is seen
+                  immediately in any open documents, so you can see the effect straight away if you have open documents, but a preview is also shown 
+                  in the dialog.
+                </li>
+                <li>
+                  Note colours - depending on the background you choose, you may like to choose darker/lighter or subdued/vibrant colours for the notes
+                  and intervals shown in fretboards. Again, your selection is instantly applied to open documents and a preview is provided in the settings dialog.
+                </li>
+                <li>
+                  Confirmations - by default, the “Erase Markings” and “Delete Fretboard” buttons in fretboards will challenge you before carrying out their action.
+                  The challenges are there to prevent accidental erase/deletion. If you would rather Frettly act on the button press without challenge, switch 
+                  either or both off here. When one of those buttons has had its challenge switched off in settings, the buttons icon will be coloured orange
+                  to remind you of its immediacy.
+                </li>
+              </ul>
+
+              <figure class="gallery-figure">
+                <img
+                  src="/images/help-settings-fretboards.png"
+                  alt="Frettly Settings - Fretboards"
+                  class="gallery-image size-vs"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Frettly Settings - Fretboards
+                </figcaption>
+              </figure>
+            <p></p>
+            </li>
+
+            <li>
+              <h2 style="margin-top: 0;">Support</h2>
+              <ul>
+                <li>
+              A link to this website is provided within this tab.
+                </li>
+              </ul>
+
+              <figure class="gallery-figure">
+                <img
+                  src="/images/help-settings-support.png"
+                  alt="Frettly Settings - Support"
+                  class="gallery-image size-vs"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Frettly Settings - Support
+                </figcaption>
+              </figure>
+            <p></p>
+            </li>
+
+          </ul>
+      </section>
+
+      <!-- Shared lightbox overlay -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <div class="lightbox-inner">
+          <button class="lightbox-close" aria-label="Close">&times;</button>
+          <img id="lightbox-img" alt="" />
+          <p id="lightbox-caption"></p>
+        </div>
+      </div>
+
+
+      <footer>
+        &copy; <span id="year"></span> Efford Studio Limited. Frettly app and site content. All rights reserved.
+      </footer>
+      <script src="/lightbox.js"></script>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+    </main>
+  </body>
+</html>

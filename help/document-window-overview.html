@@ -17,12 +17,11 @@
           <span class="logo-mark">F</span>
           Frettly
         </div>
-        <div class="pill">macOS · In Beta</div>
+        <div class="pill">macOS · 14.0.0+</div>
       </header>
 
       <nav class="nav">
         <a href="/">Home</a>
-        <a href="/the-idea.html">Motivation</a>
         <a href="/purchase-frettly.html">Purchase</a>
         <a href="/privacy.html">Privacy</a>
         <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
@@ -60,7 +59,7 @@
 
         <h2 style="margin-top: 0;">Document level controls</h2>
         <p>
-          The controls in the top-right of a document window affect Frettly’s behaviour and display for that document only,
+          The controls in the top-right of a document window affect Frettly’s overall behaviour and display throughout the current document,
           while fretboard controls are shown per fretboard.
         </p>
 
@@ -75,7 +74,7 @@
             Frettly document-level controls
           </figcaption>
         </figure>
-
+        <p></p>
         <p>
           From left to right, the highlighted controls are described below.
         </p>
@@ -102,7 +101,11 @@
             <strong>Pattern play</strong> — click the root note of a pattern and Frettly plays the notes in that fretboard’s pattern along the string.
             For a scale, you will hear seven notes (assuming you have not hidden any — see the fretboard help for hiding notes).
             For a chord, Frettly plays the chord tones in sequence (again, assuming none are hidden), then finishes with a strum of all notes.
-            The strum is not intended to represent a specific chord fingering: each note is played once, and all notes are in the same octave as the first clicked note.
+            So assuming the chord is Emaj and you click the E on the nut of string 6, the sequence you hear will start with that E, followed by the G# on fret
+            4  and B on fret 7, of the same string, followed by a strum of those three together.
+            <br/>
+            The strum is not intended to represent a specific chord voicing/fingering, ordinarily as no fingering is pre-determined, unless you are using the
+            Mark notes and View marked notes features (see the help for <a href="/help/fretboard-panels-overview.html#marking">Fretboard marking</a> for details on those features).
           </li>
         </ul>
           </li>
@@ -129,7 +132,9 @@
         <h2 style="margin-top: 0;">Arrange panels</h2>
 
         <p>
-          The “Arrange panels” button opens a dialog where you can manage panel order and navigation.
+          The “Arrange panels” button opens a dialog where you can manage panel order and navigation. You will notice that in the document, each fretboard
+          has a number in its title area. After moving a fretboard, its number will change as the numbering is always sequential within the document.
+          Those numbers show you a fretboards relative position in the document.
         </p>
 
         <figure class="gallery-figure">
@@ -145,8 +150,10 @@
         </figure>
 
         <p>
-          <strong>Reorder panels:</strong> you can rearrange the order of fretboard panels in one of two ways within the dialog (and a third way is to drag and drop panels in the main document window):
-          either drag and drop the row representing a panel, or use the Up/Down chevron buttons. The order you choose becomes effective when you click “Apply”.
+          <strong>Reorder panels:</strong> you can rearrange the order of fretboard panels in one of two ways within the dialog:
+          either drag and drop the row representing a panel, or use the Up/Down chevron buttons. The order you choose becomes effective when you click “Save”.
+          The list of panels will show the numeric position of each in the document, even after a panel is moved. It's new position does not come into effect until
+          you select “Save”.
         </p>
 
         <p>
@@ -155,6 +162,27 @@
 
         <p>
           <strong>Preview panels:</strong> you can also sample panels quickly using “Pattern play”, without needing to scroll to each one in the document.
+        </p>
+
+        <p>
+          An alternative to using the “Arrange panels” dialog to re-arrange fretboards is to drag a panel in the document using the fretboard title area, showing
+          a three bar drag handle to remind you.
+        </p>
+        <figure class="gallery-figure">
+          <img
+            src="/images/help-fretboard-top-left.png"
+            alt="Draggable fretboard title"
+            class="gallery-image size-s"
+            loading="lazy"
+          />
+          <figcaption class="meta">
+            Draggable fretboard title
+          </figcaption>
+        </figure>
+        <p>
+          Click and hold anywhere in the title area and drag it into its intended position (while dragging you should see a snaphot of just the title being dragged).
+          Where you drop it, relative to the nearby fretboard will determine its new position - drop it in the lower half of a fretboard and it will move after 
+          that fretboard, drop it in the upper half and it will be moved to be before that fretboard.
         </p>
           </li>
 
@@ -192,6 +220,7 @@
         </p>
           </li>
 
+      </section>
 
       <!-- Shared lightbox overlay -->
       <div id="lightbox" class="lightbox" aria-hidden="true">
@@ -202,11 +231,10 @@
         </div>
       </div>
 
-      <footer>
-        &copy; <span id="year"></span> Frettly. Site content and app in
-        development by Phil Whiles.
-      </footer>
 
+      <footer>
+        &copy; <span id="year"></span> Efford Studio Limited. Frettly app and site content. All rights reserved.
+      </footer>
       <script src="/lightbox.js"></script>
       <script>
         document.getElementById("year").textContent = new Date().getFullYear();
