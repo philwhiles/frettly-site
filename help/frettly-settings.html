@@ -52,6 +52,9 @@
             Documents - Settings which affect document level functionality
           </li>
           <li>
+            Instruments - Settings for Frettlys supported instruments
+          </li>
+          <li>
             Fretboards - Settings which affect fretboard level functionality
           </li>
           <li>
@@ -90,7 +93,8 @@
               <h2 style="margin-top: 0;">Documents</h2>
               <ul>
                 <li>
-              When documents are first created, in the new document dialog prompting for instrument, tuning and handedness, the latter initially defaults
+              When creating a new document, you are prompted for instrument, tuning and handedness
+              , with the latter defaulting
               to right-handed, favouring the majority of players. If you are in the minority, set the default to be left-handed here.
                 </li>
                 <li>
@@ -114,6 +118,39 @@
             <p></p>
             </li>
 
+
+            <li>
+              <h2 style="margin-top: 0;">Instruments</h2>
+              <ul>
+                <li>
+                  This section gives you control over the default maximum number of frets Frettly uses for
+                  each instrument type. That means fretboards can better reflect the instruments you actually play,
+                  whether your guitar stops at 22 frets, your mandolin has a shorter fingerboard, or your ukulele has
+                  a more compact range.
+                </li>
+                <li>
+                 Use the sliders to choose the fret limit that best matches each of your own instruments.
+                 Frettly will then use those values whenever it display a fretboard in a document of that
+                 instrument type.
+                 Sliders shown in grey indicate instruments using Frettly’s built-in defaults, while blue sliders indicate
+                 an instrument is using a default override.
+                </li>
+              </ul>
+
+              <figure class="gallery-figure">
+                <img
+                  src="/images/help-settings-instruments.png"
+                  alt="Frettly Settings - Instruments"
+                  class="gallery-image size-vs"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Frettly Settings - Instruments
+                </figcaption>
+              </figure>
+            <p></p>
+            </li>
+
             <li>
               <h2 style="margin-top: 0;">Fretboards</h2>
               <ul>
@@ -125,6 +162,8 @@
                 <li>
                   Note colours - depending on the background you choose, you may like to choose darker/lighter or subdued/vibrant colours for the notes
                   and intervals shown in fretboards. Again, your selection is instantly applied to open documents and a preview is provided in the settings dialog.
+                  <p/>
+                  The two Mono themes provide monochrome colouring for those who prefer uniform note colouring.
                 </li>
                 <li>
                   Confirmations - by default, the “Erase Markings” and “Delete Fretboard” buttons in fretboards will challenge you before carrying out their action.
