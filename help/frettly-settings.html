@@ -165,12 +165,6 @@
                   <p/>
                   The two Mono themes provide monochrome colouring for those who prefer uniform note colouring.
                 </li>
-                <li>
-                  Confirmations - by default, the “Erase Markings” and “Delete Fretboard” buttons in fretboards will challenge you before carrying out their action.
-                  The challenges are there to prevent accidental erase/deletion. If you would rather Frettly act on the button press without challenge, switch 
-                  either or both off here. When one of those buttons has had its challenge switched off in settings, the buttons icon will be coloured orange
-                  to remind you of its immediacy.
-                </li>
               </ul>
 
               <figure class="gallery-figure">
@@ -182,6 +176,47 @@
                 />
                 <figcaption class="meta">
                   Frettly Settings - Fretboards
+                </figcaption>
+              </figure>
+            <p></p>
+            </li>
+
+
+            <li>
+              <h2 style="margin-top: 0;">Chords</h2>
+              <ul>
+                <li>
+                  Voicing depth - when Frettly calculates the chord voicings for diagrams in chord organisers, it calculates a number
+                  of options at each fret position. Those options are then ranked based on how likely they are to be playable, and the
+                  navigation controls within the diagram allow you to cycle through the alternative voicings. The number of alternatives 
+                  is controlled by the voicing depth here. The higher the number, the more alternatives you may get, but the longer
+                  it will take to navigate through them.
+                </li>
+                <li>
+                  Strum speed - when you press the space key with a chord voicing diagram selected, or if you click it, Frettly will play that voicing, string by string
+                  as a strum. The speed of that strum is set here.
+                </li>
+                <li>
+                  Always right handed - the chord voicing diagrams will by default display their strings using the orientation of the document instruments handedness.
+                  So if the instrument is right handed, string six will be on the far left, but if left handed, it will be on the right.
+                  If as a left handed player you prefer to see these chord diagrams in a right handed orientation, set the option here.
+                </li>
+                <li>
+                  Include muted interior strings - Frettly will filter out chord voicings having interior muted strings, regarding them as not ideal.
+                  If you want to see those alternative voicings, set this option, but depending on the voicing depth above, voicings with no interior muted
+                  strings will be pushed down the ranking and possibly sacrificed.
+                </li>
+              </ul>
+
+              <figure class="gallery-figure">
+                <img
+                  src="/images/help-settings-chords.png"
+                  alt="Frettly Settings - Chords"
+                  class="gallery-image size-vs"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Frettly Settings - Chords
                 </figcaption>
               </figure>
             <p></p>

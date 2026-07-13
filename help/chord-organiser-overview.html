@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frettly – Chord organiser panels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Using the chord organiser panels within Frettly"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <span class="logo-mark">F</span>
+          Frettly
+        </div>
+        <div class="pill">macOS · 14.0.0+</div>
+      </header>
+
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/purchase-frettly.html">Purchase</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
+      </nav>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/help/index.html">Help &amp; Info</a>
+        <span aria-hidden="true">›</span>
+        <span>Fretboard panels</span>
+      </nav>
+
+      <section class="card">
+        <h1>Chord organiser panels overview</h1>
+        <p>
+          Just as a Frettly document can contain many fretboard panels, it can also contain chord organiser panels mixed with those fretboard panels.
+          Whereas a fretboard panel is configured to show a specific scale, mode or chord, and provides a configuration panel to change its nature,
+          chord organisers are generic containers for chords - they can contain whatever chords you choose, upto a maximum of twelve.
+        </p>
+        <p>
+          Just as fretboard panels can be dragged within the same or another document, so too can chord organiser panels.
+          And just as a fretboard dragged or copy/pasted into another document, changes to show the new documents instrument and/or tuning, so too do chord organisers.
+        </p>
+
+          <ul class="list">
+            <li>
+        <h2 style="margin-top: 0;">Organiser configuration</h2>
+              Chord organiser panels have an edit config button, like fretboard panels, but the only thing that can be changed is the panels title.
+              <p></p>
+              Chord diagrams within an organiser also have an edit config button, which opens an edit sheet within which the chords root note and pattern can be modified.
+            </li>
+
+            <li>
+        <h2 style="margin-top: 0;">Organiser panel controls</h2>
+        <p>
+        Chord organiser panels have two controls on their top right, similar to those in fretboard panels:
+        </p>
+
+              <figure class="gallery-figure">
+                <img
+                  src="/images/help-organiser-controls.png"
+                  alt="Chord organiser controls"
+                  class="gallery-image size-s"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Chord organiser controls
+                </figcaption>
+              </figure>
+        <p></p>
+        <p>
+        The first of those controls opens the 'Add chord' dialog, from where you choose the root note and pattern type for the new chord:
+        </p>
+
+              <figure class="gallery-figure">
+                <img
+                  src="/images/help-add-chord.png"
+                  alt="Chord organiser add chord dialog"
+                  class="gallery-image size-s"
+                  loading="lazy"
+                />
+                <figcaption class="meta">
+                  Chord organiser add chord dialog
+                </figcaption>
+              </figure>
+        <p></p>
+        <p>
+        Only twelve chords can be added per organiser panel - if more are needed, create another chord organiser panel and place chords in that.
+        The chord cards in an organiser can be dragged from one organiser to another, and can be copy pasted. Click a chord cards title to give it focus, then use ⌘C to copy it.
+        Pasting with ⌘V will place the copy into a focussed organiser panel, or after whichever chord chip within an organiser has the focus.
+        </p>
+
+        <p>
+        The second control is the notepad button, opening an editable area in which text can be added for the panel. And like the fretboard panel notepad, it can then be hidden by clicking the notepad button a second time.
+        </p>
+
+            </li>
+
+
+            <li>
+              <h2 style="margin-top: 0;">Organiser navigation</h2>
+              Clicking the title of a fretboard panel gives it the focus, and keyboard up/down navigation moves that focus to adjacent panels.
+              That focus can transfer to a chord organiser panel, or it can be forced by clicking its title.
+              Once a chord organiser has the focus, pressing the right arrow key will move the focus to the first chord diagram within it. Pressing the left arrow key instead would move the focus to the last chord diagram.
+              Subsequent left/right key presses will move the focus as you would expect amongst the diagrams.
+              Clicking the diagram or pressing the space key gives a preview of the focussed chord. The speed of the strum can be changed in the Chords tab in menu item “Frettly” → “Settings”.
+            </li>
+
+            <li>
+              <h2 style="margin-top: 0;">Organiser chord diagrams</h2>
+              When Frettly calculates the chord voicings shown in the diagrams within a chord organiser, it looks at
+              all the permutations of the chords notes across the entire fretboard and runs each fingering through a complex scoring algorithm,
+              trying to determine the merits of each ie would it require too many fingers, is the fret span too large, would fingers be too contorted etc
+              as well as ranking the permutations by their musical correctness. It builds a list sorted by fret and ranked by what it considers to be the playability of the voicing.
+              <p></p>
+              The diagrams will default to showing what Frettly considers to be the most appropriate voicing at the top of the fretboard, and provides navigation controls within the chord diagram to enable selection of alternative voicings.
+              <p></p>
+              By default it will filter out voicings containg inner muted strings, but if you want those to be shown, there is an option to include them, within the Chords tab in menu item “Frettly” → “Settings”.
+              <p></p>
+              There are rare chords which to be musically correct would require more frets to be fingered than are possible, and for those chords it will fallback to selecting voicings which contain what are considered to be the most important characteristics. ie it will sacrifice notes for intervals which are considered to be less important than others.
+              When it does this it will display a yellow 'i' marker next to the diagram, and clicking that will show which intervals have been sacrificed.
+            </li>
+
+          </ul>
+      </section>
+
+      <!-- Shared lightbox overlay -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <div class="lightbox-inner">
+          <button class="lightbox-close" aria-label="Close">&times;</button>
+          <img id="lightbox-img" alt="" />
+          <p id="lightbox-caption"></p>
+        </div>
+      </div>
+
+
+      <footer>
+        &copy; <span id="year"></span> Efford Studio Limited. Frettly app and site content. All rights reserved.<br>
+        Registered in England and Wales • Company number 17037547<br>
+        Registered office: 128 City Road, London, United Kingdom, EC1V 2NX
+      </footer>
+      <script src="/lightbox.js"></script>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+    </main>
+  </body>
+</html>

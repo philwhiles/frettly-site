@@ -27,6 +27,31 @@ header {
   gap: 1rem;
   margin-bottom: 1.25rem;
 }
+.app-store-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app-store-badge-link {
+  display: inline-block;
+  line-height: 0;
+}
+
+.app-store-badge {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.app-store-placeholder-note {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  text-align: center;
+  margin: 0;
+}
 .logo {
   font-weight: 700;
   letter-spacing: 0.06em;
