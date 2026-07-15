@@ -1,245 +1,256 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Frettly – Document window overview</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Using the document window controls within Frettly"
-    />
-    <link rel="stylesheet" href="../style.css" />
-  </head>
-  <body>
-    <main>
-      <header>
-        <div class="logo">
-          <span class="logo-mark">F</span>
-          Frettly
-        </div>
-        <div class="pill">macOS · 14.0.0+</div>
-      </header>
 
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/purchase-frettly.html">Purchase</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
-      </nav>
+<head>
+  <meta charset="utf-8" />
+  <title>Frettly – Document window overview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Learn how Frettly’s document windows work, including play modes, panel focus and navigation, arranging fretboards and chord organisers, and adding new panels." />
+  <link rel="stylesheet" href="../style.css" />
+</head>
 
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
-        <span aria-hidden="true">›</span>
-        <a href="/help/index.html">Help &amp; Info</a>
-        <span aria-hidden="true">›</span>
-        <span>Documents</span>
-      </nav>
-
-      <!-- Overview card -->
-      <section class="card">
-        <h1>Document window overview</h1>
-
-        <p>
-          Frettly is built around the macOS document model — similar to Pages. Rather than showing a single fretboard that resets each time the app is opened,
-          Frettly lets you create documents and collect your chosen fretboards inside them.
-        </p>
-
-        <p>
-          These document files become your notebooks for learning, projects, and discovery: collect the blues scales you want to learn,
-          the minor chords you want to practise, and so on. Because Frettly uses documents, they can be moved, duplicated, shared, and even reverted using Time Machine.
-        </p>
-
-        <p>
-          If you create two documents — one for guitar and the other for bass — you can switch between them and Frettly will play notes using each document’s configured instrument.
-          Don’t forget to explore the macOS menu bar’s <em>File</em> menu.
-        </p>
-
-        <ul class="list">
-          <li>
-
-        <h2 style="margin-top: 0;">Document level controls</h2>
-        <p>
-          The controls in the top-right of a document window affect Frettly’s overall behaviour and display throughout the current document,
-          while fretboard controls are shown per fretboard.
-        </p>
-
-        <figure class="gallery-figure">
-          <img
-            src="/images/help-document-controls.png"
-            alt="Frettly document-level controls"
-            class="gallery-image size-s"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            Frettly document-level controls
-          </figcaption>
-        </figure>
-        <p></p>
-        <p>
-          From left to right, the highlighted controls are described below.
-        </p>
-          </li>
-
-          <li>
-
-        <h2 style="margin-top: 0;">Play mode</h2>
-
-        <p>
-          Frettly has three different ways of playing notes you click within fretboards:
-        </p>
-
-        <ul>
-          <li>
-            <strong>Sustained play</strong> — each clicked note plays for a few seconds before fading. Multiple notes can be played in quick succession
-            to get a feel for how they sound together, helping you hear the relationship between intervals.
-          </li>
-          <li>
-            <strong>Single play</strong> — click and hold to hear a note; on release, the note stops. This mode lets you train your ear to a single note
-            or interval without other notes ringing.
-          </li>
-          <li>
-            <strong>Pattern play</strong> — click the root note of a pattern and Frettly plays the notes in that fretboard’s pattern along the string.
-            For a scale, you will hear seven notes (assuming you have not hidden any — see the fretboard help for hiding notes).
-            For a chord, Frettly plays the chord tones in sequence (again, assuming none are hidden), then finishes with a strum of all notes.
-            So assuming the chord is Emaj and you click the E on the nut of string 6, the sequence you hear will start with that E, followed by the G# on fret
-            4  and B on fret 7, of the same string, followed by a strum of those three together.
-            <br/>
-            The strum is not intended to represent a specific chord voicing/fingering, as no fingering is determined. To hear actual voicings strummed, see chord organisers.
-          </li>
-        </ul>
-          </li>
-
-          <li>
-
-        <h2 style="margin-top: 0;">Jump to current panel</h2>
-
-        <p>
-          When you click the title of a panel, it becomes the currently focused one. The Up and Down arrow keys move that focus
-          up and down, one panel at a time. Focus is primarily a navigational aid: controls (and notes) across all fretboards and chord organisers remain usable,
-          regardless of which one is currently focused.
-        </p>
-
-        <p>
-          Focus can be especially useful in documents with many panels. For example, you might keep focus on a “primary” scale
-          and quickly return to it from anywhere in the document. “Jump to current panel” takes you straight back to the last panel you selected.
-        </p>
-          </li>
-
-          <li>
-
-      <!-- Arrange panels card -->
-        <h2 style="margin-top: 0;">Arrange panels</h2>
-
-        <p>
-          The “Arrange panels” button opens a dialog where you can manage panel order and navigation. You will notice that in the document, each panel
-          has a number in its title area. After moving a panel, its number will change as the numbering is always sequential within the document.
-          Those numbers show you a panel's relative position in the document.
-        </p>
-
-        <figure class="gallery-figure">
-          <img
-            src="/images/help-arrange-panels.png"
-            alt="Arrange panels dialog"
-            class="gallery-image size-s"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            Arrange panels dialog
-          </figcaption>
-        </figure>
-
-        <p>
-          <strong>Reorder panels:</strong> you can rearrange the order of panels in one of two ways within the dialog:
-          either drag and drop the row representing a panel, or use the Up/Down chevron buttons. The order you choose becomes effective when you click “Save”.
-          The list of panels will show the current numeric position of each in the document, even after a panel is moved. It's new position does not come into effect until
-          you select “Save”.
-        </p>
-
-        <p>
-          <strong>Set focus:</strong> each row has a radio button selector. Choose one and, when you click “Apply”, that panel becomes the focused panel and is brought into view.
-        </p>
-
-        <p>
-          <strong>Preview panels:</strong> you can also sample fretboard panels quickly using “Pattern play”, without needing to scroll to each one in the document.
-        </p>
-
-        <p>
-          An alternative to using the “Arrange panels” dialog to re-arrange panels, is to drag a panel in the document using its title area, showing
-          a three bar drag handle to remind you.
-        </p>
-        <figure class="gallery-figure">
-          <img
-            src="/images/help-fretboard-drag.png"
-            alt="Draggable fretboard title"
-            class="gallery-image size-s"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            Draggable fretboard title
-          </figcaption>
-        </figure>
-        <p>
-          Click and hold anywhere in the title area and drag it into its intended position (while dragging you should see a snaphot of just the title being dragged).
-          A blue highlight line will appear while dragging to show you where the dropped panel will be inserted.
-        </p>
-          </li>
-
-          <li>
-
-      <!-- Add fretboard card -->
-        <h2 style="margin-top: 0;">Add Panel</h2>
-
-        <p>
-          Mentioned in the “Getting started” section of this site, the “Add panel” button opens an inline menu offering the choice of “Add Fretboard” and “Add Chord Organiser”.
-          When adding a chord organiser you will simply be prompted for the title of that new panel only, but on adding a fretboard panel you will be presented with a dialog where you choose a content type
-          (scale/mode/chord), a root note, and a pattern for the new fretboard panel. A fretboard panel's title will always be 
-        </p>
-
-        <figure class="gallery-figure">
-          <img
-            src="/images/help-add-fretboard.png"
-            alt="Add fretboard dialog"
-            class="gallery-image size-s"
-            loading="lazy"
-          />
-          <figcaption class="meta">
-            Add fretboard dialog
-          </figcaption>
-        </figure>
-          </li>
-
-          <li>
-
-      <!-- Help card -->
-        <h2 style="margin-top: 0;">Help</h2>
-
-        <p>
-          The Help button opens Frettly’s lightweight in-app help dialog. The macOS menu bar “Help” → “Frettly Help”
-          opens the content you are reading right now in your browser.
-        </p>
-          </li>
-
-      </section>
-
-      <!-- Shared lightbox overlay -->
-      <div id="lightbox" class="lightbox" aria-hidden="true">
-        <div class="lightbox-inner">
-          <button class="lightbox-close" aria-label="Close">&times;</button>
-          <img id="lightbox-img" alt="" />
-          <p id="lightbox-caption"></p>
-        </div>
+<body>
+  <main>
+    <header>
+      <div class="logo">
+        <span class="logo-mark">F</span>
+        Frettly
       </div>
+      <div class="pill">macOS · 14.0.0+</div>
+    </header>
+
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/purchase-frettly.html">Purchase</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
+    </nav>
+
+    <!-- Overview card -->
+    <section class="card">
+      <h1>Document window overview</h1>
+
+      <p>
+        Frettly is built around the macOS document model — similar to Pages. Rather than showing a single fretboard that
+        resets each time the app is opened,
+        Frettly lets you create documents and collect your chosen fretboards inside them.
+      </p>
+
+      <p>
+        These document files become your notebooks for learning, projects, and discovery: collect the blues scales you
+        want to learn,
+        the minor chords you want to practise, and so on. Because Frettly uses documents, they can be moved, duplicated,
+        shared, and even reverted using Time Machine.
+      </p>
+
+      <p>
+        If you create two documents — one for guitar and the other for bass — you can switch between them and Frettly
+        will play notes using each document’s configured instrument.
+        Don’t forget to explore the macOS menu bar’s <em>File</em> menu.
+      </p>
+
+      <ul class="list">
+        <li>
+
+          <h2 style="margin-top: 0;">Document level controls</h2>
+          <p>
+            The controls in the top-right of a document window affect Frettly’s overall behaviour and display throughout
+            the current document,
+            while fretboard controls are shown per fretboard.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-document-controls.png"
+              alt="Frettly document toolbar showing play mode, panel navigation, arrange panels, add panel and help controls"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Frettly document-level controls
+            </figcaption>
+          </figure>
+          <p></p>
+          <p>
+            From left to right, the highlighted controls are described below.
+          </p>
+        </li>
+
+        <li>
+
+          <h2 style="margin-top: 0;">Play mode</h2>
+
+          <p>
+            Frettly has three different ways of playing notes you click within fretboards:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Sustained play</strong> — each clicked note plays for a few seconds before fading. Multiple notes
+              can be played in quick succession
+              to get a feel for how they sound together, helping you hear the relationship between intervals.
+            </li>
+            <li>
+              <strong>Single play</strong> — click and hold to hear a note; on release, the note stops. This mode lets
+              you train your ear to a single note
+              or interval without other notes ringing.
+            </li>
+            <li>
+              <strong>Pattern play</strong> — click the root note of a pattern and Frettly plays the notes in that
+              fretboard’s pattern along the string.
+              For a scale, you will hear seven notes (assuming you have not hidden any — see the fretboard help for
+              hiding notes).
+              For a chord, Frettly plays the chord tones in sequence (again, assuming none are hidden), then finishes
+              with a strum of all notes.
+              So assuming the chord is Emaj and you click the E on the nut of string 6, the sequence you hear will start
+              with that E, followed by the G# on fret
+              4 and B on fret 7, of the same string, followed by a strum of those three together.
+              <br />
+              The strum is not intended to represent a specific chord voicing/fingering, as no fingering is determined.
+              To hear actual voicings strummed, see chord organisers.
+            </li>
+          </ul>
+        </li>
+
+        <li>
+
+          <h2 style="margin-top: 0;">Jump to current panel</h2>
+
+          <p>
+            When you click the title of a panel, it becomes the currently focused one. The Up and Down arrow keys move
+            that focus
+            up and down, one panel at a time. Focus is primarily a navigational aid: controls (and notes) across all
+            fretboards and chord organisers remain usable,
+            regardless of which one is currently focused.
+          </p>
+
+          <p>
+            Focus can be especially useful in documents with many panels. For example, you might keep focus on a
+            “primary” scale
+            and quickly return to it from anywhere in the document. “Jump to current panel” takes you straight back to
+            the last panel you selected.
+          </p>
+        </li>
+
+        <li>
+
+          <!-- Arrange panels card -->
+          <h2 style="margin-top: 0;">Arrange panels</h2>
+
+          <p>
+            The “Arrange panels” button opens a dialog where you can manage panel order and navigation. You will notice
+            that in the document, each panel
+            has a number in its title area. After moving a panel, its number will change as the numbering is always
+            sequential within the document.
+            Those numbers show you a panel's relative position in the document.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-arrange-panels.png"
+              alt="Frettly Arrange Panels dialog for reordering panels, setting the focused panel and previewing panels"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Arrange panels dialog
+            </figcaption>
+          </figure>
+          <p></p>
+
+          <p>
+            <strong>Reorder panels:</strong> you can rearrange the order of panels in one of two ways within the dialog:
+            either drag and drop the row representing a panel, or use the Up/Down chevron buttons. The order you choose
+            becomes effective when you click “Save”.
+            The list of panels will show the current numeric position of each in the document, even after a panel is
+            moved. It's new position does not come into effect until
+            you select “Save”.
+          </p>
+
+          <p>
+            <strong>Set focus:</strong> each row has a radio button selector. Choose one and, when you click “Apply”,
+            that panel becomes the focused panel and is brought into view.
+          </p>
+
+          <p>
+            <strong>Preview panels:</strong> you can also sample fretboard panels quickly using “Pattern play”, without
+            needing to scroll to each one in the document.
+          </p>
+
+          <p>
+            An alternative to using the “Arrange panels” dialog to re-arrange panels, is to drag a panel in the document
+            using its title area, showing
+            a three bar drag handle to remind you.
+          </p>
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-drag.png"
+              alt="Frettly fretboard panel title showing the drag handle used to reorder panels"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Draggable fretboard title
+            </figcaption>
+          </figure>
+          <p></p>
+          <p>
+            Click and hold anywhere in the title area and drag it into its intended position (while dragging you should
+            see a snaphot of just the title being dragged).
+            A blue highlight line will appear while dragging to show you where the dropped panel will be inserted.
+          </p>
+        </li>
+
+        <li>
+
+          <!-- Add fretboard card -->
+          <h2 style="margin-top: 0;">Add Panel</h2>
+
+          <p>
+            Mentioned in the “Getting started” section of this site, the “Add panel” button opens an inline menu
+            offering the choice of “Add Fretboard” and “Add Chord Organiser”.
+            When adding a chord organiser you will simply be prompted for the title of that new panel only, but on
+            adding a fretboard panel you will be presented with a dialog where you choose a content type
+            (scale/mode/chord), a root note, and a pattern for the new fretboard panel. A fretboard panel's title will
+            always describe those choices and is not editable.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-add-fretboard.png"
+              alt="Frettly Add Fretboard dialog for choosing content type, root note and pattern"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Add fretboard dialog
+            </figcaption>
+          </figure>
+          <p></p>
+        </li>
+
+        <li>
+
+          <!-- Help card -->
+          <h2 style="margin-top: 0;">Help</h2>
+
+          <p>
+            The Help button opens Frettly’s lightweight in-app help dialog. The macOS menu bar “Help” → “Frettly Help”
+            opens the content you are reading right now in your browser.
+          </p>
+        </li>
+
+    </section>
+
+    <!-- Shared lightbox overlay -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <div class="lightbox-inner">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img id="lightbox-img" alt="" />
+        <p id="lightbox-caption"></p>
+      </div>
+    </div>
 
 
-      <footer>
-        &copy; <span id="year"></span> Efford Studio Limited. Frettly app and site content. All rights reserved.<br>
-        Registered in England and Wales • Company number 17037547<br>
-        Registered office: 128 City Road, London, United Kingdom, EC1V 2NX
-      </footer>
-      <script src="/lightbox.js"></script>
-      <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-      </script>
-    </main>
-  </body>
+    <footer>
+      &copy; <span id="year"></span> Efford Studio Limited. Frettly app and site content. All rights reserved.<br>
+      Registered in England and Wales • Company number 17037547<br>
+      Registered office: 128 City Road, London, United Kingdom, EC1V 2NX
+    </footer>
+    <script src="/lightbox.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </main>
+</body>
+
 </html>

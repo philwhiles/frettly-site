@@ -1,607 +1,552 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Frettly – Fretboard panels</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Using the fretboard panels within Frettly"
-    />
-    <link rel="stylesheet" href="../style.css" />
-  </head>
 
-  <body>
-    <main>
-      <header>
-        <div class="logo">
-          <span class="logo-mark">F</span>
-          Frettly
-        </div>
-        <div class="pill">macOS · 14.0.0+</div>
-      </header>
-
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/purchase-frettly.html">Purchase</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
-      </nav>
-
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
-        <span aria-hidden="true">›</span>
-        <a href="/help/index.html">Help &amp; Info</a>
-        <span aria-hidden="true">›</span>
-        <span>Fretboard panels</span>
-      </nav>
-
-      <section class="card">
-        <h1>Fretboard panels overview</h1>
-
-        <p>
-          Frettly is designed as a macOS document-based application. Rather
-          than showing a single fretboard that resets the next time the app is
-          opened, Frettly lets you collect
-          <strong><em>many</em></strong> fretboards within each document.
-        </p>
-
-        <ul>
-          <li>
-            Remember: all scales and chords shown by panels within the same
-            document use that document’s current instrument, tuning, and
-            handedness. You can create multiple documents, each for a different
-            instrument or tuning, or create hundreds of documents all for the
-            same instrument.
-          </li>
-          <li>
-            New fretboards or chord organisers are added to the bottom of the
-            document. You can reorder them by dragging and dropping a panel
-            before or after another, or by using the document’s “Arrange panels”
-            sheet.
-          </li>
-          <li>
-            Zoom panels within a document using the standard macOS ⌘+ and ⌘-
-            shortcuts, pinch to zoom on the trackpad, menu options under “View”,
-            or the zoom controls at the top of each document.
-          </li>
-          <li>
-            If a fretboard extends off-screen horizontally, scroll it left and
-            right with your trackpad or mouse to bring hidden sections into
-            view.
-          </li>
-          <li>
-            Clicking the title of a panel makes it the currently focused panel
-            for navigation. The Up and Down arrow keys move the focus while
-            bringing the newly focused panel into view.
-          </li>
-        </ul>
-
-        <ul class="list">
-          <li>
-            <h2 style="margin-top: 0;">Fretboard configuration</h2>
-
-            <p>
-              To edit the type, root, or pattern of a fretboard, click the
-              configuration icon to the right of the panel title to open its
-              edit sheet.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-edit.png"
-                alt="Fretboard controls (top left)"
-                class="gallery-image size-s"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard controls (top left)
-              </figcaption>
-            </figure>
-
-            <p>
-              Right-clicking the fretboard title reveals a context menu with two
-              extra options. The first duplicates the current fretboard in its
-              entirety, including its notepad and marking groups. The second
-              deletes the fretboard, which can also be done by clicking the
-              title to bring focus to it and pressing the Delete key.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-title-context.png"
-                alt="Fretboard title context menu"
-                class="gallery-image size-s"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard title context menu
-              </figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <h2 style="margin-top: 0;">Scale Harmony sheet</h2>
-
-            <p>
-              For fretboards with a content type of
-              <strong>Scale</strong> or <strong>Mode</strong> that supports
-              diatonic chord derivation—that is, heptatonic patterns—the button
-              to the right of the configuration icon opens a sheet showing the
-              diatonic chords in that key. This single sheet is a nexus for
-              useful scale-related actions, as they all pivot on the chords
-              derived from a scale.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-scale-harmony.png"
-                alt="Scale Harmony sheet"
-                class="gallery-image size-s"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Scale Harmony sheet
-              </figcaption>
-            </figure>
-
-            <p>
-              By default, the triad notes are shown for each diatonic chord.
-              Each chord can be previewed using the play button to hear it
-              strummed. The voicing used is the first resolved voicing that
-              would be shown for that chord in a chord organiser.
-            </p>
-
-            <p>
-              Switch the derived chords to tetrads using the “Chord type”
-              control at the top right.
-            </p>
-
-            <p>
-              All chords derived from the scale are shown by default, but the
-              “Progression” picker at the top allows you to filter and rearrange
-              the chords using a selection of progressions:
-            </p>
-
-            <ul class="multi-col-list">
-              <li>All chords</li>
-              <li>3-chord (I-IV-V)</li>
-              <li>Pop (I-V-vi-IV)</li>
-              <li>Jazz cadence (ii-V-I)</li>
-              <li>Turnaround (I-vi-ii-V)</li>
-              <li>Jazz turnaround (vi-ii-V-I)</li>
-              <li>Circle sequence (iii-vi-ii-V)</li>
-              <li>Pop variant (vi-IV-I-V)</li>
-              <li>50s progression (I-vi-IV-V)</li>
-              <li>Canon (I-V-vi-iii-IV-I-IV-V)</li>
-              <li>Minor cadence (I-IV-V)</li>
-              <li>Minor pop (I-vi-iii-vii°)</li>
-            </ul>
-
-            <p>
-              This sheet has a help feature which, when selected, slides out a
-              side panel explaining how each chord in the list has been derived
-              from its parent scale and key.
-            </p>
-
-            <p>
-              A fretboard panel can be created from each of the chords
-              individually.
-            </p>
-
-            <p>
-              The “Create Chord Organiser” button creates a new panel below the
-              parent fretboard panel, containing a chord card for each of the
-              chords shown, in the order in which they appear. These may be all
-              of the default diatonic chords derived from the scale, or only the
-              chords from a selected progression.
-            </p>
-
-            <p>
-              Each fretboard panel has up to seven marking groups, described
-              below, which can be used to focus on only the notes that you have
-              marked across the fretboard. “Replace Marked Groups” replaces any
-              markings you have made in those groups with markings for the notes
-              within these chords, and renames each marking group to match its
-              chord.
-            </p>
-          </li>
-
-          <li>
-            <h2 style="margin-top: 0;">Fretboard string controls</h2>
-
-            <p>
-              To the left of each fretboard, regardless of its handedness, are
-              small toggle buttons aligned with the strings. These can be used
-              to hide all of the notes on individual instrument strings,
-              allowing you to focus your learning on one or two strings without
-              being distracted by notes on the other strings.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-string-controls-before.png"
-                alt="Fretboard string controls in their default state"
-                class="gallery-image size-vs"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard string controls, defaulted
-              </figcaption>
-            </figure>
-
-            <p>
-              Once one or more strings have been hidden, a reset button below
-              the string controls is enabled. This resets all strings in the
-              current fretboard to be visible again. Alternatively, you can
-              toggle them back on individually.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-string-controls-after.png"
-                alt="Fretboard string controls after selections"
-                class="gallery-image size-vs"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard string controls, after selections
-              </figcaption>
-            </figure>
-
-            <p>
-              Paired with selectively hiding notes using the note or interval
-              chips, described in the following section, and using the marking
-              groups described later, these controls enable you to create
-              customised views of the notes across a fretboard.
-            </p>
-          </li>
-
-          <li>
-            <h2 style="margin-top: 0;">Fretboard note/interval chips</h2>
-
-            <p>
-              The notes in each fretboard’s scale, mode, or chord are shown as
-              chips at the top of the panel:
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-chips.png"
-                alt="Fretboard note and interval chips"
-                class="gallery-image size-s"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard note and interval chips
-              </figcaption>
-            </figure>
-
-            <p>
-              Each chip shows a note and its interval within the pattern, using
-              the following notations:
-            </p>
-
-            <ul class="multi-col-list">
-              <li>P1 — Perfect unison (root)</li>
-              <li>m2 — Minor second</li>
-              <li>M2 — Major second</li>
-              <li>m3 — Minor third</li>
-              <li>M3 — Major third</li>
-              <li>P4 — Perfect fourth</li>
-              <li>d5 — Diminished fifth</li>
-              <li>A4 — Augmented fourth</li>
-              <li>P5 — Perfect fifth</li>
-              <li>A5 — Augmented fifth</li>
-              <li>m6 — Minor sixth</li>
-              <li>M6 — Major sixth</li>
-              <li>d7 — Diminished seventh</li>
-              <li>m7 — Minor seventh</li>
-              <li>M7 — Major seventh</li>
-              <li>P8 — Perfect octave</li>
-              <li>m9 — Minor ninth</li>
-              <li>M9 — Major ninth</li>
-              <li>m10 — Minor tenth</li>
-              <li>M10 — Major tenth</li>
-              <li>P11 — Perfect eleventh</li>
-              <li>A11 — Augmented eleventh</li>
-              <li>P12 — Perfect twelfth</li>
-              <li>m13 — Minor thirteenth</li>
-              <li>M13 — Major thirteenth</li>
-            </ul>
-
-            <p>
-              Hovering over a chip highlights that note or interval across the
-              fretboard.
-            </p>
-
-            <p>
-              Clicking a chip toggles that note or interval between visible and
-              hidden across the fretboard:
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-chips-hidden.png"
-                alt="Example of a chip hiding notes"
-                class="gallery-image size-s"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Example of hidden notes
-              </figcaption>
-            </figure>
-
-            <p>
-              Note: all notes can be re-enabled using the reset icon to the
-              right of the chips.
-            </p>
-
-            <p>
-              Note: hidden notes are not played when using “Pattern play”.
-            </p>
-          </li>
-
-          <li id="marking">
-            <h2 style="margin-top: 0;">Fretboard controls – marking</h2>
-
-            <p>
-              To the right of the chips is a bank of additional fretboard
-              controls. The first group of three buttons relates to marking
-              notes.
-            </p>
-
-            <p>
-            The notes can be manually marked individually, be marked due to their visibility (see note/interval chips and string controls)
-            or be marked by the Scale Harmony sheet. There is a lot of flexibility and functionality in the marking system, and the number of controls
-            has been designed to be minimal, rather than have a multitude of similar but confusing controls. But it does mean that some experimentation is 
-            required in order to work out its subtleties and how it might work best for your usage.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-top-right.png"
-                alt="Fretboard controls (top right)"
-                class="gallery-image size-s"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard controls (top right)
-              </figcaption>
-            </figure>
-
-            <p>
-              You can <em>mark</em> individual notes on a fretboard. Marked notes
-              are highlighted with a green dashed circle.
-            </p>
-
-            <p>
-              Frettly supports up to nine marking <em>groups</em> and defaults
-              to using group one, indicated to the left of the marking controls.
-              The current group can be changed using the up and down controls.
-              Clicking the group’s label opens a pop-up sheet that allows the
-              label to be edited.
-            </p>
-
-            <p>
-              To enable marking, click the first button, showing the marker pen.
-              When marking is on, the button turns yellow. Click any note to
-              toggle its mark. The marker button also shows how many notes are
-              marked in the current group, including notes that may be
-              off-screen.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/fretboard-marked.png"
-                alt="Fretboard in marking mode"
-                class="gallery-image size-l"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard in marking mode
-              </figcaption>
-            </figure>
-
-            <p>
-              While marking is enabled, clicking notes only marks or unmarks
-              them. The usual play interactions are paused until you turn
-              marking off. Click the marker pen again to return to normal
-              fretboard mode. Your chosen document play mode then applies as
-              usual, and any marked notes remain visible alongside unmarked
-              notes.
-            </p>
-
-            <p>
-              To mark every occurrence of one or more notes across the
-              fretboard, use a combination of hiding notes with the note chips
-              at the top of the fretboard and hiding entire strings with the
-              left-hand string controls. Then right-click the marker pen button
-              and select either “Mark all shown notes” or “Unmark all shown
-              notes”.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-marking-context.png"
-                alt="Fretboard marking context menu"
-                class="gallery-image size-s"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard marking context menu
-              </figcaption>
-            </figure>
-
-            <p>
-              The second button erases all marks within the current marking
-              group. The erasure can be undone using Undo (⌘Z).
-            </p>
-
-            <p>
-              Right-clicking the erase button reveals a context menu offering
-              two options. The first erases the current group’s markings, and
-              the second erases the markings from all nine groups.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-erase-context.png"
-                alt="Fretboard marking erasure context menu"
-                class="gallery-image size-s"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard marking erasure context menu
-              </figcaption>
-            </figure>
-
-            <p>
-              The third button is “View marked notes”. This toggles the
-              fretboard’s display between marked notes only and all notes. This
-              allows you to focus on a particular section or sequence of notes
-              on the fretboard.
-            </p>
-
-            <p>
-              When “View marked notes” is enabled, the button is coloured
-              yellow. When it is not enabled but the current group contains
-              marks, it has a yellow outline to remind you that the group has
-              marks which can be viewed in isolation.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/fretboard-marked-only.png"
-                alt="Fretboard showing only marked notes"
-                class="gallery-image size-l"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard showing only marked notes
-              </figcaption>
-            </figure>
-
-            <h3>Scale Harmony marked chords</h3>
-
-            <p>
-              The Scale Harmony sheet launched from a fretboard offers the
-              option to “Replace Marked Groups” with groups constructed from the
-              chords shown in Scale Harmony. For example, it can mark every
-              occurrence of the notes C, E, and G for a Cmaj chord, and label
-              that group “Cmaj”.
-            </p>
-
-            <p>
-              When marking groups have been set up in this way, their marks
-              cannot be edited: you cannot add or remove marks. This ensures
-              that a marking group labelled as representing a chord remains
-              accurate. You cannot edit the title of such a group either. To
-              reclaim a chord-based marking group, erase it, after which it
-              reverts to being an ordinary marking group.
-            </p>
-
-            <p>
-              When might you want to use marked notes and view only marked
-              notes? Perhaps when you want to focus on a specific chord
-              fingering, or break down a scale into playable positions along the
-              fretboard, as is commonly done for pentatonic scales:
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-view-marked-pentatonic.png"
-                alt="Viewing marked notes on a fretboard"
-                class="gallery-image size-l"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Viewing marked notes on a fretboard
-              </figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <h2 style="margin-top: 0;">Fretboard controls – notepad</h2>
-
-            <p>
-              The fourth button is the notepad control. A new fretboard starts
-              with an empty notepad, so the button appears plain. Clicking it
-              toggles the notepad’s visibility. Once the notepad contains text,
-              the button turns yellow to remind you that notes are present.
-              Notepads are saved with their fretboards in the Frettly document.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-notepad.png"
-                alt="Fretboard notepad"
-                class="gallery-image size-l"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard notepad
-              </figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <h2 style="margin-top: 0;">Fretboard controls – labelling mode</h2>
-
-            <p>
-              The fifth button toggles between viewing notes and viewing
-              intervals. By default, fretboards show note labels, and the
-              tooltip shows the corresponding interval. When you switch to
-              interval labels, the tooltip text changes accordingly.
-            </p>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-notes.png"
-                alt="Fretboard showing note labels"
-                class="gallery-image size-l"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard showing note labels
-              </figcaption>
-            </figure>
-
-            <figure class="gallery-figure">
-              <img
-                src="/images/help-fretboard-intervals.png"
-                alt="Fretboard showing interval labels"
-                class="gallery-image size-l"
-                loading="lazy"
-              />
-              <figcaption class="meta">
-                Fretboard showing interval labels
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section>
-
-      <!-- Shared lightbox overlay -->
-      <div id="lightbox" class="lightbox" aria-hidden="true">
-        <div class="lightbox-inner">
-          <button class="lightbox-close" aria-label="Close">&times;</button>
-          <img id="lightbox-img" alt="" />
-          <p id="lightbox-caption"></p>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <title>Fretboard Panels in Frettly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Learn how to use Frettly’s fretboard panels to explore scales, modes and chords, derive scale harmony, mark notes, hide strings, switch between notes and intervals, and save notepads." />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="logo">
+        <span class="logo-mark">F</span>
+        Frettly
       </div>
+      <div class="pill">macOS · 14.0.0+</div>
+    </header>
 
-      <footer>
-        &copy; <span id="year"></span> Efford Studio Limited. Frettly app and
-        site content. All rights reserved.<br />
-        Registered in England and Wales • Company number 17037547<br />
-        Registered office: 128 City Road, London, United Kingdom, EC1V 2NX
-      </footer>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/purchase-frettly.html">Purchase</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
+    </nav>
 
-      <script src="/lightbox.js"></script>
-      <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-      </script>
-    </main>
-  </body>
+    <section class="card">
+      <h1>Fretboard panels overview</h1>
+
+      <p>
+        Frettly is designed as a macOS document-based application. Rather
+        than showing a single fretboard that resets the next time the app is
+        opened, Frettly lets you collect
+        <strong><em>many</em></strong> fretboards within each document.
+      </p>
+
+      <ul>
+        <li>
+          Remember: all scales and chords shown by panels within the same
+          document use that document’s current instrument, tuning, and
+          handedness. You can create multiple documents, each for a different
+          instrument or tuning, or create hundreds of documents all for the
+          same instrument.
+        </li>
+        <li>
+          New fretboards or chord organisers are added to the bottom of the
+          document. You can reorder them by dragging and dropping a panel
+          before or after another, or by using the document’s “Arrange panels”
+          sheet.
+        </li>
+        <li>
+          Zoom panels within a document using the standard macOS ⌘+ and ⌘-
+          shortcuts, pinch to zoom on the trackpad, menu options under “View”,
+          or the zoom controls at the top of each document.
+        </li>
+        <li>
+          If a fretboard extends off-screen horizontally, scroll it left and
+          right with your trackpad or mouse to bring hidden sections into
+          view.
+        </li>
+        <li>
+          Clicking the title of a panel makes it the currently focused panel
+          for navigation. The Up and Down arrow keys move the focus while
+          bringing the newly focused panel into view.
+        </li>
+      </ul>
+
+      <ul class="list">
+        <li>
+          <h2 style="margin-top: 0;">Fretboard configuration</h2>
+
+          <p>
+            To edit the type, root, or pattern of a fretboard, click the
+            configuration icon to the right of the panel title to open its
+            edit sheet.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-edit.png"
+              alt="Frettly fretboard panel showing the configuration and Scale Harmony controls"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Fretboard controls (top left)
+            </figcaption>
+          </figure>
+
+          <p>
+            Right-clicking the fretboard title reveals a context menu with two
+            extra options. The first duplicates the current fretboard in its
+            entirety, including its notepad and marking groups. The second
+            deletes the fretboard, which can also be done by clicking the
+            title to bring focus to it and pressing the Delete key.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-title-context.png"
+              alt="Frettly fretboard title context menu with duplicate and delete commands" class="gallery-image size-s"
+              loading="lazy" />
+            <figcaption class="meta">
+              Fretboard title context menu
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h2 style="margin-top: 0;">Scale Harmony sheet</h2>
+
+          <p>
+            For fretboards with a content type of
+            <strong>Scale</strong> or <strong>Mode</strong> that supports
+            diatonic chord derivation—that is, heptatonic patterns—the button
+            to the right of the configuration icon opens a sheet showing the
+            diatonic chords in that key. This single sheet is a nexus for
+            useful scale-related actions, as they all pivot on the chords
+            derived from a scale.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-scale-harmony.png"
+              alt="Frettly Scale Harmony sheet showing derived chords, chord types and progression controls"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Scale Harmony sheet
+            </figcaption>
+          </figure>
+
+          <p>
+            By default, the triad notes are shown for each diatonic chord.
+            Each chord can be previewed using the play button to hear it
+            strummed. The voicing used is the first resolved voicing that
+            would be shown for that chord in a chord organiser.
+          </p>
+
+          <p>
+            Switch the derived chords to tetrads using the “Chord type”
+            control at the top right.
+          </p>
+
+          <p>
+            All chords derived from the scale are shown by default, but the
+            “Progression” picker at the top allows you to filter and rearrange
+            the chords using a selection of progressions:
+          </p>
+
+          <ul class="multi-col-list">
+            <li>All chords</li>
+            <li>3-chord (I-IV-V)</li>
+            <li>Pop (I-V-vi-IV)</li>
+            <li>Jazz cadence (ii-V-I)</li>
+            <li>Turnaround (I-vi-ii-V)</li>
+            <li>Jazz turnaround (vi-ii-V-I)</li>
+            <li>Circle sequence (iii-vi-ii-V)</li>
+            <li>Pop variant (vi-IV-I-V)</li>
+            <li>50s progression (I-vi-IV-V)</li>
+            <li>Canon (I-V-vi-iii-IV-I-IV-V)</li>
+            <li>Minor cadence (I-IV-V)</li>
+            <li>Minor pop (I-vi-iii-vii°)</li>
+          </ul>
+
+          <p>
+            This sheet has a help feature which, when selected, slides out a
+            side panel explaining how each chord in the list has been derived
+            from its parent scale and key.
+          </p>
+
+          <p>
+            A fretboard panel can be created from each of the chords
+            individually.
+          </p>
+
+          <p>
+            The “Create Chord Organiser” button creates a new panel below the
+            parent fretboard panel, containing a chord card for each of the
+            chords shown, in the order in which they appear. These may be all
+            of the default diatonic chords derived from the scale, or only the
+            chords from a selected progression.
+          </p>
+
+          <p>
+            Each fretboard panel has up to nine marking groups, described
+            below, which can be used to focus on only the notes that you have
+            marked across the fretboard. “Replace Marked Groups” replaces any
+            markings you have made in those groups with markings for the notes
+            within these chords, and renames each marking group to match its
+            chord.
+          </p>
+        </li>
+
+        <li>
+          <h2 style="margin-top: 0;">Fretboard string controls</h2>
+
+          <p>
+            To the left of each fretboard, regardless of its handedness, are
+            small toggle buttons aligned with the strings. These can be used
+            to hide all of the notes on individual instrument strings,
+            allowing you to focus your learning on one or two strings without
+            being distracted by notes on the other strings.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-string-controls-before.png"
+              alt="Frettly fretboard string visibility controls with all strings enabled" class="gallery-image size-vs"
+              loading="lazy" />
+            <figcaption class="meta">
+              Fretboard string controls, defaulted
+            </figcaption>
+          </figure>
+
+          <p>
+            Once one or more strings have been hidden, a reset button below
+            the string controls is enabled. This resets all strings in the
+            current fretboard to be visible again. Alternatively, you can
+            toggle them back on individually.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-string-controls-after.png"
+              alt="Frettly fretboard string visibility controls with selected strings hidden"
+              class="gallery-image size-vs" loading="lazy" />
+            <figcaption class="meta">
+              Fretboard string controls, after selections
+            </figcaption>
+          </figure>
+
+          <p>
+            Paired with selectively hiding notes using the note or interval
+            chips, described in the following section, and using the marking
+            groups described later, these controls enable you to create
+            customised views of the notes across a fretboard.
+          </p>
+        </li>
+
+        <li>
+          <h2 style="margin-top: 0;">Fretboard note/interval chips</h2>
+
+          <p>
+            The notes in each fretboard’s scale, mode, or chord are shown as
+            chips at the top of the panel:
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-chips.png" alt="Frettly fretboard showing note and interval chips above the strings"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Fretboard note and interval chips
+            </figcaption>
+          </figure>
+
+          <p>
+            Each chip shows a note and its interval within the pattern, using
+            the following notations:
+          </p>
+
+          <ul class="multi-col-list">
+            <li>P1 — Perfect unison (root)</li>
+            <li>m2 — Minor second</li>
+            <li>M2 — Major second</li>
+            <li>m3 — Minor third</li>
+            <li>M3 — Major third</li>
+            <li>P4 — Perfect fourth</li>
+            <li>d5 — Diminished fifth</li>
+            <li>A4 — Augmented fourth</li>
+            <li>P5 — Perfect fifth</li>
+            <li>A5 — Augmented fifth</li>
+            <li>m6 — Minor sixth</li>
+            <li>M6 — Major sixth</li>
+            <li>d7 — Diminished seventh</li>
+            <li>m7 — Minor seventh</li>
+            <li>M7 — Major seventh</li>
+            <li>P8 — Perfect octave</li>
+            <li>m9 — Minor ninth</li>
+            <li>M9 — Major ninth</li>
+            <li>m10 — Minor tenth</li>
+            <li>M10 — Major tenth</li>
+            <li>P11 — Perfect eleventh</li>
+            <li>A11 — Augmented eleventh</li>
+            <li>P12 — Perfect twelfth</li>
+            <li>m13 — Minor thirteenth</li>
+            <li>M13 — Major thirteenth</li>
+          </ul>
+
+          <p>
+            Hovering over a chip highlights that note or interval across the
+            fretboard.
+          </p>
+
+          <p>
+            Clicking a chip toggles that note or interval between visible and
+            hidden across the fretboard:
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-chips-hidden.png"
+              alt="Frettly fretboard with selected note chips disabled and their notes hidden"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Example of hidden notes
+            </figcaption>
+          </figure>
+
+          <p>
+            Note: all notes can be re-enabled using the reset icon to the
+            right of the chips.
+          </p>
+
+          <p>
+            Note: hidden notes are not played when using “Pattern play”.
+          </p>
+        </li>
+
+        <li id="marking">
+          <h2 style="margin-top: 0;">Fretboard controls – marking</h2>
+
+          <p>
+            To the right of the chips is a bank of additional fretboard
+            controls. The first group of three buttons relates to marking
+            notes.
+          </p>
+
+          <p>
+            The notes can be manually marked individually, be marked due to their visibility (see note/interval chips
+            and string controls)
+            or be marked by the Scale Harmony sheet. There is a lot of flexibility and functionality in the marking
+            system, and the number of controls
+            has been designed to be minimal, rather than have a multitude of similar but confusing controls. But it does
+            mean that some experimentation is
+            required in order to work out its subtleties and how it might work best for your usage.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-top-right.png"
+              alt="Frettly fretboard controls for marking notes, showing the notepad and switching label modes"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Fretboard controls (top right)
+            </figcaption>
+          </figure>
+
+          <p>
+            You can <em>mark</em> individual notes on a fretboard. Marked notes
+            are highlighted with a green dashed circle.
+          </p>
+
+          <p>
+            Frettly supports up to nine marking <em>groups</em> and defaults
+            to using group one, indicated to the left of the marking controls.
+            The current group can be changed using the up and down controls.
+            Clicking the group’s label opens a pop-up sheet that allows the
+            label to be edited.
+          </p>
+
+          <p>
+            To enable marking, click the first button, showing the marker pen.
+            When marking is on, the button turns yellow. Click any note to
+            toggle its mark. The marker button also shows how many notes are
+            marked in the current group, including notes that may be
+            off-screen.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/fretboard-marked.png"
+              alt="Frettly fretboard in marking mode with marked notes highlighted" class="gallery-image size-l"
+              loading="lazy" />
+            <figcaption class="meta">
+              Fretboard in marking mode
+            </figcaption>
+          </figure>
+
+          <p>
+            While marking is enabled, clicking notes only marks or unmarks
+            them. The usual play interactions are paused until you turn
+            marking off. Click the marker pen again to return to normal
+            fretboard mode. Your chosen document play mode then applies as
+            usual, and any marked notes remain visible alongside unmarked
+            notes.
+          </p>
+
+          <p>
+            To mark every occurrence of one or more notes across the
+            fretboard, use a combination of hiding notes with the note chips
+            at the top of the fretboard and hiding entire strings with the
+            left-hand string controls. Then right-click the marker pen button
+            and select either “Mark all shown notes” or “Unmark all shown
+            notes”.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-marking-context.png"
+              alt="Frettly marking context menu with commands to mark or unmark all shown notes"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Fretboard marking context menu
+            </figcaption>
+          </figure>
+
+          <p>
+            The second button erases all marks within the current marking
+            group. The erasure can be undone using Undo (⌘Z).
+          </p>
+
+          <p>
+            Right-clicking the erase button reveals a context menu offering
+            two options. The first erases the current group’s markings, and
+            the second erases the markings from all nine groups.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-erase-context.png"
+              alt="Frettly erase marks context menu with options for the current group or all groups"
+              class="gallery-image size-s" loading="lazy" />
+            <figcaption class="meta">
+              Fretboard marking erasure context menu
+            </figcaption>
+          </figure>
+
+          <p>
+            The third button is “View marked notes”. This toggles the
+            fretboard’s display between marked notes only and all notes. This
+            allows you to focus on a particular section or sequence of notes
+            on the fretboard.
+          </p>
+
+          <p>
+            When “View marked notes” is enabled, the button is coloured
+            yellow. When it is not enabled but the current group contains
+            marks, it has a yellow outline to remind you that the group has
+            marks which can be viewed in isolation.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/fretboard-marked-only.png"
+              alt="Frettly fretboard displaying only the notes in the current marking group"
+              class="gallery-image size-l" loading="lazy" />
+            <figcaption class="meta">
+              Fretboard showing only marked notes
+            </figcaption>
+          </figure>
+
+          <h3>Scale Harmony marked chords</h3>
+
+          <p>
+            The Scale Harmony sheet launched from a fretboard offers the
+            option to “Replace Marked Groups” with groups constructed from the
+            chords shown in Scale Harmony. For example, it can mark every
+            occurrence of the notes C, E, and G for a Cmaj chord, and label
+            that group “Cmaj”.
+          </p>
+
+          <p>
+            When marking groups have been set up in this way, their marks
+            cannot be edited: you cannot add or remove marks. This ensures
+            that a marking group labelled as representing a chord remains
+            accurate. You cannot edit the title of such a group either. To
+            reclaim a chord-based marking group, erase it, after which it
+            reverts to being an ordinary marking group.
+          </p>
+
+          <p>
+            When might you want to use marked notes and view only marked
+            notes? Perhaps when you want to focus on a specific chord
+            fingering, or break down a scale into playable positions along the
+            fretboard, as is commonly done for pentatonic scales:
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-view-marked-pentatonic.png"
+              alt="Frettly pentatonic fretboard showing a selected position using marked notes"
+              class="gallery-image size-l" loading="lazy" />
+            <figcaption class="meta">
+              Viewing marked notes on a fretboard
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h2 style="margin-top: 0;">Fretboard controls – notepad</h2>
+
+          <p>
+            The fourth button is the notepad control. A new fretboard starts
+            with an empty notepad, so the button appears plain. Clicking it
+            toggles the notepad’s visibility. Once the notepad contains text,
+            the button turns yellow to remind you that notes are present.
+            Notepads are saved with their fretboards in the Frettly document.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-notepad.png" alt="Frettly fretboard panel with its editable notepad open"
+              class="gallery-image size-l" loading="lazy" />
+            <figcaption class="meta">
+              Fretboard notepad
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h2 style="margin-top: 0;">Fretboard controls – labelling mode</h2>
+
+          <p>
+            The fifth button toggles between viewing notes and viewing
+            intervals. By default, fretboards show note labels, and the
+            tooltip shows the corresponding interval. When you switch to
+            interval labels, the tooltip text changes accordingly.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-notes.png"
+              alt="Frettly fretboard displaying note names across the fretboard" class="gallery-image size-l"
+              loading="lazy" />
+            <figcaption class="meta">
+              Fretboard showing note labels
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-fretboard-intervals.png"
+              alt="Frettly fretboard displaying interval names across the fretboard" class="gallery-image size-l"
+              loading="lazy" />
+            <figcaption class="meta">
+              Fretboard showing interval labels
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Shared lightbox overlay -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <div class="lightbox-inner">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img id="lightbox-img" alt="" />
+        <p id="lightbox-caption"></p>
+      </div>
+    </div>
+
+    <footer>
+      &copy; <span id="year"></span> Efford Studio Limited. Frettly app and
+      site content. All rights reserved.<br />
+      Registered in England and Wales • Company number 17037547<br />
+      Registered office: 128 City Road, London, United Kingdom, EC1V 2NX
+    </footer>
+
+    <script src="/lightbox.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </main>
+</body>
+
 </html>
