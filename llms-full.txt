@@ -1,0 +1,1843 @@
+Frettly
+
+This document aggregates the public documentation from frettly.app for
+AI assistants.
+
+Frettly – Guitar Scales & Chords Companion
+
+Frettly - the interactive fretboard explorer and notebook
+
+Frettly is a macOS application dedicated to enabling players of fretted
+instruments to visualise, experiment, and explore scales, modes and
+chords using a document-based canvas.
+
+Think of Frettly as Pages, not for text but for fretboards.
+
+Frettly isn’t just a scale and chord library - it’s a persistent,
+document-based workspace designed by a player, for players. Whether you
+are composing a complex jazz piece, teaching a student, or exploring a
+new tuning on your banjo, Frettly organises your theory explorations
+into easily read, playable, shareable and saveable documents.
+
+Explore scales, modes and chords in a persistent, document-based macOS
+workspace.
+
+Supporting guitar, bass guitar, mandolin, banjo and ukulele , each document you create can show multiple scales, chords and modes for the document’s chosen instrument, and each instrument type supports multiple possible tunings.
+
+The roadmap for future Frettly enhancements is brimming with features.
+If you have suggestions for features or improvements, need support or
+advice, contact us at:
+
+hello@frettly.app
+
+What you can do with Frettly
+
+-   Build visual music documents from fretboards, scales, modes, chords
+    and chord organisers, all arranged on a flexible document canvas
+
+-   Switch instruments, tunings or handedness at any time and watch
+    every fretboard and chord panel adapt to the new context
+
+-   Keep separate documents for lessons, songs, theory explorations,
+    practice routines, alternate tunings or ideas you want to return to
+    later
+
+-   Listen to notes, scale patterns, modes and strummed chords with
+    pitch-perfect, instrument-specific playback as you explore the
+    fretboard
+
+-   Focus your learning by showing notes, intervals, marked notes, or
+    only the parts of a pattern you want to study right now
+
+-   Highlight important notes and intervals, add your own panel notes,
+    and capture teaching points, discoveries, reminders and practice
+    ideas
+
+-   Rearrange, duplicate, copy and move musical ideas freely, both
+    within a single Frettly document and between different documents
+
+-   Personalise the look of your workspace with fretboard backgrounds
+    and note colour themes, making documents clearer and more enjoyable
+    to use
+
+Frettly is a product of Efford Studio Limited
+
+Efford Studio Limited is an independent UK software studio focused on
+thoughtfully crafted tools for musicians and creatives.
+
+Frettly Pro – One-Time Purchase
+
+Unlock Frettly Pro
+
+Unlock Frettly Pro with a one-time purchase on the Mac App Store.
+
+Explore the complete collection of scales, modes, chords and tunings,
+create richly interactive fretboards and chord organisers, and save your
+work in reusable Frettly documents.
+
+There are no monthly or annual subscriptions, and Family Sharing is
+supported.
+
+Why Go Pro?
+
+Frettly began as a personal project for exploring the guitar through
+clear visualisation, practical music theory and interactive sound.
+
+With Frettly Pro, you can combine multiple scale, mode and chord
+fretboards within reusable documents, create chord organisers, explore
+different tunings and build a personal library that supports your
+playing, learning and songwriting.
+
+Your purchase unlocks the complete current feature set while also
+supporting the continued development of Frettly.
+
+When you go Pro, you’re getting more than just the current feature set —
+you’re also supporting ongoing development and helping to shape where
+Frettly goes next.
+
+What You Get with Frettly Pro
+
+-   Create fretboards using all 14 scale types, 9 modes and 44 chord
+    types currently included with Frettly.
+
+-   Use the complete collection of instrument tunings.
+
+-   Create and save documents containing multiple fretboards and chord
+    organisers.
+
+-   Explore patterns interactively with note marking, interval display
+    and audio playback.
+
+-   Receive bug fixes, performance improvements and refinements to
+    existing features at no additional cost.
+
+-   Benefit from future additions to the existing scale, mode, chord and
+    tuning collections.
+
+There are no subscriptions — just a straightforward, one-time purchase
+on the Mac App Store.
+
+Occasionally, substantial new modules may be available separately. If
+that happens, they’ll be clearly labelled and entirely optional — you’ll
+always keep what you’ve already unlocked.
+
+How to Purchase
+
+Frettly is available from the Mac App Store. Download Frettly, then
+unlock Frettly Pro from within the app with a one-time purchase.
+
+No monthly or annual subscription is required, and Family Sharing is
+enabled.
+
+Download Frettly free from the Mac App Store, then unlock Frettly Pro
+with a one-time in-app purchase.
+
+Feedback
+
+If you have suggestions for improvements or new features, we’d love to
+hear from you. Feedback from guitarists will help shape future Frettly
+improvements.
+
+Email us at: hello@frettly.app
+
+Frettly – Help & Info
+
+Help & Info
+
+This section collects short guides to key parts of Frettly. Each topic
+focuses on a specific scenario or feature, with a screenshot showing
+what you can expect to see in the app.
+
+-   Getting started Creating your first document and fretboard
+
+-   Editing essentials Pro tips for editing in Frettly
+
+-   Document window overview An overview of the controls within the
+    document window
+
+-   Fretboard panels overview An overview of the controls within
+    fretboard panels
+
+-   Chord organiser panels overview An overview of the controls within
+    chord organiser panels
+
+-   Instruments and tunings An overview of the instruments Frettly
+    supports
+
+-   Settings Application wide settings within Frettly
+
+Getting Started with Frettly
+
+Getting started
+
+When you create a new document in Frettly, you’ll be asked to select an
+instrument type, its tuning, and whether you are right- or left-handed.
+
+The initial document settings dialog presented on creating a new
+document
+
+-   Select an instrument from: Guitar Guitar (Seven String) Banjo Banjo
+    (Four String) Bass Guitar Bass Guitar (Five String) Bass Guitar (Six
+    String) Mandolin Ukulele
+
+-   Guitar
+
+-   Guitar (Seven String)
+
+-   Banjo
+
+-   Banjo (Four String)
+
+-   Bass Guitar
+
+-   Bass Guitar (Five String)
+
+-   Bass Guitar (Six String)
+
+-   Mandolin
+
+-   Ukulele
+
+-   Select a tuning for that instrument - Frettly comes with multiple
+    instrument-specific tunings. Note that in the free version of
+    Frettly, the choice of tuning is limited to the standard tuning for
+    the selected instrument.
+
+-   By default, all fretboards are for right-handed players, with the
+    nut end on the left. Select “Left-handed” in the document’s settings
+    and all its fretboards will display with the nut end on the right.
+
+-   The defaulting to right-handed at document creation time can be
+    changed to left-handed in menubar Frettly -> Settings, Documents
+    tab.
+
+The instrument/tuning/handedness selections made when the document is
+created will determine the appearance and layout of all fretboards
+created within it, and will be re-applied when the document is reloaded.
+The selections made are summarised in the top left of the document
+window.
+
+Document title showing instrument and tuning
+
+However, you can change any of these choices later using the controls
+icon to the right of the instrument/tuning title at the top of the
+document. When you click “Apply”, all fretboards and chord organisers in
+the document update to match the new settings. For example: start with
+guitar, standard tuning, right-handed — then switch to a left-handed
+bass guitar with Drop D tuning, and all panels adjust automatically.
+
+Once you have made that selection and clicked “Apply”, you will be
+presented with your new but still empty document. Add a fretboard or
+chord organiser panel using the buttons in the new document welcome page
+or use the ‘Add Panel’ button in the top right of the document:
+
+Document controls showing “Add Panel”
+
+Selecting “Add Chord Organiser” will simply prompt you for the new
+panels title, whereas “Add Fretboard” will open the fretboard config
+dialog:
+
+Add fretboard dialog
+
+-   Select your fretboard’s “Content type” from Scale, Mode or Chord.
+
+-   Select the root note (P1) for the chosen content type.
+
+-   Select the pattern to be used for this fretboard.
+
+For the “Scale” content type, the available patterns are:
+
+-   Major
+
+-   Minor
+
+-   Melodic Minor
+
+-   Harmonic Minor
+
+-   Hungarian Major
+
+-   Hungarian Minor
+
+-   Byzantine
+
+-   Major Pentatonic
+
+-   Minor Pentatonic
+
+-   Major Blues
+
+-   Minor Blues
+
+-   Bebop Major
+
+-   Bebop Dominant
+
+-   Whole Tone
+
+-   Diminished (Half-Whole)
+
+-   Diminished (Whole-Half)
+
+-   Chromatic (all 12 notes)
+
+For the “Mode” content type, the available patterns are:
+
+-   Ionian
+
+-   Dorian
+
+-   Dorian♭2
+
+-   Phrygian
+
+-   Phrygian Dominant
+
+-   Lydian
+
+-   Lydian Dominant
+
+-   Lydian Augmented
+
+-   Mixolydian
+
+-   Mixolydian ♭6
+
+-   Aeolian
+
+-   Locrian
+
+-   Locrian
+
+-   Locrian ♯2
+
+-   Altered (Super Locrian)
+
+For the “Chord” content type, the available patterns are:
+
+-   maj
+
+-   m
+
+-   dim
+
+-   aug
+
+-   5
+
+-   sus2
+
+-   sus4
+
+-   add2
+
+-   madd2
+
+-   add9
+
+-   madd9
+
+-   add11
+
+-   6
+
+-   m6
+
+-   6/9
+
+-   m6/9
+
+-   dim6
+
+-   aug6
+
+-   7
+
+-   maj7
+
+-   m7
+
+-   m(maj7)
+
+-   7sus4
+
+-   7sus2
+
+-   m7b5
+
+-   dim7
+
+-   7#5
+
+-   7b5
+
+-   maj7#5
+
+-   9
+
+-   maj9
+
+-   m9
+
+-   9sus4
+
+-   7b9
+
+-   7#9
+
+-   m7(add11)
+
+-   m11
+
+-   11
+
+-   7#11
+
+-   maj7#11
+
+-   7add13
+
+-   13
+
+-   maj13
+
+-   min13
+
+-   13sus4
+
+-   13b9
+
+-   13#11
+
+Once your fretboard is created, you can others or mix them with chord
+organiser panels. All the fretboards and chord organisers you create are
+stored in the current document. Open it tomorrow and they’ll still be
+there waiting for you.
+
+Create a document for individual instruments or tunings, or for multiple
+lessons or projects for just one. How you organise your documents is
+entirely up to you!
+
+Frettly – Instruments and tunings
+
+Instruments and tunings
+
+Frettly can display scales, chords, and modes — and the notes within
+them — across the fretboards of different instrument types, each of
+which includes multiple tunings. When you click a note or interval on
+the fretboard, Frettly plays the note pitch-perfect, in the octave and
+string position you clicked, using instrument-specific samples.
+
+-   Guitar (six-string) Standard (E, A, D, G, B, E) Celtic (D, A, D, G,
+    A, D) Dobro (G, B, D, G, B, D) Asus4 (E, A, D, E, A, E) Half-step
+    down (Eb, Ab, Db, Gb, Bb, Eb) B modal (B, F#, C#, F#, B, D#) Full
+    step down (D, G, C, F, A, D) 1.5 steps down (Db, Gb, B, E, Ab, Db)
+    Two steps down (C, F, Bb, Eb, G, C) Baritone (B, E, A, D, F#, B)
+    Drop D (D, A, D, G, B, E) Drop C# (C#, G#, C#, F#, A#, D#) Drop C
+    (C, G, C, F, A, D) Drop B (B, F#, B, E, G#, C#) Drop A# (A#, F, A#,
+    D#, G, C) Drop A (A, E, A, D, F#, B) Drop G# (G#, D#, G#, C#, F, A#)
+    Drop E (E, B, E, A, C#, F#) Double drop D (D, A, D, G, B, D) Double
+    drop C# (C#, G#, C#, F#, A#, C#) Double drop C (C, G, C, F, A, C)
+    Double drop B (B, F#, B, E, G#, B) Double drop A# (Bb, F, Bb, Eb, G,
+    Bb) Double drop A (A, E, A, D, F#, A) Cross note C (C, G, C, G, C,
+    Eb) Cross note D (D, A, D, F, A, D) Cross note E (E, B, E, G, B, E)
+    Cross note F (F, Ab, C, F, C, F) Cross note G (D, G, D, G, Bb, D)
+    Cross note A (E, A, E, A, C, E) Open A (E, A, C#, E, A, E) Open B
+    (B, F#, B, F#, B, D#) Open C (C, G, C, G, C, E) Open D (D, A, D, F#,
+    A, D) Open E (E, B, E, G#, B, E) Open F (F, A, C, F, C, F) Open G
+    (D, G, D, G, B, D) Math rock (F, A, C, G, C, E)
+
+Guitar (six-string)
+
+-   Standard (E, A, D, G, B, E)
+
+-   Celtic (D, A, D, G, A, D)
+
+-   Dobro (G, B, D, G, B, D)
+
+-   Asus4 (E, A, D, E, A, E)
+
+-   Half-step down (Eb, Ab, Db, Gb, Bb, Eb)
+
+-   B modal (B, F#, C#, F#, B, D#)
+
+-   Full step down (D, G, C, F, A, D)
+
+-   1.5 steps down (Db, Gb, B, E, Ab, Db)
+
+-   Two steps down (C, F, Bb, Eb, G, C)
+
+-   Baritone (B, E, A, D, F#, B)
+
+-   Drop D (D, A, D, G, B, E)
+
+-   Drop C# (C#, G#, C#, F#, A#, D#)
+
+-   Drop C (C, G, C, F, A, D)
+
+-   Drop B (B, F#, B, E, G#, C#)
+
+-   Drop A# (A#, F, A#, D#, G, C)
+
+-   Drop A (A, E, A, D, F#, B)
+
+-   Drop G# (G#, D#, G#, C#, F, A#)
+
+-   Drop E (E, B, E, A, C#, F#)
+
+-   Double drop D (D, A, D, G, B, D)
+
+-   Double drop C# (C#, G#, C#, F#, A#, C#)
+
+-   Double drop C (C, G, C, F, A, C)
+
+-   Double drop B (B, F#, B, E, G#, B)
+
+-   Double drop A# (Bb, F, Bb, Eb, G, Bb)
+
+-   Double drop A (A, E, A, D, F#, A)
+
+-   Cross note C (C, G, C, G, C, Eb)
+
+-   Cross note D (D, A, D, F, A, D)
+
+-   Cross note E (E, B, E, G, B, E)
+
+-   Cross note F (F, Ab, C, F, C, F)
+
+-   Cross note G (D, G, D, G, Bb, D)
+
+-   Cross note A (E, A, E, A, C, E)
+
+-   Open A (E, A, C#, E, A, E)
+
+-   Open B (B, F#, B, F#, B, D#)
+
+-   Open C (C, G, C, G, C, E)
+
+-   Open D (D, A, D, F#, A, D)
+
+-   Open E (E, B, E, G#, B, E)
+
+-   Open F (F, A, C, F, C, F)
+
+-   Open G (D, G, D, G, B, D)
+
+-   Math rock (F, A, C, G, C, E)
+
+-   Guitar (seven-string) Standard (B, E, A, D, G, B, E) Drop A (A, E,
+    A, D, G, B, E) High A (E, A, D, G, B, E, A) A standard (A, D, G, C,
+    F, A, D)
+
+Guitar (seven-string)
+
+-   Standard (B, E, A, D, G, B, E)
+
+-   Drop A (A, E, A, D, G, B, E)
+
+-   High A (E, A, D, G, B, E, A)
+
+-   A standard (A, D, G, C, F, A, D)
+
+-   Banjo (five-string) Standard G (G, D, G, B, D) Double C (G, C, G,
+    C, D) Sawmill / Mountain minor (G, D, G, C, D) Open D (F#, D, F#,
+    A, D) C tuning (G, C, G, B, D)
+
+Banjo (five-string)
+
+-   Standard G (G, D, G, B, D)
+
+-   Double C (G, C, G, C, D)
+
+-   Sawmill / Mountain minor (G, D, G, C, D)
+
+-   Open D (F#, D, F#, A, D)
+
+-   C tuning (G, C, G, B, D)
+
+-   Banjo (four-string) Tenor tuning (C, G, D, A) Irish tuning (G, D,
+    A, E) Chicago tuning (D, G, B, E) Plectrum tuning (C, G, B, D)
+
+Banjo (four-string)
+
+-   Tenor tuning (C, G, D, A)
+
+-   Irish tuning (G, D, A, E)
+
+-   Chicago tuning (D, G, B, E)
+
+-   Plectrum tuning (C, G, B, D)
+
+-   Bass guitar (four-string) Standard (E, A, D, G) Half-step down (Eb,
+    Ab, Db, Gb) Full step down (D, G, C, F) 1.5 steps down (Db, Gb,
+    B, E) Two steps down (C, F, Bb, Eb) Drop D (D, A, D, G) Drop C# (C#,
+    G#, C#, F#) Drop C (C, G, C, F) Drop B (B, F#, B, E) Drop A# (Bb, F,
+    Bb, Eb) Drop A (A, E, A, D)
+
+Bass guitar (four-string)
+
+-   Standard (E, A, D, G)
+
+-   Half-step down (Eb, Ab, Db, Gb)
+
+-   Full step down (D, G, C, F)
+
+-   1.5 steps down (Db, Gb, B, E)
+
+-   Two steps down (C, F, Bb, Eb)
+
+-   Drop D (D, A, D, G)
+
+-   Drop C# (C#, G#, C#, F#)
+
+-   Drop C (C, G, C, F)
+
+-   Drop B (B, F#, B, E)
+
+-   Drop A# (Bb, F, Bb, Eb)
+
+-   Drop A (A, E, A, D)
+
+-   Bass guitar (five-string) Standard (B, E, A, D, G) High C (E, A, D,
+    G, C) Drop A (A, E, A, D, G) Whole step down (A, D, G, C, F)
+
+Bass guitar (five-string)
+
+-   Standard (B, E, A, D, G)
+
+-   High C (E, A, D, G, C)
+
+-   Drop A (A, E, A, D, G)
+
+-   Whole step down (A, D, G, C, F)
+
+-   Mandolin Standard (G, D, A, E) Cross G (G, D, G, D) Old-time (A, D,
+    A, E) Fiddle cross (A, E, A, E) Open G (G, D, G, B) Open D (D, A, D,
+    F#) Open A (A, E, A, C#) Lowered F (F, C, G, D) Lowered E (E, B, F#,
+    C#)
+
+Mandolin
+
+-   Standard (G, D, A, E)
+
+-   Cross G (G, D, G, D)
+
+-   Old-time (A, D, A, E)
+
+-   Fiddle cross (A, E, A, E)
+
+-   Open G (G, D, G, B)
+
+-   Open D (D, A, D, F#)
+
+-   Open A (A, E, A, C#)
+
+-   Lowered F (F, C, G, D)
+
+-   Lowered E (E, B, F#, C#)
+
+-   Ukulele Standard (G, C, E, A) Baritone (D, G, B, E) Open G (G, B,
+    D, G) Open A (A, C, E, A) Open D (D, A, D, F#) Open C (C, G, C, E)
+    Low A (A, C, E, A) Low G (G, C, E, A) D tuning (A, D, F#, B) Slack
+    key D (D, A, D, A)
+
+Ukulele
+
+-   Standard (G, C, E, A)
+
+-   Baritone (D, G, B, E)
+
+-   Open G (G, B, D, G)
+
+-   Open A (A, C, E, A)
+
+-   Open D (D, A, D, F#)
+
+-   Open C (C, G, C, E)
+
+-   Low A (A, C, E, A)
+
+-   Low G (G, C, E, A)
+
+-   D tuning (A, D, F#, B)
+
+-   Slack key D (D, A, D, A)
+
+-   Is your favourite tuning missing? Drop us a line and we’ll add it to
+    the next release of Frettly: hello@frettly.app
+
+Is your favourite tuning missing? Drop us a line and we’ll add it to the
+next release of Frettly:
+
+Frettly – Document window overview
+
+Document window overview
+
+Frettly is built around the macOS document model — similar to Pages.
+Rather than showing a single fretboard that resets each time the app is
+opened, Frettly lets you create documents and collect your chosen
+fretboards inside them.
+
+These document files become your notebooks for learning, projects, and
+discovery: collect the blues scales you want to learn, the minor chords
+you want to practise, and so on. Because Frettly uses documents, they
+can be moved, duplicated, shared, and even reverted using Time Machine.
+
+If you create two documents — one for guitar and the other for bass —
+you can switch between them and Frettly will play notes using each
+document’s configured instrument. Don’t forget to explore the macOS menu
+bar’s File menu.
+
+-   Document level controls The controls in the top-right of a document
+    window affect Frettly’s overall behaviour and display throughout the
+    current document, while fretboard controls are shown per fretboard.
+    Frettly document-level controls From left to right, the highlighted
+    controls are described below.
+
+Document level controls
+
+The controls in the top-right of a document window affect Frettly’s
+overall behaviour and display throughout the current document, while
+fretboard controls are shown per fretboard.
+
+Frettly document-level controls
+
+From left to right, the highlighted controls are described below.
+
+-   Play mode Frettly has three different ways of playing notes you
+    click within fretboards: Sustained play — each clicked note plays
+    for a few seconds before fading. Multiple notes can be played in
+    quick succession to get a feel for how they sound together, helping
+    you hear the relationship between intervals. Single play — click and
+    hold to hear a note; on release, the note stops. This mode lets you
+    train your ear to a single note or interval without other notes
+    ringing. Pattern play — click the root note of a pattern and Frettly
+    plays the notes in that fretboard’s pattern along the string. For a
+    scale, you will hear seven notes (assuming you have not hidden any —
+    see the fretboard help for hiding notes). For a chord, Frettly plays
+    the chord tones in sequence (again, assuming none are hidden), then
+    finishes with a strum of all notes. So assuming the chord is Emaj
+    and you click the E on the nut of string 6, the sequence you hear
+    will start with that E, followed by the G# on fret 4 and B on fret
+    7, of the same string, followed by a strum of those three together.
+    The strum is not intended to represent a specific chord
+    voicing/fingering, as no fingering is determined. To hear actual
+    voicings strummed, see chord organisers.
+
+Play mode
+
+Frettly has three different ways of playing notes you click within
+fretboards:
+
+-   Sustained play — each clicked note plays for a few seconds before
+    fading. Multiple notes can be played in quick succession to get a
+    feel for how they sound together, helping you hear the relationship
+    between intervals.
+
+-   Single play — click and hold to hear a note; on release, the note
+    stops. This mode lets you train your ear to a single note or
+    interval without other notes ringing.
+
+-   Pattern play — click the root note of a pattern and Frettly plays
+    the notes in that fretboard’s pattern along the string. For a scale,
+    you will hear seven notes (assuming you have not hidden any — see
+    the fretboard help for hiding notes). For a chord, Frettly plays the
+    chord tones in sequence (again, assuming none are hidden), then
+    finishes with a strum of all notes. So assuming the chord is Emaj
+    and you click the E on the nut of string 6, the sequence you hear
+    will start with that E, followed by the G# on fret 4 and B on fret
+    7, of the same string, followed by a strum of those three together.
+    The strum is not intended to represent a specific chord
+    voicing/fingering, as no fingering is determined. To hear actual
+    voicings strummed, see chord organisers.
+
+-   Jump to current panel When you click the title of a panel, it
+    becomes the currently focused one. The Up and Down arrow keys move
+    that focus up and down, one panel at a time. Focus is primarily a
+    navigational aid: controls (and notes) across all fretboards and
+    chord organisers remain usable, regardless of which one is currently
+    focused. Focus can be especially useful in documents with many
+    panels. For example, you might keep focus on a “primary” scale and
+    quickly return to it from anywhere in the document. “Jump to current
+    panel” takes you straight back to the last panel you selected.
+
+Jump to current panel
+
+When you click the title of a panel, it becomes the currently focused
+one. The Up and Down arrow keys move that focus up and down, one panel
+at a time. Focus is primarily a navigational aid: controls (and notes)
+across all fretboards and chord organisers remain usable, regardless of
+which one is currently focused.
+
+Focus can be especially useful in documents with many panels. For
+example, you might keep focus on a “primary” scale and quickly return to
+it from anywhere in the document. “Jump to current panel” takes you
+straight back to the last panel you selected.
+
+-   Arrange panels The “Arrange panels” button opens a dialog where you
+    can manage panel order and navigation. You will notice that in the
+    document, each panel has a number in its title area. After moving a
+    panel, its number will change as the numbering is always sequential
+    within the document. Those numbers show you a panel’s relative
+    position in the document. Arrange panels dialog Reorder panels: you
+    can rearrange the order of panels in one of two ways within the
+    dialog: either drag and drop the row representing a panel, or use
+    the Up/Down chevron buttons. The order you choose becomes effective
+    when you click “Save”. The list of panels will show the current
+    numeric position of each in the document, even after a panel is
+    moved. It’s new position does not come into effect until you select
+    “Save”. Set focus: each row has a radio button selector. Choose one
+    and, when you click “Apply”, that panel becomes the focused panel
+    and is brought into view. Preview panels: you can also sample
+    fretboard panels quickly using “Pattern play”, without needing to
+    scroll to each one in the document. An alternative to using the
+    “Arrange panels” dialog to re-arrange panels, is to drag a panel in
+    the document using its title area, showing a three bar drag handle
+    to remind you. Draggable fretboard title Click and hold anywhere in
+    the title area and drag it into its intended position (while
+    dragging you should see a snaphot of just the title being dragged).
+    A blue highlight line will appear while dragging to show you where
+    the dropped panel will be inserted.
+
+Arrange panels
+
+The “Arrange panels” button opens a dialog where you can manage panel
+order and navigation. You will notice that in the document, each panel
+has a number in its title area. After moving a panel, its number will
+change as the numbering is always sequential within the document. Those
+numbers show you a panel’s relative position in the document.
+
+Arrange panels dialog
+
+Reorder panels: you can rearrange the order of panels in one of two ways
+within the dialog: either drag and drop the row representing a panel, or
+use the Up/Down chevron buttons. The order you choose becomes effective
+when you click “Save”. The list of panels will show the current numeric
+position of each in the document, even after a panel is moved. It’s new
+position does not come into effect until you select “Save”.
+
+Set focus: each row has a radio button selector. Choose one and, when
+you click “Apply”, that panel becomes the focused panel and is brought
+into view.
+
+Preview panels: you can also sample fretboard panels quickly using
+“Pattern play”, without needing to scroll to each one in the document.
+
+An alternative to using the “Arrange panels” dialog to re-arrange
+panels, is to drag a panel in the document using its title area, showing
+a three bar drag handle to remind you.
+
+Draggable fretboard title
+
+Click and hold anywhere in the title area and drag it into its intended
+position (while dragging you should see a snaphot of just the title
+being dragged). A blue highlight line will appear while dragging to show
+you where the dropped panel will be inserted.
+
+-   Add Panel Mentioned in the “Getting started” section of this site,
+    the “Add panel” button opens an inline menu offering the choice of
+    “Add Fretboard” and “Add Chord Organiser”. When adding a chord
+    organiser you will simply be prompted for the title of that new
+    panel only, but on adding a fretboard panel you will be presented
+    with a dialog where you choose a content type (scale/mode/chord), a
+    root note, and a pattern for the new fretboard panel. A fretboard
+    panel’s title will always describe those choices and is not
+    editable. Add fretboard dialog
+
+Add Panel
+
+Mentioned in the “Getting started” section of this site, the “Add panel”
+button opens an inline menu offering the choice of “Add Fretboard” and
+“Add Chord Organiser”. When adding a chord organiser you will simply be
+prompted for the title of that new panel only, but on adding a fretboard
+panel you will be presented with a dialog where you choose a content
+type (scale/mode/chord), a root note, and a pattern for the new
+fretboard panel. A fretboard panel’s title will always describe those
+choices and is not editable.
+
+Add fretboard dialog
+
+-   Help The Help button opens Frettly’s lightweight in-app help dialog.
+    The macOS menu bar “Help” → “Frettly Help” opens the content you are
+    reading right now in your browser.
+
+Help
+
+The Help button opens Frettly’s lightweight in-app help dialog. The
+macOS menu bar “Help” → “Frettly Help” opens the content you are reading
+right now in your browser.
+
+Fretboard Panels in Frettly
+
+Fretboard panels overview
+
+Frettly is designed as a macOS document-based application. Rather than
+showing a single fretboard that resets the next time the app is opened,
+Frettly lets you collect many fretboards within each document.
+
+-   Remember: all scales and chords shown by panels within the same
+    document use that document’s current instrument, tuning, and
+    handedness. You can create multiple documents, each for a different
+    instrument or tuning, or create hundreds of documents all for the
+    same instrument.
+
+-   New fretboards or chord organisers are added to the bottom of the
+    document. You can reorder them by dragging and dropping a panel
+    before or after another, or by using the document’s “Arrange panels”
+    sheet.
+
+-   Zoom panels within a document using the standard macOS ⌘+ and ⌘-
+    shortcuts, pinch to zoom on the trackpad, menu options under “View”,
+    or the zoom controls at the top of each document.
+
+-   If a fretboard extends off-screen horizontally, scroll it left and
+    right with your trackpad or mouse to bring hidden sections into
+    view.
+
+-   Clicking the title of a panel makes it the currently focused panel
+    for navigation. The Up and Down arrow keys move the focus while
+    bringing the newly focused panel into view.
+
+-   Fretboard configuration To edit the type, root, or pattern of a
+    fretboard, click the configuration icon to the right of the panel
+    title to open its edit sheet. Fretboard controls (top left)
+    Right-clicking the fretboard title reveals a context menu with two
+    extra options. The first duplicates the current fretboard in its
+    entirety, including its notepad and marking groups. The second
+    deletes the fretboard, which can also be done by clicking the title
+    to bring focus to it and pressing the Delete key. Fretboard title
+    context menu
+
+Fretboard configuration
+
+To edit the type, root, or pattern of a fretboard, click the
+configuration icon to the right of the panel title to open its edit
+sheet.
+
+Fretboard controls (top left)
+
+Right-clicking the fretboard title reveals a context menu with two extra
+options. The first duplicates the current fretboard in its entirety,
+including its notepad and marking groups. The second deletes the
+fretboard, which can also be done by clicking the title to bring focus
+to it and pressing the Delete key.
+
+Fretboard title context menu
+
+-   Scale Harmony sheet For fretboards with a content type of Scale or
+    Mode that supports diatonic chord derivation—that is, heptatonic
+    patterns—the button to the right of the configuration icon opens a
+    sheet showing the diatonic chords in that key. This single sheet is
+    a nexus for useful scale-related actions, as they all pivot on the
+    chords derived from a scale. Scale Harmony sheet By default, the
+    triad notes are shown for each diatonic chord. Each chord can be
+    previewed using the play button to hear it strummed. The voicing
+    used is the first resolved voicing that would be shown for that
+    chord in a chord organiser. Switch the derived chords to tetrads
+    using the “Chord type” control at the top right. All chords derived
+    from the scale are shown by default, but the “Progression” picker at
+    the top allows you to filter and rearrange the chords using a
+    selection of progressions: All chords 3-chord (I-IV-V) Pop
+    (I-V-vi-IV) Jazz cadence (ii-V-I) Turnaround (I-vi-ii-V) Jazz
+    turnaround (vi-ii-V-I) Circle sequence (iii-vi-ii-V) Pop variant
+    (vi-IV-I-V) 50s progression (I-vi-IV-V) Canon (I-V-vi-iii-IV-I-IV-V)
+    Minor cadence (I-IV-V) Minor pop (I-vi-iii-vii°) This sheet has a
+    help feature which, when selected, slides out a side panel
+    explaining how each chord in the list has been derived from its
+    parent scale and key. A fretboard panel can be created from each of
+    the chords individually. The “Create Chord Organiser” button creates
+    a new panel below the parent fretboard panel, containing a chord
+    card for each of the chords shown, in the order in which they
+    appear. These may be all of the default diatonic chords derived from
+    the scale, or only the chords from a selected progression. Each
+    fretboard panel has up to nine marking groups, described below,
+    which can be used to focus on only the notes that you have marked
+    across the fretboard. “Replace Marked Groups” replaces any markings
+    you have made in those groups with markings for the notes within
+    these chords, and renames each marking group to match its chord.
+
+Scale Harmony sheet
+
+For fretboards with a content type of Scale or Mode that supports
+diatonic chord derivation—that is, heptatonic patterns—the button to the
+right of the configuration icon opens a sheet showing the diatonic
+chords in that key. This single sheet is a nexus for useful
+scale-related actions, as they all pivot on the chords derived from a
+scale.
+
+Scale Harmony sheet
+
+By default, the triad notes are shown for each diatonic chord. Each
+chord can be previewed using the play button to hear it strummed. The
+voicing used is the first resolved voicing that would be shown for that
+chord in a chord organiser.
+
+Switch the derived chords to tetrads using the “Chord type” control at
+the top right.
+
+All chords derived from the scale are shown by default, but the
+“Progression” picker at the top allows you to filter and rearrange the
+chords using a selection of progressions:
+
+-   All chords
+
+-   3-chord (I-IV-V)
+
+-   Pop (I-V-vi-IV)
+
+-   Jazz cadence (ii-V-I)
+
+-   Turnaround (I-vi-ii-V)
+
+-   Jazz turnaround (vi-ii-V-I)
+
+-   Circle sequence (iii-vi-ii-V)
+
+-   Pop variant (vi-IV-I-V)
+
+-   50s progression (I-vi-IV-V)
+
+-   Canon (I-V-vi-iii-IV-I-IV-V)
+
+-   Minor cadence (I-IV-V)
+
+-   Minor pop (I-vi-iii-vii°)
+
+This sheet has a help feature which, when selected, slides out a side
+panel explaining how each chord in the list has been derived from its
+parent scale and key.
+
+A fretboard panel can be created from each of the chords individually.
+
+The “Create Chord Organiser” button creates a new panel below the parent
+fretboard panel, containing a chord card for each of the chords shown,
+in the order in which they appear. These may be all of the default
+diatonic chords derived from the scale, or only the chords from a
+selected progression.
+
+Each fretboard panel has up to nine marking groups, described below,
+which can be used to focus on only the notes that you have marked across
+the fretboard. “Replace Marked Groups” replaces any markings you have
+made in those groups with markings for the notes within these chords,
+and renames each marking group to match its chord.
+
+-   Fretboard string controls To the left of each fretboard, regardless
+    of its handedness, are small toggle buttons aligned with the
+    strings. These can be used to hide all of the notes on individual
+    instrument strings, allowing you to focus your learning on one or
+    two strings without being distracted by notes on the other strings.
+    Fretboard string controls, defaulted Once one or more strings have
+    been hidden, a reset button below the string controls is enabled.
+    This resets all strings in the current fretboard to be visible
+    again. Alternatively, you can toggle them back on individually.
+    Fretboard string controls, after selections Paired with selectively
+    hiding notes using the note or interval chips, described in the
+    following section, and using the marking groups described later,
+    these controls enable you to create customised views of the notes
+    across a fretboard.
+
+Fretboard string controls
+
+To the left of each fretboard, regardless of its handedness, are small
+toggle buttons aligned with the strings. These can be used to hide all
+of the notes on individual instrument strings, allowing you to focus
+your learning on one or two strings without being distracted by notes on
+the other strings.
+
+Fretboard string controls, defaulted
+
+Once one or more strings have been hidden, a reset button below the
+string controls is enabled. This resets all strings in the current
+fretboard to be visible again. Alternatively, you can toggle them back
+on individually.
+
+Fretboard string controls, after selections
+
+Paired with selectively hiding notes using the note or interval chips,
+described in the following section, and using the marking groups
+described later, these controls enable you to create customised views of
+the notes across a fretboard.
+
+-   Fretboard note/interval chips The notes in each fretboard’s scale,
+    mode, or chord are shown as chips at the top of the panel: Fretboard
+    note and interval chips Each chip shows a note and its interval
+    within the pattern, using the following notations: P1 — Perfect
+    unison (root) m2 — Minor second M2 — Major second m3 — Minor third
+    M3 — Major third P4 — Perfect fourth d5 — Diminished fifth A4 —
+    Augmented fourth P5 — Perfect fifth A5 — Augmented fifth m6 — Minor
+    sixth M6 — Major sixth d7 — Diminished seventh m7 — Minor seventh M7
+    — Major seventh P8 — Perfect octave m9 — Minor ninth M9 — Major
+    ninth m10 — Minor tenth M10 — Major tenth P11 — Perfect eleventh A11
+    — Augmented eleventh P12 — Perfect twelfth m13 — Minor thirteenth
+    M13 — Major thirteenth Hovering over a chip highlights that note or
+    interval across the fretboard. Clicking a chip toggles that note or
+    interval between visible and hidden across the fretboard: Example of
+    hidden notes Note: all notes can be re-enabled using the reset icon
+    to the right of the chips. Note: hidden notes are not played when
+    using “Pattern play”.
+
+Fretboard note/interval chips
+
+The notes in each fretboard’s scale, mode, or chord are shown as chips
+at the top of the panel:
+
+Fretboard note and interval chips
+
+Each chip shows a note and its interval within the pattern, using the
+following notations:
+
+-   P1 — Perfect unison (root)
+
+-   m2 — Minor second
+
+-   M2 — Major second
+
+-   m3 — Minor third
+
+-   M3 — Major third
+
+-   P4 — Perfect fourth
+
+-   d5 — Diminished fifth
+
+-   A4 — Augmented fourth
+
+-   P5 — Perfect fifth
+
+-   A5 — Augmented fifth
+
+-   m6 — Minor sixth
+
+-   M6 — Major sixth
+
+-   d7 — Diminished seventh
+
+-   m7 — Minor seventh
+
+-   M7 — Major seventh
+
+-   P8 — Perfect octave
+
+-   m9 — Minor ninth
+
+-   M9 — Major ninth
+
+-   m10 — Minor tenth
+
+-   M10 — Major tenth
+
+-   P11 — Perfect eleventh
+
+-   A11 — Augmented eleventh
+
+-   P12 — Perfect twelfth
+
+-   m13 — Minor thirteenth
+
+-   M13 — Major thirteenth
+
+Hovering over a chip highlights that note or interval across the
+fretboard.
+
+Clicking a chip toggles that note or interval between visible and hidden
+across the fretboard:
+
+Example of hidden notes
+
+Note: all notes can be re-enabled using the reset icon to the right of
+the chips.
+
+Note: hidden notes are not played when using “Pattern play”.
+
+-   Fretboard controls – marking To the right of the chips is a bank of
+    additional fretboard controls. The first group of three buttons
+    relates to marking notes. The notes can be manually marked
+    individually, be marked due to their visibility (see note/interval
+    chips and string controls) or be marked by the Scale Harmony sheet.
+    There is a lot of flexibility and functionality in the marking
+    system, and the number of controls has been designed to be minimal,
+    rather than have a multitude of similar but confusing controls. But
+    it does mean that some experimentation is required in order to work
+    out its subtleties and how it might work best for your usage.
+    Fretboard controls (top right) You can mark individual notes on a
+    fretboard. Marked notes are highlighted with a green dashed circle.
+    Frettly supports up to nine marking groups and defaults to using
+    group one, indicated to the left of the marking controls. The
+    current group can be changed using the up and down controls.
+    Clicking the group’s label opens a pop-up sheet that allows the
+    label to be edited. To enable marking, click the first button,
+    showing the marker pen. When marking is on, the button turns yellow.
+    Click any note to toggle its mark. The marker button also shows how
+    many notes are marked in the current group, including notes that may
+    be off-screen. Fretboard in marking mode While marking is enabled,
+    clicking notes only marks or unmarks them. The usual play
+    interactions are paused until you turn marking off. Click the marker
+    pen again to return to normal fretboard mode. Your chosen document
+    play mode then applies as usual, and any marked notes remain visible
+    alongside unmarked notes. To mark every occurrence of one or more
+    notes across the fretboard, use a combination of hiding notes with
+    the note chips at the top of the fretboard and hiding entire strings
+    with the left-hand string controls. Then right-click the marker pen
+    button and select either “Mark all shown notes” or “Unmark all shown
+    notes”. Fretboard marking context menu The second button erases all
+    marks within the current marking group. The erasure can be undone
+    using Undo (⌘Z). Right-clicking the erase button reveals a context
+    menu offering two options. The first erases the current group’s
+    markings, and the second erases the markings from all nine groups.
+    Fretboard marking erasure context menu The third button is “View
+    marked notes”. This toggles the fretboard’s display between marked
+    notes only and all notes. This allows you to focus on a particular
+    section or sequence of notes on the fretboard. When “View marked
+    notes” is enabled, the button is coloured yellow. When it is not
+    enabled but the current group contains marks, it has a yellow
+    outline to remind you that the group has marks which can be viewed
+    in isolation. Fretboard showing only marked notes Scale Harmony
+    marked chords The Scale Harmony sheet launched from a fretboard
+    offers the option to “Replace Marked Groups” with groups constructed
+    from the chords shown in Scale Harmony. For example, it can mark
+    every occurrence of the notes C, E, and G for a Cmaj chord, and
+    label that group “Cmaj”. When marking groups have been set up in
+    this way, their marks cannot be edited: you cannot add or remove
+    marks. This ensures that a marking group labelled as representing a
+    chord remains accurate. You cannot edit the title of such a group
+    either. To reclaim a chord-based marking group, erase it, after
+    which it reverts to being an ordinary marking group. When might you
+    want to use marked notes and view only marked notes? Perhaps when
+    you want to focus on a specific chord fingering, or break down a
+    scale into playable positions along the fretboard, as is commonly
+    done for pentatonic scales: Viewing marked notes on a fretboard
+
+Fretboard controls – marking
+
+To the right of the chips is a bank of additional fretboard controls.
+The first group of three buttons relates to marking notes.
+
+The notes can be manually marked individually, be marked due to their
+visibility (see note/interval chips and string controls) or be marked by
+the Scale Harmony sheet. There is a lot of flexibility and functionality
+in the marking system, and the number of controls has been designed to
+be minimal, rather than have a multitude of similar but confusing
+controls. But it does mean that some experimentation is required in
+order to work out its subtleties and how it might work best for your
+usage.
+
+Fretboard controls (top right)
+
+You can mark individual notes on a fretboard. Marked notes are
+highlighted with a green dashed circle.
+
+Frettly supports up to nine marking groups and defaults to using group
+one, indicated to the left of the marking controls. The current group
+can be changed using the up and down controls. Clicking the group’s
+label opens a pop-up sheet that allows the label to be edited.
+
+To enable marking, click the first button, showing the marker pen. When
+marking is on, the button turns yellow. Click any note to toggle its
+mark. The marker button also shows how many notes are marked in the
+current group, including notes that may be off-screen.
+
+Fretboard in marking mode
+
+While marking is enabled, clicking notes only marks or unmarks them. The
+usual play interactions are paused until you turn marking off. Click the
+marker pen again to return to normal fretboard mode. Your chosen
+document play mode then applies as usual, and any marked notes remain
+visible alongside unmarked notes.
+
+To mark every occurrence of one or more notes across the fretboard, use
+a combination of hiding notes with the note chips at the top of the
+fretboard and hiding entire strings with the left-hand string controls.
+Then right-click the marker pen button and select either “Mark all shown
+notes” or “Unmark all shown notes”.
+
+Fretboard marking context menu
+
+The second button erases all marks within the current marking group. The
+erasure can be undone using Undo (⌘Z).
+
+Right-clicking the erase button reveals a context menu offering two
+options. The first erases the current group’s markings, and the second
+erases the markings from all nine groups.
+
+Fretboard marking erasure context menu
+
+The third button is “View marked notes”. This toggles the fretboard’s
+display between marked notes only and all notes. This allows you to
+focus on a particular section or sequence of notes on the fretboard.
+
+When “View marked notes” is enabled, the button is coloured yellow. When
+it is not enabled but the current group contains marks, it has a yellow
+outline to remind you that the group has marks which can be viewed in
+isolation.
+
+Fretboard showing only marked notes
+
+Scale Harmony marked chords
+
+The Scale Harmony sheet launched from a fretboard offers the option to
+“Replace Marked Groups” with groups constructed from the chords shown in
+Scale Harmony. For example, it can mark every occurrence of the notes C,
+E, and G for a Cmaj chord, and label that group “Cmaj”.
+
+When marking groups have been set up in this way, their marks cannot be
+edited: you cannot add or remove marks. This ensures that a marking
+group labelled as representing a chord remains accurate. You cannot edit
+the title of such a group either. To reclaim a chord-based marking
+group, erase it, after which it reverts to being an ordinary marking
+group.
+
+When might you want to use marked notes and view only marked notes?
+Perhaps when you want to focus on a specific chord fingering, or break
+down a scale into playable positions along the fretboard, as is commonly
+done for pentatonic scales:
+
+Viewing marked notes on a fretboard
+
+-   Fretboard controls – notepad The fourth button is the notepad
+    control. A new fretboard starts with an empty notepad, so the button
+    appears plain. Clicking it toggles the notepad’s visibility. Once
+    the notepad contains text, the button turns yellow to remind you
+    that notes are present. Notepads are saved with their fretboards in
+    the Frettly document. Fretboard notepad
+
+Fretboard controls – notepad
+
+The fourth button is the notepad control. A new fretboard starts with an
+empty notepad, so the button appears plain. Clicking it toggles the
+notepad’s visibility. Once the notepad contains text, the button turns
+yellow to remind you that notes are present. Notepads are saved with
+their fretboards in the Frettly document.
+
+Fretboard notepad
+
+-   Fretboard controls – labelling mode The fifth button toggles between
+    viewing notes and viewing intervals. By default, fretboards show
+    note labels, and the tooltip shows the corresponding interval. When
+    you switch to interval labels, the tooltip text changes accordingly.
+    Fretboard showing note labels Fretboard showing interval labels
+
+Fretboard controls – labelling mode
+
+The fifth button toggles between viewing notes and viewing intervals. By
+default, fretboards show note labels, and the tooltip shows the
+corresponding interval. When you switch to interval labels, the tooltip
+text changes accordingly.
+
+Fretboard showing note labels
+
+Fretboard showing interval labels
+
+Chord organiser panels | Frettly Help
+
+Chord organiser panels overview
+
+Just as a Frettly document can contain many fretboard panels, it can
+also contain chord organiser panels mixed with those fretboard panels.
+Whereas a fretboard panel is configured to show a specific scale, mode
+or chord, and provides a configuration panel to change its nature, chord
+organisers are generic containers for chords - they can contain whatever
+chords you choose, up to a maximum of twelve.
+
+Just as fretboard panels can be dragged within the same or another
+document, so too can chord organiser panels. And just as a fretboard
+dragged or copy/pasted into another document, changes to show the new
+documents instrument and/or tuning, so too do chord organisers.
+
+-   Organiser configuration Chord organiser panels have an edit config
+    button, like fretboard panels, but the only thing that can be
+    changed is the panels title. Chord diagrams within an organiser also
+    have an edit config button, which opens an edit sheet within which
+    the chords root note and pattern can be modified.
+
+Organiser configuration
+
+-   Organiser panel controls Chord organiser panels have two controls on
+    their top right, similar to those in fretboard panels: Chord
+    organiser controls The first of those controls opens the ‘Add chord’
+    dialog, from where you choose the root note and pattern type for the
+    new chord: Chord organiser add chord dialog Only twelve chords can
+    be added per organiser panel - if more are needed, create another
+    chord organiser panel and place chords in that. The chord cards in
+    an organiser can be dragged from one organiser to another, and can
+    be copied and pasted. Click a chord cards title to give it focus,
+    then use ⌘C to copy it. Pasting with ⌘V will place the copy into a
+    focused organiser panel, or after whichever chord chip within an
+    organiser has the focus. The second control is the notepad button,
+    opening an editable area in which text can be added for the panel.
+    And like the fretboard panel notepad, it can then be hidden by
+    clicking the notepad button a second time.
+
+Organiser panel controls
+
+Chord organiser panels have two controls on their top right, similar to
+those in fretboard panels:
+
+Chord organiser controls
+
+The first of those controls opens the ‘Add chord’ dialog, from where you
+choose the root note and pattern type for the new chord:
+
+Chord organiser add chord dialog
+
+Only twelve chords can be added per organiser panel - if more are
+needed, create another chord organiser panel and place chords in that.
+The chord cards in an organiser can be dragged from one organiser to
+another, and can be copied and pasted. Click a chord cards title to give
+it focus, then use ⌘C to copy it. Pasting with ⌘V will place the copy
+into a focused organiser panel, or after whichever chord chip within an
+organiser has the focus.
+
+The second control is the notepad button, opening an editable area in
+which text can be added for the panel. And like the fretboard panel
+notepad, it can then be hidden by clicking the notepad button a second
+time.
+
+-   Organiser navigation Clicking the title of a fretboard panel gives
+    it the focus, and keyboard up/down navigation moves that focus to
+    adjacent panels. That focus can transfer to a chord organiser panel,
+    or it can be forced by clicking its title. Once a chord organiser
+    has the focus, pressing the right arrow key will move the focus to
+    the first chord diagram within it. Pressing the left arrow key
+    instead would move the focus to the last chord diagram. Subsequent
+    left/right key presses will move the focus as you would expect
+    amongst the diagrams. Clicking the diagram or pressing the space key
+    gives a preview of the focused chord. The speed of the strum can be
+    changed in the Chords tab in menu item “Frettly” → “Settings”.
+
+Organiser navigation
+
+Clicking the title of a fretboard panel gives it the focus, and keyboard
+up/down navigation moves that focus to adjacent panels. That focus can
+transfer to a chord organiser panel, or it can be forced by clicking its
+title.
+
+Once a chord organiser has the focus, pressing the right arrow key will
+move the focus to the first chord diagram within it. Pressing the left
+arrow key instead would move the focus to the last chord diagram.
+Subsequent left/right key presses will move the focus as you would
+expect amongst the diagrams.
+
+Clicking the diagram or pressing the space key gives a preview of the
+focused chord. The speed of the strum can be changed in the Chords tab
+in menu item “Frettly” → “Settings”.
+
+-   Organiser chord diagrams When Frettly calculates the chord voicings
+    shown in the diagrams within a chord organiser, it looks at all the
+    permutations of the chords notes across the entire fretboard and
+    runs each fingering through a complex scoring algorithm, trying to
+    determine the merits of each ie would it require too many fingers,
+    is the fret span too large, would fingers be too contorted etc as
+    well as ranking the permutations by their musical correctness. It
+    builds a list sorted by fret and ranked by what it considers to be
+    the playability of the voicing. The diagrams will default to showing
+    what Frettly considers to be the most appropriate voicing at the top
+    of the fretboard, and provides navigation controls within the chord
+    diagram to enable selection of alternative voicings. By default it
+    will filter out voicings containing inner muted strings, but if you
+    want those to be shown, there is an option to include them, within
+    the Chords tab in menu item “Frettly” → “Settings”. There are rare
+    chords which to be musically faithful would require more frets to be
+    fingered than are possible, and for those chords it will fallback to
+    selecting voicings which contain what are considered to be the most
+    important characteristics. i.e. it will sacrifice notes for
+    intervals which are considered to be less important than others.
+    When it does this it will display a yellow ‘i’ marker next to the
+    diagram, and clicking that will show which intervals have been
+    sacrificed.
+
+Organiser chord diagrams
+
+When Frettly calculates the chord voicings shown in the diagrams within
+a chord organiser, it looks at all the permutations of the chords notes
+across the entire fretboard and runs each fingering through a complex
+scoring algorithm, trying to determine the merits of each ie would it
+require too many fingers, is the fret span too large, would fingers be
+too contorted etc as well as ranking the permutations by their musical
+correctness. It builds a list sorted by fret and ranked by what it
+considers to be the playability of the voicing.
+
+The diagrams will default to showing what Frettly considers to be the
+most appropriate voicing at the top of the fretboard, and provides
+navigation controls within the chord diagram to enable selection of
+alternative voicings.
+
+By default it will filter out voicings containing inner muted strings,
+but if you want those to be shown, there is an option to include them,
+within the Chords tab in menu item “Frettly” → “Settings”.
+
+There are rare chords which to be musically faithful would require more
+frets to be fingered than are possible, and for those chords it will
+fallback to selecting voicings which contain what are considered to be
+the most important characteristics. i.e. it will sacrifice notes for
+intervals which are considered to be less important than others. When it
+does this it will display a yellow ‘i’ marker next to the diagram, and
+clicking that will show which intervals have been sacrificed.
+
+Editing Essentials in Frettly
+
+Editing Essentials
+
+Some of Frettly’s most useful features are not obvious and are not
+visible in its user interface. They are features you are already used to
+from applications such as Pages and Numbers, and might not expect to see
+in an app like Frettly, so it is worth calling them out and explaining
+them here.
+
+-   File Menu Frettly is a document based app like Pages. Just as you
+    create documents in Pages for specific purposes, Frettly documents
+    can each be tailored for a specific learning exercise or fretboard
+    exploration. One document might be for exploring blues scales,
+    another for pentatonic explorations. The ‘File’ item in Frettly’s
+    menu gives you access to standard macOS file related operations.
+    From this menu you may create new Frettly documents, open documents
+    etc as well as use the macOS document revision system to revert to a
+    previous version of your document.
+
+File Menu
+
+-   Edit Menu When a fretboard panel title area is clicked, that
+    fretboard becomes the current/focussed fretboard, and will be the
+    fretboard scrolled back to when the “Home” button is clicked. Use
+    keyboard up and down arrows to move the current focus. That
+    currently focussed fretboard will also be the target for the
+    Cut/Copy/Delete options in the Edit menu. A Cut or Delete of a
+    fretboard can be undone from the Edit menu using Undo and re-applied
+    with Redo. Marking of notes and selection of fretboard
+    notes/intervals using the centre top ‘chips’ can also be reverted or
+    re-applied using Undo/Redo The Select All menu command will only
+    work for text in fretboard noteboards ie it will not select all
+    fretboards. The combination of Edit menu commands
+    Cut/Copy/Paste/Delete/Undo/Redo provides a powerful way to edit and
+    manage fretboards within a document, and also across documents.
+
+Edit Menu
+
+-   Drag And Drop Fretboards, chord organisers (and the chord diagrams
+    within them) can be moved within a document by dragging them by
+    their drag handle/title area and dropping them in the upper or lower
+    half of another panel (which determines whether they will be moved
+    to before or after the fretboard they are dropped onto). A blue line
+    will appear confirming the drop location. The target fretboard needs
+    to be close when dragging like this, so with documents having many
+    fretboards, moving fretboards is easier with the “Arrange panels”
+    button in the document header.
+
+Drag And Drop
+
+-   Cross Document Editing Fretboards can also be dragged from one
+    Frettly document into another. When they are, the original fretboard
+    remains in the source document, and a copy is placed in the
+    destination document, following the pattern described above
+    (upper/lower half of a fretboard determining before/after). If the
+    destination document does not have any fretboards yet, simply drop
+    into the ‘Welcome to Frettly’ introductory text panel. Copy/Paste
+    between documents also works and is a useful way of replicating
+    fretboards, even when the two documents are for different
+    instruments/tunings - the fretboard added will automatically be
+    adjusted to show the same scale/chord but in the context of that
+    document’s instrument/tuning. Notepad text is copied across, as is
+    the nature of the scale/chord/mode. If the destination document’s
+    configuration (instrument/tuning) matches that of the source
+    document, then marked notes will also be copied, else they will be
+    cleared. ie Frettly will retain what makes sense in the fretboard
+    copy within the target document.
+
+Cross Document Editing
+
+-   View Menu The View menu item enables switching tabbed mode on/off.
+    When tabbed mode is on, it is possible to open multiple Frettly
+    documents within the same window, and switch between tabs using Ctrl
+    Tab. Copy/Paste of fretboards works within tabbed mode, just as it
+    does within separately windowed documents, but drag and drop cannot.
+
+View Menu
+
+Frettly Settings and Preferences
+
+Frettly Settings
+
+While each fretboard has controls within it which determine the
+characteristics of just that fretboard, and each document has document
+wide configuration (instrument, tuning and handedness) which apply to
+all of the fretboards within it, Frettly has application wide settings,
+found in menubar item “Frettly” -> “Settings”.
+
+Settings are divided into tabs: General - Miscellaneous settings
+Documents - Settings which affect document level functionality
+Instruments - Settings for Frettlys supported instruments Fretboards -
+Settings which affect fretboard level functionality Support - Help
+related
+
+-   General - Miscellaneous settings
+
+-   Documents - Settings which affect document level functionality
+
+-   Instruments - Settings for Frettlys supported instruments
+
+-   Fretboards - Settings which affect fretboard level functionality
+
+-   Support - Help related
+
+-   General On first installation, Frettly presents an introductory
+    welcome page, offering to create a new document, open an existing
+    one, or open the inbuilt example document. That welcome page can be
+    set to not re-appear on future application launch, but should you
+    wish to have it re-appear, the option is here. Frettly Settings -
+    General
+
+General
+
+-   On first installation, Frettly presents an introductory welcome
+    page, offering to create a new document, open an existing one, or
+    open the inbuilt example document. That welcome page can be set to
+    not re-appear on future application launch, but should you wish to
+    have it re-appear, the option is here.
+
+Frettly Settings - General
+
+-   Documents When creating a new document, you are prompted for
+    instrument, tuning and handedness , with the latter defaulting to
+    right-handed, favouring the majority of players. If you are in the
+    minority, set the default to be left-handed here. The play mode when
+    clicking fretboard notes has three settings, sustained, single or
+    pattern run. The default mode for new documents can be set in this
+    tab. The play mode can be changed within the document at any time
+    once it has at least one fretboard. Frettly Settings - Documents
+
+Documents
+
+-   When creating a new document, you are prompted for instrument,
+    tuning and handedness , with the latter defaulting to right-handed,
+    favouring the majority of players. If you are in the minority, set
+    the default to be left-handed here.
+
+-   The play mode when clicking fretboard notes has three settings,
+    sustained, single or pattern run. The default mode for new documents
+    can be set in this tab. The play mode can be changed within the
+    document at any time once it has at least one fretboard.
+
+Frettly Settings - Documents
+
+-   Instruments This section gives you control over the default maximum
+    number of frets Frettly uses for each instrument type. That means
+    fretboards can better reflect the instruments you actually play,
+    whether your guitar stops at 22 frets, your mandolin has a shorter
+    fingerboard, or your ukulele has a more compact range. Use the
+    sliders to choose the fret limit that best matches each of your own
+    instruments. Frettly will then use those values whenever it display
+    a fretboard in a document of that instrument type. Sliders shown in
+    grey indicate instruments using Frettly’s built-in defaults, while
+    blue sliders indicate an instrument is using a default override.
+    Frettly Settings - Instruments
+
+Instruments
+
+-   This section gives you control over the default maximum number of
+    frets Frettly uses for each instrument type. That means fretboards
+    can better reflect the instruments you actually play, whether your
+    guitar stops at 22 frets, your mandolin has a shorter fingerboard,
+    or your ukulele has a more compact range.
+
+-   Use the sliders to choose the fret limit that best matches each of
+    your own instruments. Frettly will then use those values whenever it
+    display a fretboard in a document of that instrument type. Sliders
+    shown in grey indicate instruments using Frettly’s built-in
+    defaults, while blue sliders indicate an instrument is using a
+    default override.
+
+Frettly Settings - Instruments
+
+-   Fretboards Background - choose here which wood graphic you would
+    like for all fretboards in all documents. The choice you make is
+    seen immediately in any open documents, so you can see the effect
+    straight away if you have open documents, but a preview is also
+    shown in the dialog. Note colours - depending on the background you
+    choose, you may like to choose darker/lighter or subdued/vibrant
+    colours for the notes and intervals shown in fretboards. Again, your
+    selection is instantly applied to open documents and a preview is
+    provided in the settings dialog. The two Mono themes provide
+    monochrome colouring for those who prefer uniform note colouring.
+    Frettly Settings - Fretboards
+
+Fretboards
+
+-   Background - choose here which wood graphic you would like for all
+    fretboards in all documents. The choice you make is seen immediately
+    in any open documents, so you can see the effect straight away if
+    you have open documents, but a preview is also shown in the dialog.
+
+-   Note colours - depending on the background you choose, you may like
+    to choose darker/lighter or subdued/vibrant colours for the notes
+    and intervals shown in fretboards. Again, your selection is
+    instantly applied to open documents and a preview is provided in the
+    settings dialog. The two Mono themes provide monochrome colouring
+    for those who prefer uniform note colouring.
+
+Frettly Settings - Fretboards
+
+-   Chords Voicing depth - when Frettly calculates the chord voicings
+    for diagrams in chord organisers, it calculates a number of options
+    at each fret position. Those options are then ranked based on how
+    likely they are to be playable, and the navigation controls within
+    the diagram allow you to cycle through the alternative voicings. The
+    number of alternatives is controlled by the voicing depth here. The
+    higher the number, the more alternatives you may get, but the longer
+    it will take to navigate through them. Strum speed - when you press
+    the space key with a chord voicing diagram selected, or if you click
+    it, Frettly will play that voicing, string by string as a strum. The
+    speed of that strum is set here. Always right handed - the chord
+    voicing diagrams will by default display their strings using the
+    orientation of the document instruments handedness. So if the
+    instrument is right handed, string six will be on the far left, but
+    if left handed, it will be on the right. If as a left handed player
+    you prefer to see these chord diagrams in a right handed
+    orientation, set the option here. Include muted interior strings -
+    Frettly will filter out chord voicings having interior muted
+    strings, regarding them as not ideal. If you want to see those
+    alternative voicings, set this option, but depending on the voicing
+    depth above, voicings with no interior muted strings will be pushed
+    down the ranking and possibly sacrificed. Frettly Settings - Chords
+
+Chords
+
+-   Voicing depth - when Frettly calculates the chord voicings for
+    diagrams in chord organisers, it calculates a number of options at
+    each fret position. Those options are then ranked based on how
+    likely they are to be playable, and the navigation controls within
+    the diagram allow you to cycle through the alternative voicings. The
+    number of alternatives is controlled by the voicing depth here. The
+    higher the number, the more alternatives you may get, but the longer
+    it will take to navigate through them.
+
+-   Strum speed - when you press the space key with a chord voicing
+    diagram selected, or if you click it, Frettly will play that
+    voicing, string by string as a strum. The speed of that strum is set
+    here.
+
+-   Always right handed - the chord voicing diagrams will by default
+    display their strings using the orientation of the document
+    instruments handedness. So if the instrument is right handed, string
+    six will be on the far left, but if left handed, it will be on the
+    right. If as a left handed player you prefer to see these chord
+    diagrams in a right handed orientation, set the option here.
+
+-   Include muted interior strings - Frettly will filter out chord
+    voicings having interior muted strings, regarding them as not ideal.
+    If you want to see those alternative voicings, set this option, but
+    depending on the voicing depth above, voicings with no interior
+    muted strings will be pushed down the ranking and possibly
+    sacrificed.
+
+Frettly Settings - Chords
+
+-   Support A link to this website is provided within this tab. Frettly
+    Settings - Support
+
+Support
+
+-   A link to this website is provided within this tab.
+
+Frettly Settings - Support
+
+Frettly – Privacy
+
+Privacy
+
+frettly.app is a simple informational site. It does not use custom analytics or tracking.
+
+Overview
+
+This page explains what data may be processed when you visit
+frettly.app, and what happens if you choose to contact us by email.
+
+Last updated: 26th January 2026 Controller / contact: Data Controller —
+data.controller@frettly.app
+
+Frettly (the app)
+
+Overview
+
+Frettly is designed to work without collecting personal information.
+Your fretboards/documents are stored locally on your Mac (and only sync
+if you choose to store them in a cloud location such as iCloud Drive via
+Finder/Files).
+
+Data the app collects
+
+-   No personal data is collected by the app.
+
+-   The app does not include advertising, third-party analytics, or
+    tracking.
+
+In-App Purchases
+
+If you purchase Frettly Pro, the transaction is processed by Apple. We
+do not receive your payment details. Apple may associate purchases with
+your Apple ID according to Apple’s policies.
+
+Support
+
+If you contact us for support, we will receive your email address and
+the contents of your message. We use that information only to respond
+and improve Frettly.
+
+frettly.app (this site)
+
+We do not intentionally collect personal data through this website and
+we do not run our own analytics. However, like most websites, some
+technical data may be processed to deliver pages reliably and securely.
+
+Basic technical data
+
+-   Your IP address (or a portion of it), browser type, device details,
+    and request metadata may appear in access logs.
+
+-   This information is typically used for security, performance, and
+    troubleshooting (for example, protecting the site from abuse).
+
+Hosting and delivery providers
+
+frettly.app is hosted using GitHub Pages and delivered via Cloudflare
+(DNS/CDN). These providers may process technical data (including IP
+address and request information) when you access the site.
+
+Cookies
+
+frettly.app does not intentionally set non-essential cookies for
+advertising or analytics. However, GitHub and/or Cloudflare may set
+cookies or similar technologies that are strictly necessary for site
+delivery and security.
+
+Email contact
+
+If you email us with feedback, feature requests, or support questions,
+we will receive your email address and the contents of your message.
+
+-   We use this information only to respond and to improve Frettly.
+
+-   We do not sell your email address or message content.
+
+Data retention
+
+-   Emails are kept only as long as needed to respond and to maintain
+    reasonable support history.
+
+-   Website technical logs are retained according to the policies of the
+    hosting/CDN providers (GitHub / Cloudflare).
+
+Sharing
+
+We do not share personal data with third parties except where required
+to operate the site (GitHub Pages and Cloudflare), or where required by
+law.
+
+Your rights
+
+Depending on your location (for example, under UK GDPR), you may have
+rights to request access to, correction of, or deletion of personal data
+we hold about you (such as support emails). To make a request, contact:
+
+Changes to this policy
+
+We may update this privacy notice from time to time. The “Last updated”
+date at the top of this page will reflect the most recent change.

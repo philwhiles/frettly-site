@@ -15,33 +15,40 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Frettly",
-  "url": "https://frettly.app/",
-  "downloadUrl": "https://apps.apple.com/gb/app/frettly/id6757320106?mt=12",
-  "image": "https://frettly.app/images/icon.png",
-  "description": "Frettly is a macOS application for exploring guitar scales, modes, chords and fretboard patterns in persistent, document-based workspaces.",
-  "applicationCategory": "MusicApplication",
-  "applicationSubCategory": "Music education and guitar fretboard software",
-  "operatingSystem": "macOS 14.0 or later",
-  "softwareVersion": "1.0",
-  "author": {
-    "@type": "Organization",
-    "name": "Efford Studio Limited",
-    "url": "https://frettly.app/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Efford Studio Limited",
-    "url": "https://frettly.app/"
-  },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://apps.apple.com/gb/app/frettly/id6757320106?mt=12",
-    "priceCurrency": "GBP",
-    "price": "0",
-    "availability": "https://schema.org/InStock"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://frettly.app/#organization",
+      "name": "Efford Studio Limited",
+      "url": "https://frettly.app/",
+      "logo": "https://frettly.app/images/icon.png"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://frettly.app/#software",
+      "name": "Frettly",
+      "url": "https://frettly.app/",
+      "downloadUrl": "https://apps.apple.com/gb/app/frettly/id6757320106?mt=12",
+      "image": "https://frettly.app/images/icon.png",
+      "description": "Frettly is a macOS application for exploring guitar scales, modes, chords and fretboard patterns in persistent, document-based workspaces.",
+      "applicationCategory": "MusicApplication",
+      "applicationSubCategory": "Music education and fretboard software",
+      "operatingSystem": "macOS 14.0 or later",
+      "author": {
+        "@id": "https://frettly.app/#organization"
+      },
+      "publisher": {
+        "@id": "https://frettly.app/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://apps.apple.com/gb/app/frettly/id6757320106?mt=12",
+        "priceCurrency": "GBP",
+        "price": "0",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
 }
 </script>
 
@@ -78,24 +85,24 @@
 
           <h1>Frettly - the interactive fretboard explorer and notebook</h1>
 
-          <h2>
+          <p class="intro">
             Frettly is a macOS application dedicated to enabling players of
             fretted instruments to visualise, experiment, and explore scales,
-            modes and chords using a document based canvas.
-          </h2>
+            modes and chords using a document-based canvas.
+          </p>
 
-          <h2>
+          <p class="intro intro-emphasis">
             Think of Frettly as Pages, not for text but for fretboards.
-          </h2>
+          </p>
 
-          <h2>
+          <p class="intro">
             Frettly isn't just a scale and chord library - it's a persistent,
             document-based workspace designed by a player, for players. Whether
             you are composing a complex jazz piece, teaching a student, or
             exploring a new tuning on your banjo, Frettly organises your theory
             explorations into easily read, playable, shareable and saveable
             documents.
-          </h2>
+          </p>
 
           <figure class="gallery-figure">
             <img
@@ -120,7 +127,7 @@
                 guitar, bass guitar, mandolin, banjo and ukulele
               </em>
             </b>,
-            each document you create can show multiple scales/chords/modes for
+            each document you create can show multiple scales, chords and modes for
             the document’s chosen instrument, and each instrument type supports
             multiple possible tunings.
           </h2>
@@ -132,15 +139,15 @@
           </p>
 
           <p>
-            <span class="email">hello@frettly.app</span>
+            <a class="email" href="mailto:hello@frettly.app">hello@frettly.app</a>
           </p>
 
-          <div id="more-info" class="meta">
-            <strong>Built for:</strong>
-            teachers and players alike, who want to explore the relationships
-            between notes/intervals in scales and chords, train their ears and
-            to mark and annotate their learnings in reloadable documents.
-          </div>
+<div id="more-info" class="meta">
+  <strong>Built for:</strong>
+  teachers and players who want to explore relationships between notes and
+  intervals, train their ears, and record and annotate their discoveries in
+  reusable documents.
+</div>
         </div>
 
         <div class="right-column">

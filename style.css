@@ -26,6 +26,16 @@ header {
   gap: 1rem;
   margin-bottom: 1.25rem;
 }
+.intro {
+  margin: 0 0 1.25rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.intro-emphasis {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
 .right-column {
   display: flex;
   flex-direction: column;
