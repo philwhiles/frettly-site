@@ -1,22 +1,22 @@
-Frettly
+Frettler
 
-This document aggregates the public documentation from frettly.app for
+This document aggregates the public documentation from frettler.app for
 AI assistants.
 
-Frettly – Guitar Scales & Chords Companion
+Frettler – Guitar Scales & Chords Companion
 
-Frettly - the interactive fretboard explorer and notebook
+Frettler - the interactive fretboard explorer and notebook
 
-Frettly is a macOS application dedicated to enabling players of fretted
+Frettler is a macOS application dedicated to enabling players of fretted
 instruments to visualise, experiment, and explore scales, modes and
 chords using a document-based canvas.
 
-Think of Frettly as Pages, not for text but for fretboards.
+Think of Frettler as Pages, not for text but for fretboards.
 
-Frettly isn’t just a scale and chord library - it’s a persistent,
+Frettler isn’t just a scale and chord library - it’s a persistent,
 document-based workspace designed by a player, for players. Whether you
 are composing a complex jazz piece, teaching a student, or exploring a
-new tuning on your banjo, Frettly organises your theory explorations
+new tuning on your banjo, Frettler organises your theory explorations
 into easily read, playable, shareable and saveable documents.
 
 Explore scales, modes and chords in a persistent, document-based macOS
@@ -24,13 +24,13 @@ workspace.
 
 Supporting guitar, bass guitar, mandolin, banjo and ukulele , each document you create can show multiple scales, chords and modes for the document’s chosen instrument, and each instrument type supports multiple possible tunings.
 
-The roadmap for future Frettly enhancements is brimming with features.
+The roadmap for future Frettler enhancements is brimming with features.
 If you have suggestions for features or improvements, need support or
 advice, contact us at:
 
-hello@frettly.app
+hello@frettler.app
 
-What you can do with Frettly
+What you can do with Frettler
 
 -   Build visual music documents from fretboards, scales, modes, chords
     and chord organisers, all arranged on a flexible document canvas
@@ -54,51 +54,51 @@ What you can do with Frettly
     ideas
 
 -   Rearrange, duplicate, copy and move musical ideas freely, both
-    within a single Frettly document and between different documents
+    within a single Frettler document and between different documents
 
 -   Personalise the look of your workspace with fretboard backgrounds
     and note colour themes, making documents clearer and more enjoyable
     to use
 
-Frettly is a product of Efford Studio Limited
+Frettler is a product of Efford Studio Limited
 
 Efford Studio Limited is an independent UK software studio focused on
 thoughtfully crafted tools for musicians and creatives.
 
-Frettly Pro – One-Time Purchase
+Frettler Pro – One-Time Purchase
 
-Unlock Frettly Pro
+Unlock Frettler Pro
 
-Unlock Frettly Pro with a one-time purchase on the Mac App Store.
+Unlock Frettler Pro with a one-time purchase on the Mac App Store.
 
 Explore the complete collection of scales, modes, chords and tunings,
 create richly interactive fretboards and chord organisers, and save your
-work in reusable Frettly documents.
+work in reusable Frettler documents.
 
 There are no monthly or annual subscriptions, and Family Sharing is
 supported.
 
 Why Go Pro?
 
-Frettly began as a personal project for exploring the guitar through
+Frettler began as a personal project for exploring the guitar through
 clear visualisation, practical music theory and interactive sound.
 
-With Frettly Pro, you can combine multiple scale, mode and chord
+With Frettler Pro, you can combine multiple scale, mode and chord
 fretboards within reusable documents, create chord organisers, explore
 different tunings and build a personal library that supports your
 playing, learning and songwriting.
 
 Your purchase unlocks the complete current feature set while also
-supporting the continued development of Frettly.
+supporting the continued development of Frettler.
 
 When you go Pro, you’re getting more than just the current feature set —
 you’re also supporting ongoing development and helping to shape where
-Frettly goes next.
+Frettler goes next.
 
-What You Get with Frettly Pro
+What You Get with Frettler Pro
 
 -   Create fretboards using all 14 scale types, 9 modes and 44 chord
-    types currently included with Frettly.
+    types currently included with Frettler.
 
 -   Use the complete collection of instrument tunings.
 
@@ -123,34 +123,34 @@ always keep what you’ve already unlocked.
 
 How to Purchase
 
-Frettly is available from the Mac App Store. Download Frettly, then
-unlock Frettly Pro from within the app with a one-time purchase.
+Frettler is available from the Mac App Store. Download Frettler, then
+unlock Frettler Pro from within the app with a one-time purchase.
 
 No monthly or annual subscription is required, and Family Sharing is
 enabled.
 
-Download Frettly free from the Mac App Store, then unlock Frettly Pro
+Download Frettler free from the Mac App Store, then unlock Frettler Pro
 with a one-time in-app purchase.
 
 Feedback
 
 If you have suggestions for improvements or new features, we’d love to
-hear from you. Feedback from guitarists will help shape future Frettly
+hear from you. Feedback from guitarists will help shape future Frettler
 improvements.
 
-Email us at: hello@frettly.app
+Email us at: hello@frettler.app
 
-Frettly – Help & Info
+Frettler – Help & Info
 
 Help & Info
 
-This section collects short guides to key parts of Frettly. Each topic
+This section collects short guides to key parts of Frettler. Each topic
 focuses on a specific scenario or feature, with a screenshot showing
 what you can expect to see in the app.
 
 -   Getting started Creating your first document and fretboard
 
--   Editing essentials Pro tips for editing in Frettly
+-   Editing essentials Pro tips for editing in Frettler
 
 -   Document window overview An overview of the controls within the
     document window
@@ -161,16 +161,16 @@ what you can expect to see in the app.
 -   Chord organiser panels overview An overview of the controls within
     chord organiser panels
 
--   Instruments and tunings An overview of the instruments Frettly
+-   Instruments and tunings An overview of the instruments Frettler
     supports
 
--   Settings Application wide settings within Frettly
+-   Settings Application wide settings within Frettler
 
-Getting Started with Frettly
+Getting Started with Frettler
 
 Getting started
 
-When you create a new document in Frettly, you’ll be asked to select an
+When you create a new document in Frettler, you’ll be asked to select an
 instrument type, its tuning, and whether you are right- or left-handed.
 
 The initial document settings dialog presented on creating a new
@@ -198,9 +198,9 @@ document
 
 -   Ukulele
 
--   Select a tuning for that instrument - Frettly comes with multiple
+-   Select a tuning for that instrument - Frettler comes with multiple
     instrument-specific tunings. Note that in the free version of
-    Frettly, the choice of tuning is limited to the standard tuning for
+    Frettler, the choice of tuning is limited to the standard tuning for
     the selected instrument.
 
 -   By default, all fretboards are for right-handed players, with the
@@ -208,7 +208,7 @@ document
     and all its fretboards will display with the nut end on the right.
 
 -   The defaulting to right-handed at document creation time can be
-    changed to left-handed in menubar Frettly -> Settings, Documents
+    changed to left-handed in menubar Frettler -> Settings, Documents
     tab.
 
 The instrument/tuning/handedness selections made when the document is
@@ -418,14 +418,14 @@ Create a document for individual instruments or tunings, or for multiple
 lessons or projects for just one. How you organise your documents is
 entirely up to you!
 
-Frettly – Instruments and tunings
+Frettler – Instruments and tunings
 
 Instruments and tunings
 
-Frettly can display scales, chords, and modes — and the notes within
+Frettler can display scales, chords, and modes — and the notes within
 them — across the fretboards of different instrument types, each of
 which includes multiple tunings. When you click a note or interval on
-the fretboard, Frettly plays the note pitch-perfect, in the octave and
+the fretboard, Frettler plays the note pitch-perfect, in the octave and
 string position you clicked, using instrument-specific samples.
 
 -   Guitar (six-string) Standard (E, A, D, G, B, E) Celtic (D, A, D, G,
@@ -664,57 +664,57 @@ Ukulele
 -   Slack key D (D, A, D, A)
 
 -   Is your favourite tuning missing? Drop us a line and we’ll add it to
-    the next release of Frettly: hello@frettly.app
+    the next release of Frettler: hello@frettler.app
 
 Is your favourite tuning missing? Drop us a line and we’ll add it to the
-next release of Frettly:
+next release of Frettler:
 
-Frettly – Document window overview
+Frettler – Document window overview
 
 Document window overview
 
-Frettly is built around the macOS document model — similar to Pages.
+Frettler is built around the macOS document model — similar to Pages.
 Rather than showing a single fretboard that resets each time the app is
-opened, Frettly lets you create documents and collect your chosen
+opened, Frettler lets you create documents and collect your chosen
 fretboards inside them.
 
 These document files become your notebooks for learning, projects, and
 discovery: collect the blues scales you want to learn, the minor chords
-you want to practise, and so on. Because Frettly uses documents, they
+you want to practise, and so on. Because Frettler uses documents, they
 can be moved, duplicated, shared, and even reverted using Time Machine.
 
 If you create two documents — one for guitar and the other for bass —
-you can switch between them and Frettly will play notes using each
+you can switch between them and Frettler will play notes using each
 document’s configured instrument. Don’t forget to explore the macOS menu
 bar’s File menu.
 
 -   Document level controls The controls in the top-right of a document
-    window affect Frettly’s overall behaviour and display throughout the
+    window affect Frettler’s overall behaviour and display throughout the
     current document, while fretboard controls are shown per fretboard.
-    Frettly document-level controls From left to right, the highlighted
+    Frettler document-level controls From left to right, the highlighted
     controls are described below.
 
 Document level controls
 
-The controls in the top-right of a document window affect Frettly’s
+The controls in the top-right of a document window affect Frettler’s
 overall behaviour and display throughout the current document, while
 fretboard controls are shown per fretboard.
 
-Frettly document-level controls
+Frettler document-level controls
 
 From left to right, the highlighted controls are described below.
 
--   Play mode Frettly has three different ways of playing notes you
+-   Play mode Frettler has three different ways of playing notes you
     click within fretboards: Sustained play — each clicked note plays
     for a few seconds before fading. Multiple notes can be played in
     quick succession to get a feel for how they sound together, helping
     you hear the relationship between intervals. Single play — click and
     hold to hear a note; on release, the note stops. This mode lets you
     train your ear to a single note or interval without other notes
-    ringing. Pattern play — click the root note of a pattern and Frettly
+    ringing. Pattern play — click the root note of a pattern and Frettler
     plays the notes in that fretboard’s pattern along the string. For a
     scale, you will hear seven notes (assuming you have not hidden any —
-    see the fretboard help for hiding notes). For a chord, Frettly plays
+    see the fretboard help for hiding notes). For a chord, Frettler plays
     the chord tones in sequence (again, assuming none are hidden), then
     finishes with a strum of all notes. So assuming the chord is Emaj
     and you click the E on the nut of string 6, the sequence you hear
@@ -726,7 +726,7 @@ From left to right, the highlighted controls are described below.
 
 Play mode
 
-Frettly has three different ways of playing notes you click within
+Frettler has three different ways of playing notes you click within
 fretboards:
 
 -   Sustained play — each clicked note plays for a few seconds before
@@ -738,10 +738,10 @@ fretboards:
     stops. This mode lets you train your ear to a single note or
     interval without other notes ringing.
 
--   Pattern play — click the root note of a pattern and Frettly plays
+-   Pattern play — click the root note of a pattern and Frettler plays
     the notes in that fretboard’s pattern along the string. For a scale,
     you will hear seven notes (assuming you have not hidden any — see
-    the fretboard help for hiding notes). For a chord, Frettly plays the
+    the fretboard help for hiding notes). For a chord, Frettler plays the
     chord tones in sequence (again, assuming none are hidden), then
     finishes with a strum of all notes. So assuming the chord is Emaj
     and you click the E on the nut of string 6, the sequence you hear
@@ -857,23 +857,23 @@ choices and is not editable.
 
 Add fretboard dialog
 
--   Help The Help button opens Frettly’s lightweight in-app help dialog.
-    The macOS menu bar “Help” → “Frettly Help” opens the content you are
+-   Help The Help button opens Frettler’s lightweight in-app help dialog.
+    The macOS menu bar “Help” → “Frettler Help” opens the content you are
     reading right now in your browser.
 
 Help
 
-The Help button opens Frettly’s lightweight in-app help dialog. The
-macOS menu bar “Help” → “Frettly Help” opens the content you are reading
+The Help button opens Frettler’s lightweight in-app help dialog. The
+macOS menu bar “Help” → “Frettler Help” opens the content you are reading
 right now in your browser.
 
-Fretboard Panels in Frettly
+Fretboard Panels in Frettler
 
 Fretboard panels overview
 
-Frettly is designed as a macOS document-based application. Rather than
+Frettler is designed as a macOS document-based application. Rather than
 showing a single fretboard that resets the next time the app is opened,
-Frettly lets you collect many fretboards within each document.
+Frettler lets you collect many fretboards within each document.
 
 -   Remember: all scales and chords shown by panels within the same
     document use that document’s current instrument, tuning, and
@@ -1161,7 +1161,7 @@ Note: hidden notes are not played when using “Pattern play”.
     out its subtleties and how it might work best for your usage.
     Fretboard controls (top right) You can mark individual notes on a
     fretboard. Marked notes are highlighted with a green dashed circle.
-    Frettly supports up to nine marking groups and defaults to using
+    Frettler supports up to nine marking groups and defaults to using
     group one, indicated to the left of the marking controls. The
     current group can be changed using the up and down controls.
     Clicking the group’s label opens a pop-up sheet that allows the
@@ -1226,7 +1226,7 @@ Fretboard controls (top right)
 You can mark individual notes on a fretboard. Marked notes are
 highlighted with a green dashed circle.
 
-Frettly supports up to nine marking groups and defaults to using group
+Frettler supports up to nine marking groups and defaults to using group
 one, indicated to the left of the marking controls. The current group
 can be changed using the up and down controls. Clicking the group’s
 label opens a pop-up sheet that allows the label to be edited.
@@ -1298,7 +1298,7 @@ Viewing marked notes on a fretboard
     appears plain. Clicking it toggles the notepad’s visibility. Once
     the notepad contains text, the button turns yellow to remind you
     that notes are present. Notepads are saved with their fretboards in
-    the Frettly document. Fretboard notepad
+    the Frettler document. Fretboard notepad
 
 Fretboard controls – notepad
 
@@ -1306,7 +1306,7 @@ The fourth button is the notepad control. A new fretboard starts with an
 empty notepad, so the button appears plain. Clicking it toggles the
 notepad’s visibility. Once the notepad contains text, the button turns
 yellow to remind you that notes are present. Notepads are saved with
-their fretboards in the Frettly document.
+their fretboards in the Frettler document.
 
 Fretboard notepad
 
@@ -1327,11 +1327,11 @@ Fretboard showing note labels
 
 Fretboard showing interval labels
 
-Chord organiser panels | Frettly Help
+Chord organiser panels | Frettler Help
 
 Chord organiser panels overview
 
-Just as a Frettly document can contain many fretboard panels, it can
+Just as a Frettler document can contain many fretboard panels, it can
 also contain chord organiser panels mixed with those fretboard panels.
 Whereas a fretboard panel is configured to show a specific scale, mode
 or chord, and provides a configuration panel to change its nature, chord
@@ -1402,7 +1402,7 @@ time.
     left/right key presses will move the focus as you would expect
     amongst the diagrams. Clicking the diagram or pressing the space key
     gives a preview of the focused chord. The speed of the strum can be
-    changed in the Chords tab in menu item “Frettly” → “Settings”.
+    changed in the Chords tab in menu item “Frettler” → “Settings”.
 
 Organiser navigation
 
@@ -1419,9 +1419,9 @@ expect amongst the diagrams.
 
 Clicking the diagram or pressing the space key gives a preview of the
 focused chord. The speed of the strum can be changed in the Chords tab
-in menu item “Frettly” → “Settings”.
+in menu item “Frettler” → “Settings”.
 
--   Organiser chord diagrams When Frettly calculates the chord voicings
+-   Organiser chord diagrams When Frettler calculates the chord voicings
     shown in the diagrams within a chord organiser, it looks at all the
     permutations of the chords notes across the entire fretboard and
     runs each fingering through a complex scoring algorithm, trying to
@@ -1430,12 +1430,12 @@ in menu item “Frettly” → “Settings”.
     well as ranking the permutations by their musical correctness. It
     builds a list sorted by fret and ranked by what it considers to be
     the playability of the voicing. The diagrams will default to showing
-    what Frettly considers to be the most appropriate voicing at the top
+    what Frettler considers to be the most appropriate voicing at the top
     of the fretboard, and provides navigation controls within the chord
     diagram to enable selection of alternative voicings. By default it
     will filter out voicings containing inner muted strings, but if you
     want those to be shown, there is an option to include them, within
-    the Chords tab in menu item “Frettly” → “Settings”. There are rare
+    the Chords tab in menu item “Frettler” → “Settings”. There are rare
     chords which to be musically faithful would require more frets to be
     fingered than are possible, and for those chords it will fallback to
     selecting voicings which contain what are considered to be the most
@@ -1447,7 +1447,7 @@ in menu item “Frettly” → “Settings”.
 
 Organiser chord diagrams
 
-When Frettly calculates the chord voicings shown in the diagrams within
+When Frettler calculates the chord voicings shown in the diagrams within
 a chord organiser, it looks at all the permutations of the chords notes
 across the entire fretboard and runs each fingering through a complex
 scoring algorithm, trying to determine the merits of each ie would it
@@ -1456,14 +1456,14 @@ too contorted etc as well as ranking the permutations by their musical
 correctness. It builds a list sorted by fret and ranked by what it
 considers to be the playability of the voicing.
 
-The diagrams will default to showing what Frettly considers to be the
+The diagrams will default to showing what Frettler considers to be the
 most appropriate voicing at the top of the fretboard, and provides
 navigation controls within the chord diagram to enable selection of
 alternative voicings.
 
 By default it will filter out voicings containing inner muted strings,
 but if you want those to be shown, there is an option to include them,
-within the Chords tab in menu item “Frettly” → “Settings”.
+within the Chords tab in menu item “Frettler” → “Settings”.
 
 There are rare chords which to be musically faithful would require more
 frets to be fingered than are possible, and for those chords it will
@@ -1473,23 +1473,23 @@ intervals which are considered to be less important than others. When it
 does this it will display a yellow ‘i’ marker next to the diagram, and
 clicking that will show which intervals have been sacrificed.
 
-Editing Essentials in Frettly
+Editing Essentials in Frettler
 
 Editing Essentials
 
-Some of Frettly’s most useful features are not obvious and are not
+Some of Frettler’s most useful features are not obvious and are not
 visible in its user interface. They are features you are already used to
 from applications such as Pages and Numbers, and might not expect to see
-in an app like Frettly, so it is worth calling them out and explaining
+in an app like Frettler, so it is worth calling them out and explaining
 them here.
 
--   File Menu Frettly is a document based app like Pages. Just as you
-    create documents in Pages for specific purposes, Frettly documents
+-   File Menu Frettler is a document based app like Pages. Just as you
+    create documents in Pages for specific purposes, Frettler documents
     can each be tailored for a specific learning exercise or fretboard
     exploration. One document might be for exploring blues scales,
-    another for pentatonic explorations. The ‘File’ item in Frettly’s
+    another for pentatonic explorations. The ‘File’ item in Frettler’s
     menu gives you access to standard macOS file related operations.
-    From this menu you may create new Frettly documents, open documents
+    From this menu you may create new Frettler documents, open documents
     etc as well as use the macOS document revision system to revert to a
     previous version of your document.
 
@@ -1525,12 +1525,12 @@ Edit Menu
 Drag And Drop
 
 -   Cross Document Editing Fretboards can also be dragged from one
-    Frettly document into another. When they are, the original fretboard
+    Frettler document into another. When they are, the original fretboard
     remains in the source document, and a copy is placed in the
     destination document, following the pattern described above
     (upper/lower half of a fretboard determining before/after). If the
     destination document does not have any fretboards yet, simply drop
-    into the ‘Welcome to Frettly’ introductory text panel. Copy/Paste
+    into the ‘Welcome to Frettler’ introductory text panel. Copy/Paste
     between documents also works and is a useful way of replicating
     fretboards, even when the two documents are for different
     instruments/tunings - the fretboard added will automatically be
@@ -1539,32 +1539,32 @@ Drag And Drop
     the nature of the scale/chord/mode. If the destination document’s
     configuration (instrument/tuning) matches that of the source
     document, then marked notes will also be copied, else they will be
-    cleared. ie Frettly will retain what makes sense in the fretboard
+    cleared. ie Frettler will retain what makes sense in the fretboard
     copy within the target document.
 
 Cross Document Editing
 
 -   View Menu The View menu item enables switching tabbed mode on/off.
-    When tabbed mode is on, it is possible to open multiple Frettly
+    When tabbed mode is on, it is possible to open multiple Frettler
     documents within the same window, and switch between tabs using Ctrl
     Tab. Copy/Paste of fretboards works within tabbed mode, just as it
     does within separately windowed documents, but drag and drop cannot.
 
 View Menu
 
-Frettly Settings and Preferences
+Frettler Settings and Preferences
 
-Frettly Settings
+Frettler Settings
 
 While each fretboard has controls within it which determine the
 characteristics of just that fretboard, and each document has document
 wide configuration (instrument, tuning and handedness) which apply to
-all of the fretboards within it, Frettly has application wide settings,
-found in menubar item “Frettly” -> “Settings”.
+all of the fretboards within it, Frettler has application wide settings,
+found in menubar item “Frettler” -> “Settings”.
 
 Settings are divided into tabs: General - Miscellaneous settings
 Documents - Settings which affect document level functionality
-Instruments - Settings for Frettlys supported instruments Fretboards -
+Instruments - Settings for Frettlers supported instruments Fretboards -
 Settings which affect fretboard level functionality Support - Help
 related
 
@@ -1572,28 +1572,28 @@ related
 
 -   Documents - Settings which affect document level functionality
 
--   Instruments - Settings for Frettlys supported instruments
+-   Instruments - Settings for Frettlers supported instruments
 
 -   Fretboards - Settings which affect fretboard level functionality
 
 -   Support - Help related
 
--   General On first installation, Frettly presents an introductory
+-   General On first installation, Frettler presents an introductory
     welcome page, offering to create a new document, open an existing
     one, or open the inbuilt example document. That welcome page can be
     set to not re-appear on future application launch, but should you
-    wish to have it re-appear, the option is here. Frettly Settings -
+    wish to have it re-appear, the option is here. Frettler Settings -
     General
 
 General
 
--   On first installation, Frettly presents an introductory welcome
+-   On first installation, Frettler presents an introductory welcome
     page, offering to create a new document, open an existing one, or
     open the inbuilt example document. That welcome page can be set to
     not re-appear on future application launch, but should you wish to
     have it re-appear, the option is here.
 
-Frettly Settings - General
+Frettler Settings - General
 
 -   Documents When creating a new document, you are prompted for
     instrument, tuning and handedness , with the latter defaulting to
@@ -1602,7 +1602,7 @@ Frettly Settings - General
     clicking fretboard notes has three settings, sustained, single or
     pattern run. The default mode for new documents can be set in this
     tab. The play mode can be changed within the document at any time
-    once it has at least one fretboard. Frettly Settings - Documents
+    once it has at least one fretboard. Frettler Settings - Documents
 
 Documents
 
@@ -1616,36 +1616,36 @@ Documents
     can be set in this tab. The play mode can be changed within the
     document at any time once it has at least one fretboard.
 
-Frettly Settings - Documents
+Frettler Settings - Documents
 
 -   Instruments This section gives you control over the default maximum
-    number of frets Frettly uses for each instrument type. That means
+    number of frets Frettler uses for each instrument type. That means
     fretboards can better reflect the instruments you actually play,
     whether your guitar stops at 22 frets, your mandolin has a shorter
     fingerboard, or your ukulele has a more compact range. Use the
     sliders to choose the fret limit that best matches each of your own
-    instruments. Frettly will then use those values whenever it display
+    instruments. Frettler will then use those values whenever it display
     a fretboard in a document of that instrument type. Sliders shown in
-    grey indicate instruments using Frettly’s built-in defaults, while
+    grey indicate instruments using Frettler’s built-in defaults, while
     blue sliders indicate an instrument is using a default override.
-    Frettly Settings - Instruments
+    Frettler Settings - Instruments
 
 Instruments
 
 -   This section gives you control over the default maximum number of
-    frets Frettly uses for each instrument type. That means fretboards
+    frets Frettler uses for each instrument type. That means fretboards
     can better reflect the instruments you actually play, whether your
     guitar stops at 22 frets, your mandolin has a shorter fingerboard,
     or your ukulele has a more compact range.
 
 -   Use the sliders to choose the fret limit that best matches each of
-    your own instruments. Frettly will then use those values whenever it
+    your own instruments. Frettler will then use those values whenever it
     display a fretboard in a document of that instrument type. Sliders
-    shown in grey indicate instruments using Frettly’s built-in
+    shown in grey indicate instruments using Frettler’s built-in
     defaults, while blue sliders indicate an instrument is using a
     default override.
 
-Frettly Settings - Instruments
+Frettler Settings - Instruments
 
 -   Fretboards Background - choose here which wood graphic you would
     like for all fretboards in all documents. The choice you make is
@@ -1657,7 +1657,7 @@ Frettly Settings - Instruments
     selection is instantly applied to open documents and a preview is
     provided in the settings dialog. The two Mono themes provide
     monochrome colouring for those who prefer uniform note colouring.
-    Frettly Settings - Fretboards
+    Frettler Settings - Fretboards
 
 Fretboards
 
@@ -1673,9 +1673,9 @@ Fretboards
     settings dialog. The two Mono themes provide monochrome colouring
     for those who prefer uniform note colouring.
 
-Frettly Settings - Fretboards
+Frettler Settings - Fretboards
 
--   Chords Voicing depth - when Frettly calculates the chord voicings
+-   Chords Voicing depth - when Frettler calculates the chord voicings
     for diagrams in chord organisers, it calculates a number of options
     at each fret position. Those options are then ranked based on how
     likely they are to be playable, and the navigation controls within
@@ -1684,7 +1684,7 @@ Frettly Settings - Fretboards
     higher the number, the more alternatives you may get, but the longer
     it will take to navigate through them. Strum speed - when you press
     the space key with a chord voicing diagram selected, or if you click
-    it, Frettly will play that voicing, string by string as a strum. The
+    it, Frettler will play that voicing, string by string as a strum. The
     speed of that strum is set here. Always right handed - the chord
     voicing diagrams will by default display their strings using the
     orientation of the document instruments handedness. So if the
@@ -1692,15 +1692,15 @@ Frettly Settings - Fretboards
     if left handed, it will be on the right. If as a left handed player
     you prefer to see these chord diagrams in a right handed
     orientation, set the option here. Include muted interior strings -
-    Frettly will filter out chord voicings having interior muted
+    Frettler will filter out chord voicings having interior muted
     strings, regarding them as not ideal. If you want to see those
     alternative voicings, set this option, but depending on the voicing
     depth above, voicings with no interior muted strings will be pushed
-    down the ranking and possibly sacrificed. Frettly Settings - Chords
+    down the ranking and possibly sacrificed. Frettler Settings - Chords
 
 Chords
 
--   Voicing depth - when Frettly calculates the chord voicings for
+-   Voicing depth - when Frettler calculates the chord voicings for
     diagrams in chord organisers, it calculates a number of options at
     each fret position. Those options are then ranked based on how
     likely they are to be playable, and the navigation controls within
@@ -1710,7 +1710,7 @@ Chords
     it will take to navigate through them.
 
 -   Strum speed - when you press the space key with a chord voicing
-    diagram selected, or if you click it, Frettly will play that
+    diagram selected, or if you click it, Frettler will play that
     voicing, string by string as a strum. The speed of that strum is set
     here.
 
@@ -1721,43 +1721,43 @@ Chords
     right. If as a left handed player you prefer to see these chord
     diagrams in a right handed orientation, set the option here.
 
--   Include muted interior strings - Frettly will filter out chord
+-   Include muted interior strings - Frettler will filter out chord
     voicings having interior muted strings, regarding them as not ideal.
     If you want to see those alternative voicings, set this option, but
     depending on the voicing depth above, voicings with no interior
     muted strings will be pushed down the ranking and possibly
     sacrificed.
 
-Frettly Settings - Chords
+Frettler Settings - Chords
 
--   Support A link to this website is provided within this tab. Frettly
+-   Support A link to this website is provided within this tab. Frettler
     Settings - Support
 
 Support
 
 -   A link to this website is provided within this tab.
 
-Frettly Settings - Support
+Frettler Settings - Support
 
-Frettly – Privacy
+Frettler – Privacy
 
 Privacy
 
-frettly.app is a simple informational site. It does not use custom analytics or tracking.
+frettler.app is a simple informational site. It does not use custom analytics or tracking.
 
 Overview
 
 This page explains what data may be processed when you visit
-frettly.app, and what happens if you choose to contact us by email.
+frettler.app, and what happens if you choose to contact us by email.
 
 Last updated: 26th January 2026 Controller / contact: Data Controller —
-data.controller@frettly.app
+data.controller@frettler.app
 
-Frettly (the app)
+Frettler (the app)
 
 Overview
 
-Frettly is designed to work without collecting personal information.
+Frettler is designed to work without collecting personal information.
 Your fretboards/documents are stored locally on your Mac (and only sync
 if you choose to store them in a cloud location such as iCloud Drive via
 Finder/Files).
@@ -1771,7 +1771,7 @@ Data the app collects
 
 In-App Purchases
 
-If you purchase Frettly Pro, the transaction is processed by Apple. We
+If you purchase Frettler Pro, the transaction is processed by Apple. We
 do not receive your payment details. Apple may associate purchases with
 your Apple ID according to Apple’s policies.
 
@@ -1779,9 +1779,9 @@ Support
 
 If you contact us for support, we will receive your email address and
 the contents of your message. We use that information only to respond
-and improve Frettly.
+and improve Frettler.
 
-frettly.app (this site)
+frettler.app (this site)
 
 We do not intentionally collect personal data through this website and
 we do not run our own analytics. However, like most websites, some
@@ -1797,13 +1797,13 @@ Basic technical data
 
 Hosting and delivery providers
 
-frettly.app is hosted using GitHub Pages and delivered via Cloudflare
+frettler.app is hosted using GitHub Pages and delivered via Cloudflare
 (DNS/CDN). These providers may process technical data (including IP
 address and request information) when you access the site.
 
 Cookies
 
-frettly.app does not intentionally set non-essential cookies for
+frettler.app does not intentionally set non-essential cookies for
 advertising or analytics. However, GitHub and/or Cloudflare may set
 cookies or similar technologies that are strictly necessary for site
 delivery and security.
@@ -1813,7 +1813,7 @@ Email contact
 If you email us with feedback, feature requests, or support questions,
 we will receive your email address and the contents of your message.
 
--   We use this information only to respond and to improve Frettly.
+-   We use this information only to respond and to improve Frettler.
 
 -   We do not sell your email address or message content.
 

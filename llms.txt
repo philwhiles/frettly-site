@@ -1,23 +1,23 @@
-# Frettly
+# Frettler
 
-> Frettly is a document-based macOS application for exploring scales, modes, chords and fretboard theory across guitar, bass, ukulele, mandolin and banjo.
+> Frettler is a document-based macOS application for exploring scales, modes, chords and fretboard theory across guitar, bass, ukulele, mandolin and banjo.
 
-Frettly combines interactive fretboards, chord organisers and persistent document-based workspaces. It is designed for musicians, teachers and students who want to explore music theory, organise ideas and save reusable learning documents.
+Frettler combines interactive fretboards, chord organisers and persistent document-based workspaces. It is designed for musicians, teachers and students who want to explore music theory, organise ideas and save reusable learning documents.
 
 ## Product
 
-- [Frettly Home](https://frettly.app/): Product overview, features and App Store download.
-- [Mac App Store](https://apps.apple.com/gb/app/frettly/id6757320106?mt=12): Download Frettly for macOS.
+- [Frettler Home](https://frettler.app/): Product overview, features and App Store download.
+- [Mac App Store](https://apps.apple.com/gb/app/id6757320106): Download Frettler for macOS.
 
 ## Documentation
 
-- [Getting Started](https://frettly.app/help/getting-started.html): Creating documents, choosing instruments and adding panels.
-- [Supported Instruments](https://frettly.app/help/instruments.html): Guitar, bass, ukulele, mandolin and banjo support.
-- [Document Window Overview](https://frettly.app/help/document-window-overview.html): Documents, navigation, play modes and panel management.
-- [Fretboard Panels](https://frettly.app/help/fretboard-panels-overview.html): Working with scales, modes, chords, markings and fretboard controls.
-- [Chord Organiser Panels](https://frettly.app/help/chord-organiser-overview.html): Building and organising chord collections and exploring voicings.
-- [Settings](https://frettly.app/help/frettly-settings.html): Application, instrument, fretboard and chord preferences.
+- [Getting Started](https://frettler.app/help/getting-started.html): Creating documents, choosing instruments and adding panels.
+- [Supported Instruments](https://frettler.app/help/instruments.html): Guitar, bass, ukulele, mandolin and banjo support.
+- [Document Window Overview](https://frettler.app/help/document-window-overview.html): Documents, navigation, play modes and panel management.
+- [Fretboard Panels](https://frettler.app/help/fretboard-panels-overview.html): Working with scales, modes, chords, markings and fretboard controls.
+- [Chord Organiser Panels](https://frettler.app/help/chord-organiser-overview.html): Building and organising chord collections and exploring voicings.
+- [Settings](https://frettler.app/help/frettler-settings.html): Application, instrument, fretboard and chord preferences.
 
 ## Company
 
-- [Efford Studio Limited](https://frettly.app/): Independent UK software studio developing Frettly.
+- [Efford Studio Limited](https://frettler.app/): Independent UK software studio developing Frettler.

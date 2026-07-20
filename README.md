@@ -1,1 +1,1 @@
-# frettly-site
+# fretter-site
