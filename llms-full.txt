@@ -46,6 +46,16 @@ What you can do with Frettler
     pitch-perfect, instrument-specific playback as you explore the
     fretboard
 
+-   Drag a marquee over visible fretboard notes to hear a strummed
+    sequence, then replay it, reverse it, or filter out notes to compare
+    how the remaining notes sound together
+
+-   Mark or unmark several fretboard notes at once with directional
+    marquee selection
+
+-   Print fretboards, marked groups and chord organisers in clear,
+    colour vector layouts, or save the output as a PDF
+
 -   Focus your learning by showing notes, intervals, marked notes, or
     only the parts of a pattern you want to study right now
 
@@ -163,6 +173,12 @@ what you can expect to see in the app.
 
 -   Instruments and tunings An overview of the instruments Frettler
     supports
+
+-   Marquee play and replay Play a selection of visible fretboard notes
+    and replay it with different filters or in reverse
+
+-   Printing Print fretboards, marked groups and chord organisers, or
+    save them as a PDF using the macOS print dialogue
 
 -   Settings Application wide settings within Frettler
 
@@ -751,6 +767,11 @@ fretboards:
     voicing/fingering, as no fingering is determined. To hear actual
     voicings strummed, see chord organisers.
 
+Marquee play is also available in all three document play modes when
+marking is off. Drag over visible notes to play them as a strummed
+sequence on release, independently of the click-to-play mode selected
+above. See “Marquee play and replay” below.
+
 -   Jump to current panel When you click the title of a panel, it
     becomes the currently focused one. The Up and Down arrow keys move
     that focus up and down, one panel at a time. Focus is primarily a
@@ -1149,6 +1170,51 @@ the chips.
 
 Note: hidden notes are not played when using “Pattern play”.
 
+Marquee play and replay
+
+With marking turned off, click and drag a rectangular marquee around
+notes or intervals on a fretboard. Release the mouse to hear the
+contained notes played in sequence, like a strum. Each note receives a
+yellow fading halo as it plays.
+
+You can start the marquee on a note or in the surrounding blank space
+within the fretboard area, including the string show/hide controls area.
+Only currently visible notes are included. Dragging beyond the left or
+right edge does not automatically scroll the fretboard.
+
+The horizontal direction of the drag determines playback order:
+
+-   Drag from left to right to play selected notes on string six of a
+    standard guitar first, from lowest to highest fret, then those on
+    string five and onwards towards string one. Strings with no selected
+    notes are skipped. Other instruments follow the corresponding order.
+
+-   Drag from right to left to reverse that sequence: start with the
+    highest selected fret on the first string with selected notes,
+    working from string one towards string six. The marquee changes colour to indicate reverse playback.
+
+This is a string-by-string order, not a global sort by pitch. Marquee
+play uses the Strum speed setting under Frettler -> Settings -> Chords
+and is available in Sustained, Single and Pattern play modes.
+
+The Replay icon in each fretboard’s header remembers that fretboard’s
+last marquee play sequence and direction. It is disabled until there is
+a stored sequence. Click it to play the sequence again.
+
+Replay respects the current note/interval and string filters. Hide an
+interval or a string, then replay to hear the remaining notes without
+drawing another marquee. Filtering does not add new notes to the stored
+selection.
+
+Hold Option while clicking Replay to reverse that one playback without
+changing its usual direction. The icon reverses while you hover over it
+with Option held. Alternatively, use the Replay button’s context menu
+to switch its direction for subsequent clicks; the icon reflects that
+choice. The context menu also offers “Reset play history”.
+
+Replay history and its direction are temporary and are not saved in the
+document. Drawing another play marquee replaces the stored sequence.
+
 -   Fretboard controls – marking To the right of the chips is a bank of
     additional fretboard controls. The first group of three buttons
     relates to marking notes. The notes can be manually marked
@@ -1243,6 +1309,25 @@ usual play interactions are paused until you turn marking off. Click the
 marker pen again to return to normal fretboard mode. Your chosen
 document play mode then applies as usual, and any marked notes remain
 visible alongside unmarked notes.
+
+Marquee marking and unmarking
+
+With marking enabled, drag a marquee from left to right to add the
+contained visible notes to the current marking group. Drag from right
+to left to remove their marks instead. The marquee changes colour to
+indicate unmarking. Direction controls the action; the Option key is
+not required to unmark.
+
+As with marquee play, the drag can start in blank space around the
+fretboard or in the string show/hide controls area. It affects visible
+notes only and does not scroll to include off-screen notes. In marking
+mode, releasing the marquee changes marks rather than playing notes;
+individual clicks still toggle a note’s mark.
+
+Marquee marking is unavailable while “View marked notes” is enabled and
+cannot alter chord-based groups created by the Scale Harmony sheet.
+When you leave “View marked notes”, Frettler restores marking mode if it
+was enabled before you entered that focused view.
 
 To mark every occurrence of one or more notes across the fretboard, use
 a combination of hiding notes with the note chips at the top of the
@@ -1495,6 +1580,48 @@ them here.
 
 File Menu
 
+Printing
+
+Choose File -> Print… (Command-P) to open the standard macOS print
+dialogue. Preview the document, choose a printer and page range, change
+paper size, orientation or scaling, and print. Use the dialogue’s PDF
+menu to save a PDF instead.
+
+Frettler creates a simplified vector layout for printing, without the
+on-screen fretboard backgrounds. Landscape is the initial orientation.
+Portrait uses its own layout with shorter horizontal fretboard sections
+and fewer chord-diagram columns, rather than rotating the landscape
+artwork. Scaling changes the size of the printed content.
+
+Each panel starts on a new page. Large chord organisers and long panel
+notes continue onto additional pages as needed; the full notepad text is
+included rather than an excerpt.
+
+For each fretboard, the output contains:
+
+-   An overview showing the notes allowed by the panel’s filters,
+    without marking halos.
+
+-   A separate view for each marking group that has notes to show,
+    as if “View marked notes” were enabled. Groups whose marks are all
+    hidden by their filters are skipped. The group’s name or number
+    appears beside the fretboard title.
+
+Printed fretboards cover the full configured fret range, regardless of
+which frets are currently scrolled into view on screen. Note/interval
+and string filters are respected, but hiding a string’s notes does not
+remove the string itself from the diagram.
+
+Note names appear in circles and intervals in rectangular labels,
+matching the panel’s display mode and note colour scheme. A key in the
+header pairs the displayed notes with their intervals. Fret numbers
+appear below the fretboard, and the nut and outer edges are distinct.
+
+Chord organisers print the currently selected voicing for each chord,
+with its title, chord notes, voicing number and barres. Trial output
+includes a “Frettler · Trial version” watermark; it is not a print-sheet
+option that can be turned off. Frettler Pro output has no trial watermark.
+
 -   Edit Menu When a fretboard panel title area is clicked, that
     fretboard becomes the current/focussed fretboard, and will be the
     fretboard scrolled back to when the “Home” button is clicked. Use
@@ -1685,7 +1812,8 @@ Frettler Settings - Fretboards
     it will take to navigate through them. Strum speed - when you press
     the space key with a chord voicing diagram selected, or if you click
     it, Frettler will play that voicing, string by string as a strum. The
-    speed of that strum is set here. Always right handed - the chord
+    speed of that strum is set here. This setting also controls fretboard
+    marquee play and replay. Always right handed - the chord
     voicing diagrams will by default display their strings using the
     orientation of the document instruments handedness. So if the
     instrument is right handed, string six will be on the far left, but
@@ -1712,7 +1840,7 @@ Chords
 -   Strum speed - when you press the space key with a chord voicing
     diagram selected, or if you click it, Frettler will play that
     voicing, string by string as a strum. The speed of that strum is set
-    here.
+    here. This setting also controls fretboard marquee play and replay.
 
 -   Always right handed - the chord voicing diagrams will by default
     display their strings using the orientation of the document
@@ -1841,3 +1969,4 @@ Changes to this policy
 
 We may update this privacy notice from time to time. The “Last updated”
 date at the top of this page will reflect the most recent change.
+
