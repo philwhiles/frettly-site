@@ -24,6 +24,7 @@
     <nav class="nav">
       <a href="/">Home</a>
       <a href="/purchase-frettler.html">Purchase</a>
+        <a href="/changelog.html">Changelog</a>
       <a href="/privacy.html">Privacy</a>
       <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
     </nav>
@@ -63,13 +64,13 @@
         <li>
           <h2 style="margin-top: 0;">General</h2>
           <ul>
-            <li>
+            <p>
               On first installation, Frettler presents an introductory welcome page, offering to create a new document,
               open an existing one, or open
               the inbuilt example document. That welcome page can be set to not re-appear on future application launch,
               but should you wish to have
               it re-appear, the option is here.
-            </li>
+            </p>
           </ul>
 
           <figure class="gallery-figure">
@@ -86,19 +87,19 @@
         <li>
           <h2 style="margin-top: 0;">Documents</h2>
           <ul>
-            <li>
+            <p>
               When creating a new document, you are prompted for instrument, tuning and handedness
               , with the latter defaulting
               to right-handed, favouring the majority of players. If you are in the minority, set the default to be
               left-handed here.
-            </li>
-            <li>
+            </p>
+            <p>
               The play mode when clicking fretboard notes has three settings, sustained, single or pattern run. The
               default mode for
               new documents can be set in this tab. The play mode can be changed within the document at any time once it
               has at least
               one fretboard.
-            </li>
+            </p>
           </ul>
 
           <figure class="gallery-figure">
@@ -116,19 +117,19 @@
         <li>
           <h2 style="margin-top: 0;">Instruments</h2>
           <ul>
-            <li>
+            <p>
               This section gives you control over the default maximum number of frets Frettler uses for
               each instrument type. That means fretboards can better reflect the instruments you actually play,
               whether your guitar stops at 22 frets, your mandolin has a shorter fingerboard, or your ukulele has
               a more compact range.
-            </li>
-            <li>
+            </p>
+            <p>
               Use the sliders to choose the fret limit that best matches each of your own instruments.
               Frettler will then use those values whenever it display a fretboard in a document of that
               instrument type.
               Sliders shown in grey indicate instruments using Frettler’s built-in defaults, while blue sliders indicate
               an instrument is using a default override.
-            </li>
+            </p>
           </ul>
 
           <figure class="gallery-figure">
@@ -145,21 +146,24 @@
         <li>
           <h2 style="margin-top: 0;">Fretboards</h2>
           <ul>
-            <li>
+            <p>
+              Highlight notes on hover - in fretboard panels, the default behaviour is to highlight the notes on the fretboard with a transient blue halo, when you hover over that note's chip in the fretboard header bar, or hover over a string control on the left of the fretboard (in which case all notes on that string are haloed). This feature is to help you focus on notes or strings, allowing you to see the wood for the trees, but if you instead find it distracting, you can switch it off here.
+            </p>
+            <p>
               Background - choose here which wood graphic you would like for all fretboards in all documents. The choice
               you make is seen
               immediately in any open documents, so you can see the effect straight away if you have open documents, but
               a preview is also shown
               in the dialog.
-            </li>
-            <li>
+            </p>
+            <p>
               Note colours - depending on the background you choose, you may like to choose darker/lighter or
               subdued/vibrant colours for the notes
               and intervals shown in fretboards. Again, your selection is instantly applied to open documents and a
               preview is provided in the settings dialog.
               <p />
               The two Mono themes provide monochrome colouring for those who prefer uniform note colouring.
-            </li>
+            </p>
           </ul>
 
           <figure class="gallery-figure">
@@ -177,42 +181,37 @@
         <li>
           <h2 style="margin-top: 0;">Chords</h2>
           <ul>
-            <li>
-              Voicing depth - when Frettler calculates the chord voicings for diagrams in chord organisers, it calculates
-              a number
-              of options at each fret position. Those options are then ranked based on how likely they are to be
-              playable, and the
-              navigation controls within the diagram allow you to cycle through the alternative voicings. The number of
-              alternatives
-              is controlled by the voicing depth here. The higher the number, the more alternatives you may get, but the
-              longer
-              it will take to navigate through them.
-            </li>
-            <li>
+            <p>
+            Diagram appearance - by default in dark mode, the background is dark, in light mode it is light. Here you have the choice of that system default, or you can choose light or dark regadless of system light/dark mode.
+            </p>
+            <p>
               Strum speed - when you press the space key with a chord voicing diagram selected, or if you click it,
               Frettler will play that voicing, string by string
               as a strum. The speed of that strum is set here.
-            </li>
-            <li>
+            </p>
+            <p>
               Always right handed - the chord voicing diagrams will by default display their strings using the
               orientation of the document instruments handedness.
               So if the instrument is right handed, string six will be on the far left, but if left handed, it will be
               on the right.
               If as a left handed player you prefer to see these chord diagrams in a right handed orientation, set the
               option here.
-            </li>
-            <li>
+            </p>
+            <p>
               Include muted interior strings - Frettler will filter out chord voicings having interior muted strings,
-              regarding them as not ideal.
-              If you want to see those alternative voicings, set this option, but depending on the voicing depth above,
-              voicings with no interior muted
-              strings will be pushed down the ranking and possibly sacrificed.
-            </li>
+              regarding them as not ideal. Allowing them with this setting will include them in the list of candidate voicings, but they will always be ranked last and may still not make the cut.
+            </p>
+            <p>
+            Include inversions - chord voicings that do not lead from the bass with the root note (aka inversions) are shown by default, but if you wish to only see voicings leading with the root in the bass, switch off inversions here.
+            </p>
+            <p>
+            Include voicings with omitted notes - by default, when Frettler calculates and shows voicings for a chord, depending on the chord type, it will allow certain intervals to be omitted from voicings. Which intervals can be omitted vary, because certain chords can still be 'carried' without those intervals, makes the fingering playable, and omitting them allows for more voicing permutations to be shown. Switch off this feature if you only want to see voicings which include all of a chords intervals, but be warned, there are some chord types which when fully realised, are unplayable due to the number of frettings required, and Frettler may not be able to show any voicings for at all.
+            </p>
           </ul>
 
           <figure class="gallery-figure">
             <img src="/images/help-settings-chords.png"
-              alt="Frettler Chord settings for voicing depth, strum speed, handedness and muted strings"
+              alt="Frettler Chord settings for strum speed, handedness and inner muted strings, inversions and omitted notes"
               class="gallery-image size-vs" loading="lazy" />
             <figcaption class="meta">
               Frettler Settings - Chords
@@ -222,11 +221,135 @@
         </li>
 
         <li>
+          <h2 style="margin-top: 0;">Keyboard</h2>
+          <ul>
+            <p>
+              Each row shows its current binding and its default. Click the current binding, then press the key combination you want to use. Modifier keys such as [Option] or [Command] are recorded together with the main key. Press [Escape], or click 'Cancel', to abandon recording.
+            </p>
+
+            <p>
+Click 'Default' to restore that action’s original binding. This button is unavailable when the action already uses its default. If another action now occupies that binding, change the other action first. Frettler reports conflicts without replacing either assignment.
+            </p>
+
+            <p>
+Changes take effect across open documents and are saved on this Mac. Text editing and dialogs retain their normal keyboard behaviour.
+            </p>
+
+            <p>
+A system-wide shortcut claimed by macOS or another application may prevent Frettler receiving your chosen keys. If a binding appears correct but does nothing, check for such a conflict or record a different combination.
+            </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/help-settings-keyboard.png"
+              alt="Frettler keyboard settings enabling re-binding of keyboard navigation keys"
+              class="gallery-image size-vs" loading="lazy" />
+            <figcaption class="meta">
+              Frettler Settings - Keyboard
+            </figcaption>
+          </figure>
+          <p></p>
+          <br/>
+
+          <li>
+            <b>Focus previous panel: </b>
+
+Move focus to the preceding panel and bring its header into view. Collapsed panels are included.
+        </li>
+
+          <li>
+            <b>Focus next panel: </b>
+
+Move focus to the following panel and bring its header into view. This changes focus without rearranging panels.
+        </li>
+
+          <li>
+            <b>Move panel up: </b>
+
+Move the focused panel one position earlier in the document.
+        </li>
+
+          <li>
+            <b>Move panel down: </b>
+
+Move the focused panel one position later in the document.
+        </li>
+
+          <li>
+            <b>Expand or collapse panel
+
+Toggle the focused panel between its expanded and collapsed states.
+        </li>
+
+          <li>
+            <b>Focus previous chord: </b>
+
+Move focus to the previous chord in the currently expanded organiser. If no chord is focused, select its last chord. This does not rearrange chords.
+        </li>
+
+          <li>
+            <b>Focus next chord: </b>
+
+Move focus to the next chord in the current expanded organiser. If no chord is focused, select its first chord.
+        </li>
+
+          <li>
+            <b>Move chord left: </b>
+
+Move the focused chord one position earlier within its organiser, keeping it focused.
+        </li>
+
+          <li>
+            <b>Move chord right: </b>
+
+Move the focused chord one position later within its organiser.
+        </li>
+
+          <li>
+            <b>Strum focused chord: </b>
+
+Strum the currently focused chord diagram using its displayed voicing and the strum speed chosen in the Chords tab.
+        </li>
+
+          <li>
+            <b>Strum focused chord in reverse: </b>
+
+Strum the focused chord in the opposite string order. 
+        </li>
+
+          <li>
+            <b>Clear chord focus: </b>
+
+Clear the focused chord and return focus to its organiser panel.
+        </li>
+
+          <li>
+            <b>Delete focused chord or panel: </b>
+
+Delete the focused chord when a chord is selected; otherwise delete the focused panel. Use Undo to restore it. While editing text, [**Delete**] retains its normal text-editing action.
+        </li>
+
+          <li>
+            <b>Focus first panel: </b>
+
+Focus the first panel and bring its header into view. Any chord focus is cleared; collapsed panels remain collapsed.
+        </li>
+
+          <li>
+            <b>Focus last panel: </b>
+
+Focus the last panel and bring its header into view. Any chord focus is cleared; collapsed panels remain collapsed.
+        </li>
+
+        </li>
+          </ul>
+
+
+        <li>
           <h2 style="margin-top: 0;">Support</h2>
           <ul>
-            <li>
+            <p>
               A link to this website is provided within this tab.
-            </li>
+            </p>
           </ul>
 
           <figure class="gallery-figure">

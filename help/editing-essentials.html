@@ -24,6 +24,7 @@
     <nav class="nav">
       <a href="/">Home</a>
       <a href="/purchase-frettler.html">Purchase</a>
+        <a href="/changelog.html">Changelog</a>
       <a href="/privacy.html">Privacy</a>
       <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
     </nav>
@@ -34,6 +35,17 @@
         Some of Frettler's most useful features are not obvious and are not visible in its user interface.
         They are features you are already used to from applications such as Pages and Numbers, and might not
         expect to see in an app like Frettler, so it is worth calling them out and explaining them here.
+      </p>
+
+      <p>
+      The user interface of Frettler has been designed with a minimalist approach, with controls on screen having collaborating features carefully woven together, in the fretboard panels in particular. This was done to avoid cluttering the panels with too many buttons and controls, so some of the less frequently used features are not up front, but are instead behind right click context menus.
+      </p>
+
+      <p>
+      As you explore Frettler, try right clicking on buttons and areas such as the title clusters to find those additional options.
+      </p>
+
+      <p>
       </p>
 
       <ul class="list">
@@ -58,10 +70,8 @@
 
         <li>
           <h2 style="margin-top: 0;">Edit Menu</h2>
-          When a fretboard panel title area is clicked, that fretboard becomes the current/focussed fretboard, and will
-          be the fretboard scrolled back to when the “Home” button is clicked. Use keyboard up and down arrows to move
-          the current
-          focus. That currently focussed fretboard
+          When a fretboard panel title area is clicked, that fretboard becomes the current/focused fretboard. 
+          Use keyboard [Up Arrow] and [Down Arrow] to move the current focus. That currently focused fretboard
           will also be the target for the Cut/Copy/Delete options in the Edit menu.
 
           <p></p>
@@ -70,31 +80,45 @@
               class="gallery-image" style="max-width: 200px; width: 100%;" loading="lazy" />
           </figure>
           <p></p>
-          A Cut or Delete of a fretboard can be undone from the Edit menu using Undo and re-applied with Redo.
-          <p></p>
-          Marking of notes and selection of fretboard notes/intervals using the centre top 'chips' can also be reverted
-          or
-          re-applied using Undo/Redo
-          <p></p>
           The Select All menu command will only work for text in fretboard noteboards ie it will not select all
           fretboards.
           <p></p>
           The combination of Edit menu commands Cut/Copy/Paste/Delete/Undo/Redo provides a powerful way to edit and
           manage
           fretboards within a document, and also across documents.
+          <p></p>
+          Undo/Redo works for all changes you can make to fretboard and chord organiser panels as well as to the panel order and population of the document. In fact the deletion of favourite voicings (see 'Document Window Overview') is the only change you can make that is not undoable. So don't be afraid to try out all of the on screen buttons and controls, as you can always revert your changes with Undo.
         </li>
 
 
         <li>
           <h2 style="margin-top: 0;">Drag And Drop</h2>
           Fretboards, chord organisers (and the chord diagrams within them) can be moved within a document by dragging
-          them by their drag handle/title area and dropping them
+          them by their title area and dropping them
           in the upper or lower half of another panel (which determines whether they will be moved to before or after
-          the fretboard they are dropped onto). A blue line will appear confirming the drop location. The target
+          the fretboard they are dropped onto).
+          <p></p>
+          A blue line will appear confirming the drop location. The target
           fretboard needs to be close when dragging like this, so with documents having many fretboards,
-          moving fretboards is easier with the “Arrange panels” button in the document header.
+          moving fretboards is easier by first collapsing panels, either individually using the collapse icon in their title area or by using the menubar item "Panel" → "Collapse All Panels".
         </li>
 
+        <li>
+          <h2 style="margin-top: 0;">Keyboard features</h2>
+          
+When you click a control within a panel (including the title as it is passive), it becomes the current panel and is highlighted to standout.
+  
+          <p></p>
+Both panel types can be collapsed and later expanded. The [Return] key toggles the collapsed state of the focused panel. Collapsing panels allows for quicker and easier navigation and re-ordering of panels, using either keyboard (see below) or drag and drop.
+          <p></p>
+Move the focus to another panel using [Up Arrow] / [Down Arrow]. Jump to the first or last panel using [Command][Up Arrow] / [Command][Down Arrow].
+
+          <p></p>
+Move the currently focused panel using [Option][Up Arrow] / [Option][Down Arrow] to move it one position. 
+
+          <p></p>
+Press keyboard [Delete] to delete the currently focused panel, or right click its title and use the delete panel option.
+        </li>
 
         <li>
           <h2 style="margin-top: 0;">Cross Document Editing</h2>
@@ -123,9 +147,9 @@
           <h2 style="margin-top: 0;">View Menu</h2>
           The View menu item enables switching tabbed mode on/off. When tabbed mode is on, it is possible to open
           multiple Frettler documents
-          within the same window, and switch between tabs using Ctrl Tab. Copy/Paste of fretboards works within tabbed
+          within the same window, and switch between tabs using [Control][Tab]. Copy/Paste of fretboards works within tabbed
           mode, just as it does
-          within separately windowed documents, but drag and drop cannot.
+          within separately windowed documents, as does drag and drop.
           <p></p>
           <figure class="gallery-figure">
             <img src="/images/help-view-menu.png" alt="Frettler View menu showing tabbed window commands"

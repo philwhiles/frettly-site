@@ -4,20 +4,31 @@
 
 Frettler combines interactive fretboards, chord organisers and persistent document-based workspaces. It is designed for musicians, teachers and students who want to explore music theory, organise ideas and save reusable learning documents.
 
+## Current features
+
+- **Favourite chord voicings:** Save a preferred voicing for each chord, instrument and tuning. Available favourites become the initial voicing when a diagram is created, its chord is changed, or the document's instrument or tuning changes. Favourites are stored locally across documents.
+- **Customisable keyboard bindings:** The Keyboard tab in Settings records replacement shortcuts and restores individual defaults. Changes apply across open documents and are saved on the Mac; conflicting Frettler assignments are reported.
+- **Collapsible panels:** Collapse or expand fretboards and chord organisers using the title control, a title double-click or a keyboard shortcut. Collapsed states are saved with the document; header chips retain a summary of the contents.
+- **Panel navigation:** Focus and reveal panels with keyboard shortcuts, jump to the first or last panel, and move panels up or down. Expanded chord organisers also support chord focus and reordering shortcuts.
+- **Printing:** Print fretboards, marked groups, chord organisers and full panel notepad text using the macOS print dialogue, or save a PDF. Vector layouts support colour, portrait, landscape and scaling.
+- **Chord inversions:** Slash-chord titles identify the bass note of inversions, with an information popover explaining them. Chords settings control whether inversions and voicings with omitted notes are included.
+- **Marquee play and marking:** Drag over visible fretboard notes to strum them, or to mark/unmark them in marking mode. Drag direction controls playback order or marking versus unmarking. Replay remembers the last played selection, respects current note/string filters and supports reverse playback.
+
 ## Product
 
 - [Frettler Home](https://frettler.app/): Product overview, features and App Store download.
+- [Changelog](https://frettler.app/changelog.html): Release history, new features, improvements and fixes, with additional details and screenshots.
 - [Mac App Store](https://apps.apple.com/gb/app/id6757320106): Download Frettler for macOS.
 
 ## Documentation
 
 - [Getting Started](https://frettler.app/help/getting-started.html): Creating documents, choosing instruments and adding panels.
 - [Supported Instruments](https://frettler.app/help/instruments.html): Guitar, bass, ukulele, mandolin and banjo support.
-- [Document Window Overview](https://frettler.app/help/document-window-overview.html): Documents, navigation, play modes and panel management.
-- [Fretboard Panels](https://frettler.app/help/fretboard-panels-overview.html): Working with scales, modes, chords, markings and fretboard controls.
-- [Marquee Selections](https://frettler.app/help/marquee-selections.html): Describes how to utilise marquee selections in fretboard panels in both play and marking modes.  
-- [Chord Organiser Panels](https://frettler.app/help/chord-organiser-overview.html): Building and organising chord collections and exploring voicings.
-- [Settings](https://frettler.app/help/frettler-settings.html): Application, instrument, fretboard and chord preferences.
+- [Document Window Overview](https://frettler.app/help/document-window-overview.html): Documents, collapsible panels, keyboard navigation, panel reordering, play modes and printing.
+- [Fretboard Panels](https://frettler.app/help/fretboard-panels-overview.html): Working with scales, modes, chords, marking groups, collapsible panels and fretboard controls.
+- [Marquee Selections](https://frettler.app/help/marquee-selections.html): Directional marquee play, filtered replay and reverse replay, plus marking and unmarking visible notes.
+- [Chord Organiser Panels](https://frettler.app/help/chord-organiser-overview.html): Building chord collections, favourite voicings, inversions, omitted-note warnings and chord navigation.
+- [Settings](https://frettler.app/help/frettler-settings.html): General, Documents, Instruments, Fretboards, Chords, Keyboard and Support tabs, including customisable shortcuts and voicing preferences.
 
 ## Company
 

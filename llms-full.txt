@@ -3,6 +3,132 @@ Frettler
 This document aggregates the public documentation from frettler.app for
 AI assistants.
 
+Current Frettler features
+
+These descriptions reflect current functionality. Keyboard combinations
+below are defaults; users can customise the supported actions in Settings.
+
+Favourite chord voicings
+Source: https://frettler.app/help/chord-organiser-overview.html
+
+Click a chord diagram's heart to save its displayed voicing as the favourite
+for that chord, instrument and tuning. The filled heart identifies the
+current favourite. Favourites are stored locally, application-wide, rather
+than in a particular document. The context menu can show an available
+favourite, remove the current favourite, or favourite the current voicing.
+Available favourites are selected when diagrams are created, their chord
+is changed, or the document's instrument or tuning changes, including
+creation from the Scale Harmony sheet. They do not continually override
+manual voicing browsing. A favourite excluded by the current voicing
+settings remains stored and can become available again when those settings
+are restored, unless it has been replaced or removed. Reset favourites in
+the document header removes saved favourites for that instrument/tuning
+combination across documents, after confirmation; this cannot be undone.
+
+Customisable keyboard bindings
+Source: https://frettler.app/help/frettler-settings.html
+
+The Keyboard tab in Frettler Settings shows supported actions and their
+current bindings. Click a binding and press the desired key combination
+to record a replacement. Escape or Cancel abandons recording; Default
+restores that action's original shortcut. Conflicts with another Frettler
+action are reported without replacing either assignment. Changes take
+effect across open documents and persist locally. macOS or another app
+may intercept a system-wide shortcut before Frettler receives it. Text
+editors and dialogs retain their normal keyboard behaviour. Standard zoom
+shortcuts are not configurable through this tab, and Page Up/Page Down
+are not additional Frettler panel-navigation bindings. In-app help uses
+current bindings for supported configurable actions.
+
+Collapsible panels and panel navigation
+Source: https://frettler.app/help/document-window-overview.html
+
+Both fretboards and chord organisers can be collapsed to a compact header.
+Use the collapse/expand icon, double-click anywhere in the title area,
+or press Return/Enter with the panel focused. The collapsed state is saved
+and restored with the document; changing instrument or tuning does not
+automatically expand a collapsed panel. Collapsing removes the panel's
+main contents from the view and reduces rendering work.
+
+Collapsed fretboard headers retain their coloured note/interval chips in
+an unselected, non-interactive presentation, without changing the saved
+note filters. Expanding restores the original interactive presentation.
+Chord organiser headers summarise their diagrams with chord-title chips;
+when expanded, these chips can focus their corresponding diagrams.
+
+Click a panel title to focus it. By default, Up/Down focus the previous
+or next panel and bring its header into view, positioned at the top when
+space permits. Command-Up/Down focus and reveal the first/last panel.
+Option-Up/Down move the focused panel within the document. Panels can also
+be reordered by dragging their title areas; a blue insertion line shows
+the destination. These actions include collapsed panels. Panel menu
+commands provide equivalents for panel operations.
+
+In an expanded chord organiser, Left/Right move chord focus and
+Option-Left/Right reorder the focused chord. Space strums the focused
+chord; Option-Space strums it in reverse. Escape returns focus to the
+organiser. These configurable shortcuts use their current user bindings
+when changed in Settings.
+
+Printing
+Source: https://frettler.app/help/editing-essentials.html
+
+File -> Print opens the macOS print dialogue, with preview, page range,
+paper size, orientation, scaling and PDF saving. Printed fretboards use
+simplified vector artwork with coloured note circles or interval labels,
+matching their display mode, rather than on-screen background textures.
+Each panel begins on a new page, with continuation pages when needed.
+Fretboards print the full configured fret range: an unmarked overview,
+then a focused view for each marking group with notes remaining after
+filters. Groups with no visible marked notes are skipped. Hidden string
+notes stay hidden, while the string itself remains drawn. Full panel
+notepad text is included. Portrait has its own layout; scaling is applied.
+
+Chord organisers print the displayed voicings, their inversion titles,
+chord notes, voicing numbers, barres and favourite status. Trial output
+has an unavoidable trial watermark; Frettler Pro output has no trial
+watermark.
+
+Inversions and omitted chord notes
+Source: https://frettler.app/help/chord-organiser-overview.html
+
+When the lowest sounding note is a chord tone other than the root, chord
+diagrams show the inversion in the title, such as Cmaj/G, and provide an
+information icon with a tooltip and explanatory popover. The same title
+is used in organiser header chips and printing. A separate warning icon
+identifies omitted priority intervals. The Chords tab in Settings lets
+users include or exclude inversions, voicings with omitted notes, and
+interior muted strings. Inversions and omitted-note voicings are included
+by default. Changes can take a few seconds to recalculate diagrams across
+open documents and may make a stored favourite temporarily unavailable.
+
+Marquee play, replay and marking
+Source: https://frettler.app/help/marquee-selections.html
+
+With marking off, drag a marquee over currently visible notes to play a
+strummed sequence on release, in any of the three document play modes.
+The drag can start on a note or in blank space in the fretboard panel,
+including the string-control area, but does not take over its scrollbar
+or trigger horizontal auto-scrolling. On standard six-string guitar, left-to-right plays from string six
+towards string one, lower frets first on each string; right-to-left reverses
+that order. This is string-by-string ordering, not a global pitch sort.
+The marquee changes colour for the reverse direction, playback uses the
+Chords strum-speed setting, and played notes receive fading yellow halos.
+
+Each fretboard temporarily remembers its last marquee sequence and
+direction. Replay is unavailable until there is a stored sequence and
+only plays stored notes still allowed by current note and string filters.
+Its context menu toggles the ongoing replay direction or resets play
+history. Option-click reverses just that replay; hovering with Option
+shows the reversed icon. Replay history and direction are not saved in
+the document.
+
+With marking on, left-to-right marqueeing adds visible notes to the current
+marking group; right-to-left removes their marks. Colours distinguish the
+two operations. Option is not used to switch marking/unmarking. Marking
+is unavailable in the focused "View marked notes" mode; leaving that view
+restores marking if it was enabled before entering it.
+
 Frettler – Guitar Scales & Chords Companion
 
 Frettler - the interactive fretboard explorer and notebook
@@ -74,6 +200,31 @@ Frettler is a product of Efford Studio Limited
 
 Efford Studio Limited is an independent UK software studio focused on
 thoughtfully crafted tools for musicians and creatives.
+
+Frettler Changelog
+Source: https://frettler.app/changelog.html
+
+Release notes are listed newest first and may include additional details
+and screenshots. The homepage summarises only the latest release.
+
+Version 1.4.0 — latest release
+https://frettler.app/changelog.html#release-1-4-0
+
+- Collapsible fretboard and chord organiser panels make larger documents
+  easier to scan and rearrange.
+- Keyboard panel navigation includes shortcuts for moving panels and
+  opening or collapsing them.
+- Favourite chord voicings are saved for each chord, instrument and tuning.
+  Available favourites are used when creating diagrams or changing their
+  chord, including diagrams created from the Scale Harmony sheet.
+- Chord organiser diagrams identify inversions, showing the bass note in
+  slash-chord titles and explaining the inversion in an information popover.
+- Chords settings let users include or exclude inversions and voicings with
+  omitted chord notes. Unavailable favourites remain stored.
+- Option-clicking a chord diagram reverses its strum direction.
+- Print scaling and portrait layouts have been fixed.
+- Banjo chord diagrams respect the shortened fifth string.
+- Chord voicing calculations have been further improved.
 
 Frettler Pro – One-Time Purchase
 
@@ -772,88 +923,12 @@ marking is off. Drag over visible notes to play them as a strummed
 sequence on release, independently of the click-to-play mode selected
 above. See “Marquee play and replay” below.
 
--   Jump to current panel When you click the title of a panel, it
-    becomes the currently focused one. The Up and Down arrow keys move
-    that focus up and down, one panel at a time. Focus is primarily a
-    navigational aid: controls (and notes) across all fretboards and
-    chord organisers remain usable, regardless of which one is currently
-    focused. Focus can be especially useful in documents with many
-    panels. For example, you might keep focus on a “primary” scale and
-    quickly return to it from anywhere in the document. “Jump to current
-    panel” takes you straight back to the last panel you selected.
+Panel navigation and organisation
 
-Jump to current panel
-
-When you click the title of a panel, it becomes the currently focused
-one. The Up and Down arrow keys move that focus up and down, one panel
-at a time. Focus is primarily a navigational aid: controls (and notes)
-across all fretboards and chord organisers remain usable, regardless of
-which one is currently focused.
-
-Focus can be especially useful in documents with many panels. For
-example, you might keep focus on a “primary” scale and quickly return to
-it from anywhere in the document. “Jump to current panel” takes you
-straight back to the last panel you selected.
-
--   Arrange panels The “Arrange panels” button opens a dialog where you
-    can manage panel order and navigation. You will notice that in the
-    document, each panel has a number in its title area. After moving a
-    panel, its number will change as the numbering is always sequential
-    within the document. Those numbers show you a panel’s relative
-    position in the document. Arrange panels dialog Reorder panels: you
-    can rearrange the order of panels in one of two ways within the
-    dialog: either drag and drop the row representing a panel, or use
-    the Up/Down chevron buttons. The order you choose becomes effective
-    when you click “Save”. The list of panels will show the current
-    numeric position of each in the document, even after a panel is
-    moved. It’s new position does not come into effect until you select
-    “Save”. Set focus: each row has a radio button selector. Choose one
-    and, when you click “Apply”, that panel becomes the focused panel
-    and is brought into view. Preview panels: you can also sample
-    fretboard panels quickly using “Pattern play”, without needing to
-    scroll to each one in the document. An alternative to using the
-    “Arrange panels” dialog to re-arrange panels, is to drag a panel in
-    the document using its title area, showing a three bar drag handle
-    to remind you. Draggable fretboard title Click and hold anywhere in
-    the title area and drag it into its intended position (while
-    dragging you should see a snaphot of just the title being dragged).
-    A blue highlight line will appear while dragging to show you where
-    the dropped panel will be inserted.
-
-Arrange panels
-
-The “Arrange panels” button opens a dialog where you can manage panel
-order and navigation. You will notice that in the document, each panel
-has a number in its title area. After moving a panel, its number will
-change as the numbering is always sequential within the document. Those
-numbers show you a panel’s relative position in the document.
-
-Arrange panels dialog
-
-Reorder panels: you can rearrange the order of panels in one of two ways
-within the dialog: either drag and drop the row representing a panel, or
-use the Up/Down chevron buttons. The order you choose becomes effective
-when you click “Save”. The list of panels will show the current numeric
-position of each in the document, even after a panel is moved. It’s new
-position does not come into effect until you select “Save”.
-
-Set focus: each row has a radio button selector. Choose one and, when
-you click “Apply”, that panel becomes the focused panel and is brought
-into view.
-
-Preview panels: you can also sample fretboard panels quickly using
-“Pattern play”, without needing to scroll to each one in the document.
-
-An alternative to using the “Arrange panels” dialog to re-arrange
-panels, is to drag a panel in the document using its title area, showing
-a three bar drag handle to remind you.
-
-Draggable fretboard title
-
-Click and hold anywhere in the title area and drag it into its intended
-position (while dragging you should see a snaphot of just the title
-being dragged). A blue highlight line will appear while dragging to show
-you where the dropped panel will be inserted.
+Panels are focused, revealed, moved and collapsed directly in the document
+using title controls, drag and drop, keyboard bindings and the Panel menu.
+See "Collapsible panels and panel navigation" above for current behaviour
+and default bindings.
 
 -   Add Panel Mentioned in the “Getting started” section of this site,
     the “Add panel” button opens an inline menu offering the choice of
@@ -904,8 +979,8 @@ Frettler lets you collect many fretboards within each document.
 
 -   New fretboards or chord organisers are added to the bottom of the
     document. You can reorder them by dragging and dropping a panel
-    before or after another, or by using the document’s “Arrange panels”
-    sheet.
+    before or after another, or using the panel-movement shortcuts
+    (Option-Up/Down by default).
 
 -   Zoom panels within a document using the standard macOS ⌘+ and ⌘-
     shortcuts, pinch to zoom on the trackpad, menu options under “View”,
@@ -1618,13 +1693,13 @@ header pairs the displayed notes with their intervals. Fret numbers
 appear below the fretboard, and the nut and outer edges are distinct.
 
 Chord organisers print the currently selected voicing for each chord,
-with its title, chord notes, voicing number and barres. Trial output
+with its inversion title, chord notes, voicing number, barres and
+favourite status. Trial output
 includes a “Frettler · Trial version” watermark; it is not a print-sheet
 option that can be turned off. Frettler Pro output has no trial watermark.
 
 -   Edit Menu When a fretboard panel title area is clicked, that
-    fretboard becomes the current/focussed fretboard, and will be the
-    fretboard scrolled back to when the “Home” button is clicked. Use
+    fretboard becomes the current/focussed fretboard. Use
     keyboard up and down arrows to move the current focus. That
     currently focussed fretboard will also be the target for the
     Cut/Copy/Delete options in the Edit menu. A Cut or Delete of a
@@ -1639,15 +1714,12 @@ option that can be turned off. Frettler Pro output has no trial watermark.
 
 Edit Menu
 
--   Drag And Drop Fretboards, chord organisers (and the chord diagrams
-    within them) can be moved within a document by dragging them by
-    their drag handle/title area and dropping them in the upper or lower
-    half of another panel (which determines whether they will be moved
-    to before or after the fretboard they are dropped onto). A blue line
-    will appear confirming the drop location. The target fretboard needs
-    to be close when dragging like this, so with documents having many
-    fretboards, moving fretboards is easier with the “Arrange panels”
-    button in the document header.
+-   Drag And Drop Fretboards and chord organisers can be reordered by
+    dragging their title areas. Chord diagrams can also be dragged within
+    or between organisers. A blue insertion line identifies the drop
+    destination, including gaps between panels and the end of the list.
+    Collapsing panels makes large documents easier to rearrange. Panel
+    and chord movement shortcuts provide keyboard alternatives.
 
 Drag And Drop
 
@@ -1689,11 +1761,9 @@ wide configuration (instrument, tuning and handedness) which apply to
 all of the fretboards within it, Frettler has application wide settings,
 found in menubar item “Frettler” -> “Settings”.
 
-Settings are divided into tabs: General - Miscellaneous settings
-Documents - Settings which affect document level functionality
-Instruments - Settings for Frettlers supported instruments Fretboards -
-Settings which affect fretboard level functionality Support - Help
-related
+Settings tabs are General, Documents, Instruments, Fretboards, Chords,
+Keyboard and Support. Keyboard contains configurable shortcuts; Chords
+contains diagram appearance, playback and voicing options.
 
 -   General - Miscellaneous settings
 
@@ -1702,6 +1772,10 @@ related
 -   Instruments - Settings for Frettlers supported instruments
 
 -   Fretboards - Settings which affect fretboard level functionality
+
+-   Chords - Diagram appearance, strumming and voicing options
+
+-   Keyboard - Customisable action bindings
 
 -   Support - Help related
 
@@ -1802,61 +1876,22 @@ Fretboards
 
 Frettler Settings - Fretboards
 
--   Chords Voicing depth - when Frettler calculates the chord voicings
-    for diagrams in chord organisers, it calculates a number of options
-    at each fret position. Those options are then ranked based on how
-    likely they are to be playable, and the navigation controls within
-    the diagram allow you to cycle through the alternative voicings. The
-    number of alternatives is controlled by the voicing depth here. The
-    higher the number, the more alternatives you may get, but the longer
-    it will take to navigate through them. Strum speed - when you press
-    the space key with a chord voicing diagram selected, or if you click
-    it, Frettler will play that voicing, string by string as a strum. The
-    speed of that strum is set here. This setting also controls fretboard
-    marquee play and replay. Always right handed - the chord
-    voicing diagrams will by default display their strings using the
-    orientation of the document instruments handedness. So if the
-    instrument is right handed, string six will be on the far left, but
-    if left handed, it will be on the right. If as a left handed player
-    you prefer to see these chord diagrams in a right handed
-    orientation, set the option here. Include muted interior strings -
-    Frettler will filter out chord voicings having interior muted
-    strings, regarding them as not ideal. If you want to see those
-    alternative voicings, set this option, but depending on the voicing
-    depth above, voicings with no interior muted strings will be pushed
-    down the ranking and possibly sacrificed. Frettler Settings - Chords
-
 Chords
 
--   Voicing depth - when Frettler calculates the chord voicings for
-    diagrams in chord organisers, it calculates a number of options at
-    each fret position. Those options are then ranked based on how
-    likely they are to be playable, and the navigation controls within
-    the diagram allow you to cycle through the alternative voicings. The
-    number of alternatives is controlled by the voicing depth here. The
-    higher the number, the more alternatives you may get, but the longer
-    it will take to navigate through them.
+- Diagram appearance: follow system appearance, prefer light or prefer dark.
+- Strum speed: controls chord diagrams and fretboard marquee play/replay.
+- Always right handed: optionally display diagrams in right-handed orientation.
+- Voicing options: include interior muted strings, inversions and voicings
+  with omitted chord notes. Changing these options recalculates candidates
+  across open documents and can temporarily exclude saved favourites.
 
--   Strum speed - when you press the space key with a chord voicing
-    diagram selected, or if you click it, Frettler will play that
-    voicing, string by string as a strum. The speed of that strum is set
-    here. This setting also controls fretboard marquee play and replay.
+Keyboard
 
--   Always right handed - the chord voicing diagrams will by default
-    display their strings using the orientation of the document
-    instruments handedness. So if the instrument is right handed, string
-    six will be on the far left, but if left handed, it will be on the
-    right. If as a left handed player you prefer to see these chord
-    diagrams in a right handed orientation, set the option here.
-
--   Include muted interior strings - Frettler will filter out chord
-    voicings having interior muted strings, regarding them as not ideal.
-    If you want to see those alternative voicings, set this option, but
-    depending on the voicing depth above, voicings with no interior
-    muted strings will be pushed down the ranking and possibly
-    sacrificed.
-
-Frettler Settings - Chords
+Record replacement bindings or restore an action's default. Supported
+commands cover panel focus and movement, panel collapse/expand, chord
+focus and movement, forward/reverse strumming, clearing chord focus,
+deletion, and first/last-panel navigation. See "Customisable keyboard
+bindings" above for recording, conflicts and persistence.
 
 -   Support A link to this website is provided within this tab. Frettler
     Settings - Support

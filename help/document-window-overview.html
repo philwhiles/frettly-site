@@ -24,6 +24,7 @@
     <nav class="nav">
       <a href="/">Home</a>
       <a href="/purchase-frettler.html">Purchase</a>
+        <a href="/changelog.html">Changelog</a>
       <a href="/privacy.html">Privacy</a>
       <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
     </nav>
@@ -62,7 +63,7 @@
 
           <figure class="gallery-figure">
             <img src="/images/help-document-controls.png"
-                alt="Frettler document toolbar showing setings, print, zoom, undo, play mode, panel navigation, arrange panels, add panel and help controls"
+                alt="Frettler document toolbar showing setings, print, zoom, undo, play mode, delete favourites, add panel, settings and help controls"
               class="gallery-image size-l" loading="lazy" />
             <figcaption class="meta">
               Frettler document-level controls
@@ -92,8 +93,7 @@
 
         <li>
           <h2 style="margin-top: 0;">Editing undo and redo</h2>
-          <p>All documents edits can be undone and redone, which is why there are no safety rails in Frettler, because
-          all edits are easily undone.</p>
+          <p>All documents edits can be undone and redone, which is why there are so few 'Are you sure?' questions in Frettler, because all edits are easily undone.</p>
         </li>
 
         <li>
@@ -131,91 +131,18 @@
         </li>
 
         <li>
-
-          <h2 style="margin-top: 0;">Jump to current panel</h2>
-
+          <h2 style="margin-top: 0;">Delete Favourites</h2>
           <p>
-            When you click the title of a panel, it becomes the currently focused one. The Up and Down arrow keys move
-            that focus
-            up and down, one panel at a time. Focus is primarily a navigational aid: controls (and notes) across all
-            fretboards and chord organisers remain usable,
-            regardless of which one is currently focused.
+          Chord diagrams in Chord Organiser panels present multiple voicings per chord. Those voicings may be favourited, meaning next time a chord diagram is created for that chord (for the same instrument/tuning combo, that will be the voicing initially shown. The Delete Favourites button allows you to delete all favourites for the current document's instrument/tuning combo.
           </p>
-
           <p>
-            Focus can be especially useful in documents with many panels. For example, you might keep focus on a
-            “primary” scale
-            and quickly return to it from anywhere in the document. “Jump to current panel” takes you straight back to
-            the last panel you selected.
+          The deletion of favourites is an application wide deletion and cannot be undone as it is not deleting favourites from the document, but from the application, which is out of the undo scope. Because of this you are first shown the chords having favourites, and have the option to cancel the deletion.
           </p>
         </li>
 
-        <li>
-
-          <!-- Arrange panels card -->
-          <h2 style="margin-top: 0;">Arrange panels</h2>
-
-          <p>
-            The “Arrange panels” button opens a dialog where you can manage panel order and navigation. You will notice
-            that in the document, each panel
-            has a number in its title area. After moving a panel, its number will change as the numbering is always
-            sequential within the document.
-            Those numbers show you a panel's relative position in the document.
-          </p>
-
-          <figure class="gallery-figure">
-            <img src="/images/help-arrange-panels.png"
-              alt="Frettler Arrange Panels dialog for reordering panels, setting the focused panel and previewing panels"
-              class="gallery-image size-s" loading="lazy" />
-            <figcaption class="meta">
-              Arrange panels dialog
-            </figcaption>
-          </figure>
-          <p></p>
-
-          <p>
-            <strong>Reorder panels:</strong> you can rearrange the order of panels in one of two ways within the dialog:
-            either drag and drop the row representing a panel, or use the Up/Down chevron buttons. The order you choose
-            becomes effective when you click “Save”.
-            The list of panels will show the current numeric position of each in the document, even after a panel is
-            moved. It's new position does not come into effect until
-            you select “Save”.
-          </p>
-
-          <p>
-            <strong>Set focus:</strong> each row has a radio button selector. Choose one and, when you click “Apply”,
-            that panel becomes the focused panel and is brought into view.
-          </p>
-
-          <p>
-            <strong>Preview panels:</strong> you can also sample fretboard panels quickly using “Pattern play”, without
-            needing to scroll to each one in the document.
-          </p>
-
-          <p>
-            An alternative to using the “Arrange panels” dialog to re-arrange panels, is to drag a panel in the document
-            using its title area, showing
-            a three bar drag handle to remind you.
-          </p>
-          <figure class="gallery-figure">
-            <img src="/images/help-fretboard-drag.png"
-              alt="Frettler fretboard panel title showing the drag handle used to reorder panels"
-              class="gallery-image size-s" loading="lazy" />
-            <figcaption class="meta">
-              Draggable fretboard title
-            </figcaption>
-          </figure>
-          <p></p>
-          <p>
-            Click and hold anywhere in the title area and drag it into its intended position (while dragging you should
-            see a snaphot of just the title being dragged).
-            A blue highlight line will appear while dragging to show you where the dropped panel will be inserted.
-          </p>
-        </li>
 
         <li>
-
-          <!-- Add fretboard card -->
+          <!-- Add panel card -->
           <h2 style="margin-top: 0;">Add Panel</h2>
 
           <p>
@@ -239,16 +166,21 @@
         </li>
 
         <li>
-
           <!-- Help card -->
           <h2 style="margin-top: 0;">Help</h2>
 
           <p>
-            The Help button opens Frettler’s lightweight in-app help dialog. The macOS menu bar “Help” → “Frettler Help”
+            The Help button opens Frettler’s lightweight in-app help. The macOS menu bar “Help” → “Frettler Help”
             opens the content you are reading right now in your browser.
           </p>
         </li>
 
+        <li>
+          <h2 style="margin-top: 0;">Application Settings</h2>
+          <p>
+          Opens Frettlers application settings, also accessible using [Command] [,] or from menu item "Frettler" → "Settings".
+          </p>
+        </li>
     </section>
 
     <!-- Shared lightbox overlay -->
@@ -274,3 +206,4 @@
 </body>
 
 </html>
+

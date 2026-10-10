@@ -532,6 +532,7 @@ ul:not(.list) li {
 }
 .gallery-image { width: 100%; margin: 0 auto; display: block; }
 
+.gallery-image.size-vvs { max-width: 320px; }
 .gallery-image.size-vs { max-width: 420px; }
 .gallery-image.size-s { max-width: 520px; }
 .gallery-image.size-m { max-width: 720px; }
@@ -564,3 +565,55 @@ ul:not(.list) li {
   }
 }
 
+
+/* Release notes and the latest-release summary */
+.nav { flex-wrap: wrap; }
+.release-summary h2 {
+  margin-bottom: 0.65rem;
+  color: #f9fafb;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.release-summary p { font-size: 0.9rem; }
+.release-summary ul { font-size: 0.9rem; }
+.release-summary li { margin-bottom: 0.5rem; }
+.release-summary p:last-child { margin-bottom: 0; }
+.release-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.release-heading h2 {
+  margin: 0;
+  color: #f9fafb;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.release-heading time { color: #9ca3af; font-size: 0.9rem; }
+.release { margin-top: 1.5rem; scroll-margin-top: 1.5rem; }
+.release h3 { font-size: 1.05rem; margin: 1.5rem 0 0.65rem; }
+.release li { margin-bottom: 0.65rem; }
+.release-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.release-gallery figure { margin: 0; }
+.release-gallery img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 0.75rem;
+}
+.release-gallery figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #9ca3af;
+  text-align: center;
+}

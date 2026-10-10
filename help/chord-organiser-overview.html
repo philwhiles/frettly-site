@@ -24,6 +24,7 @@
     <nav class="nav">
       <a href="/">Home</a>
       <a href="/purchase-frettler.html">Purchase</a>
+        <a href="/changelog.html">Changelog</a>
       <a href="/privacy.html">Privacy</a>
       <a href="/help/index.html" aria-current="page">Help &amp; Info</a>
     </nav>
@@ -63,7 +64,7 @@
           <figure class="gallery-figure">
             <img src="/images/help-organiser-controls.png"
               alt="Frettler chord organiser panel showing the Add Chord and notepad controls"
-              class="gallery-image size-s" loading="lazy" />
+              class="gallery-image size-vs" loading="lazy" />
             <figcaption class="meta">
               Chord organiser controls
             </figcaption>
@@ -86,10 +87,13 @@
           <p>
             Only twelve chords can be added per organiser panel - if more are needed, create another chord organiser
             panel and place chords in that.
-            The chord cards in an organiser can be dragged from one organiser to another, and can be copied and pasted.
-            Click a chord cards title to give it focus, then use ⌘C to copy it.
-            Pasting with ⌘V will place the copy into a focused organiser panel, or after whichever chord chip within an
-            organiser has the focus.
+          </p>
+          <p>
+            With Chord Organsisers, either the organiser itself or one of it's chord diagrams can have the focus. Click the
+            title of either to give it focus.
+            Either can be deleted with the [Delete] key (don't forget you have Undo), and chord diagrams can be dragged by their
+            title to re-arrange them within the organiser, or even be dragged into another organiser, in the current document or
+            another.
           </p>
 
           <p>
@@ -109,16 +113,20 @@
           </p>
 
           <p>
-            Once a chord organiser has the focus, pressing the right arrow key will move the focus to the first chord
-            diagram within it. Pressing the left arrow key instead would move the focus to the last chord diagram.
+            Once a chord organiser has the focus, pressing the [Right Arrow] key will move the focus to the first chord
+            diagram within it. Pressing the [Left Arrow] key instead would move the focus to the last chord diagram.
             Subsequent left/right key presses will move the focus as you would expect amongst the diagrams.
           </p>
 
           <p>
-            Clicking the diagram or pressing the space key gives a preview of the focused chord. The speed of the strum
+            Chord diagrams may be moved to the left or right using [Option] with [Left Arrow] or [Right Arrow] keys.
+          </p>
+
+          <p>
+            Clicking the diagram or pressing the [Space] key plays a strummed preview of the focused chord. The speed of the strum
             can be changed in the Chords tab in menu item “Frettler” → “Settings”. The strum will default to play from
-            the lowest pitched string to the highest, but can be reversed by holding down the Option key as you click the
-            chord diagram.
+            the lowest pitched string to the highest, but can be reversed by holding down the [Option] key as you click the
+            chord diagram, or by keys [Option] [Space].
           </p>
         </li>
 
@@ -146,13 +154,71 @@
           </p>
 
           <p>
+            Some voicings will naturally have a leading note other than the root. That leading note is still a valid part of the chord, but as the chord strummed will not start
+            with the root, it will have a different audible characteristic. Those voicings are known as inversions and are identified by a blue info symbol to
+            their left, which when clicked will explain the inversion. Note that the diagrams title changes to show the inversion also.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/chord-inversion.png"
+              alt="Frettler chord diagram showing inversion" class="gallery-image size-vvs"
+              loading="lazy" />
+            <figcaption class="meta">
+              Chord diagram showing inversion
+            </figcaption>
+          </figure>
+          <p></p>
+
+          <p>
+             In the title bar of each chord diagram is a heart icon. 
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/chord-default.png"
+              alt="Frettler chord diagram in default state" class="gallery-image size-vvs"
+              loading="lazy" />
+            <figcaption class="meta">
+              Chord diagram in default state
+            </figcaption>
+          </figure>
+          <p></p>
+
+          <p>
+            As Frettler can calculate so many variant voicings, and you may prefer one voicing over another, you can choose to favourite a specific voicing, by 
+            clicking the heart icon. Clicking an already favourited voicing will remove that favoured state.
+            Frettler will remember your favourite voicings for any instrument/tuning combo wherever it is used. Favourites set on a guitar in standard tuning will
+            be different to favourites on a guitar with drop D tuning, because the voicings for the same chord will themselves be different,
+            using the same instrument and tuning combination. Each time a diagram is created for that chord, it will show your favoured voicing immediately.
+          </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/chord-favourited.png"
+              alt="Frettler chord diagram showing favourited state" class="gallery-image size-vvs"
+              loading="lazy" />
+            <figcaption class="meta">
+              Chord diagram showing favourited state
+            </figcaption>
+          </figure>
+          <p></p>
+
+          <p>
             There are rare chords which to be musically faithful would require more frets to be fingered than are
             possible, and for those chords it will fallback to selecting voicings which contain what are considered to
             be the most important characteristics. i.e. it will sacrifice notes for intervals which are considered to be
             less important than others.
-            When it does this it will display a yellow 'i' marker next to the diagram, and clicking that will show which
+            When it does this it will display an orange warning '!' marker next to the diagram, and clicking that will show which
             intervals have been sacrificed.
           </p>
+
+          <figure class="gallery-figure">
+            <img src="/images/chord-omitted.png"
+              alt="Frettler chord diagram showing omitted intervals" class="gallery-image size-vvs"
+              loading="lazy" />
+            <figcaption class="meta">
+              Chord diagram showing omitted intervals
+            </figcaption>
+          </figure>
+          <p></p>
         </li>
 
       </ul>
