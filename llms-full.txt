@@ -1,7 +1,8 @@
 Frettler
 
-This document aggregates the public documentation from frettler.app for
-AI assistants.
+This document aggregates the public Frettler User Guide and product
+information from frettler.app for AI assistants.
+User Guide: https://frettler.app/help/index.html
 
 Current Frettler features
 
@@ -301,9 +302,9 @@ improvements.
 
 Email us at: hello@frettler.app
 
-Frettler – Help & Info
+Frettler User Guide
 
-Help & Info
+Frettler User Guide
 
 This section collects short guides to key parts of Frettler. Each topic
 focuses on a specific scenario or feature, with a screenshot showing
@@ -1487,7 +1488,7 @@ Fretboard showing note labels
 
 Fretboard showing interval labels
 
-Chord organiser panels | Frettler Help
+Chord organiser panels | Frettler User Guide
 
 Chord organiser panels overview
 
@@ -2005,3 +2006,16 @@ Changes to this policy
 We may update this privacy notice from time to time. The “Last updated”
 date at the top of this page will reflect the most recent change.
 
+
+
+Frettler Tutorials
+Source: https://frettler.app/tutorials.html
+
+The Tutorials page accompanies the written User Guide with a video
+catalogue in learning order: Introduction to Frettler, then Chord organisers.
+The introduction presents Frettler's document-based workspace for scales,
+modes and chords; the chord organiser tutorial explores chord diagrams
+and voicings. Each entry includes a summary and a related written guide.
+YouTube video links are awaiting configuration on the page.
+The homepage links to the catalogue, and Tutorials follows User Guide
+in the website navigation.

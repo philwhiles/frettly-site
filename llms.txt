@@ -20,7 +20,11 @@ Frettler combines interactive fretboards, chord organisers and persistent docume
 - [Changelog](https://frettler.app/changelog.html): Release history, new features, improvements and fixes, with additional details and screenshots.
 - [Mac App Store](https://apps.apple.com/gb/app/id6757320106): Download Frettler for macOS.
 
-## Documentation
+## User Guide
+
+- [Tutorials](https://frettler.app/tutorials.html): Video tutorial catalogue, ordered with Introduction to Frettler first, followed by Chord organisers. YouTube video links will be added when configured.
+
+- [Frettler User Guide](https://frettler.app/help/index.html): Guide index covering documents, fretboards, chord organisers, instruments and settings.
 
 - [Getting Started](https://frettler.app/help/getting-started.html): Creating documents, choosing instruments and adding panels.
 - [Supported Instruments](https://frettler.app/help/instruments.html): Guitar, bass, ukulele, mandolin and banjo support.
