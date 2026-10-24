@@ -72,6 +72,13 @@
               but should you wish to have
               it re-appear, the option is here.
             </p>
+            <p>
+            Frettler uses graphics and audio resources from third parties, all of which are freely available with permissive
+            licenses. Full attribution, links to the sources and their licenses can be found in the 'Credits'.
+            </p>
+            <p>
+            The change log detailing Frettler enhancements and improvements, release by release, can be found under 'Changes'.
+            </p>
           </ul>
 
           <figure class="gallery-figure">
@@ -119,11 +126,69 @@
           <h2 style="margin-top: 0;">Instruments</h2>
           <ul>
             <p>
-              This section gives you control over the default maximum number of frets Frettler uses for
+              The characteristics of the various Frettler instrument types can be customised in this section.
+            </p>
+            <p>
+              When a note is played in a fretboard panel or a chord diagram is strummed in a chord organiser,
+              Frettler will use a sampled instrument, chosen in this settings page, for the document's instrument.
+              You can choose from 'Basic' samples which are macOS provided MIDI samples, or one of
+              the alternative real instrument samples built in to Frettler. The Basic samples will have a more consistent
+              and uniform sound, and the real samples, while sounding more authentic, may have subtle variations in 
+              attack, sustain and decay between notes.
+            </p>
+            <p>
+             When selecting a sample for an instrument, the samples best suited to the instrument family are highlighted with 
+             an asterix. You have the freedom to choose a non highlighted sample if you wish, but samples
+             from a different instrument family may not sound ideal due to the pitch range of the sample and the tuning characteristics
+             of the document's instrument.
+            </p>
+            <p>
+
+            <h2 style="margin-top: 0;">Guitar</h2>
+            <ul class="multi-col-list">
+              <li>Basic Guitar</li>
+              <li>Electric Guitar - Clean</li>
+              <li>Electric Guitar - Clean</li>
+              <li>Electric Guitar - Jazz</li>
+              <li>Electric Guitar - Hollowbody</li>
+              <li>Spanish Classical Guitar</li>
+              <li>Steel String Acoustic Guitar</li>
+            </ul>
+            </h2>
+
+            <h2 style="margin-top: 0;">Bass Guitar</h2>
+            <ul class="multi-col-list">
+              <li>Basic Bass Guitar</li>
+              <li>Electric Bass</li>
+            </ul>
+            </h2>
+
+            <h2 style="margin-top: 0;">Banjo</h2>
+            <ul class="multi-col-list">
+              <li>Basic Banjo</li>
+              <li>Banjo</li>
+            </ul>
+            </h2>
+
+            <h2 style="margin-top: 0;">Mandolin</h2>
+            <ul class="multi-col-list">
+              <li>Basic Mandolin</li>
+              <li>Mandolin</li>
+            </ul>
+            </h2>
+
+            <h2 style="margin-top: 0;">Ukulele</h2>
+            <ul class="multi-col-list">
+              <li>Basic Ukulele</li>
+              <li>Ukulele</li>
+            </ul>
+            </h2>
+            </p>
+            <p>
+              This section also gives you control over the default maximum number of frets Frettler uses for
               each instrument type. That means fretboards can better reflect the instruments you actually play,
               whether your guitar stops at 22 frets, your mandolin has a shorter fingerboard, or your ukulele has
               a more compact range.
-            </p>
             <p>
               Use the sliders to choose the fret limit that best matches each of your own instruments.
               Frettler will then use those values whenever it display a fretboard in a document of that
@@ -183,12 +248,16 @@
           <h2 style="margin-top: 0;">Chords</h2>
           <ul>
             <p>
-            Diagram appearance - by default in dark mode, the background is dark, in light mode it is light. Here you have the choice of that system default, or you can choose light or dark regadless of system light/dark mode.
+            Diagram appearance - by default in dark mode, the background is dark, in light mode it is light. Here you have the choice of that system default, or you can choose light or dark regardless of system light/dark mode.
             </p>
             <p>
               Strum speed - when you press the space key with a chord voicing diagram selected, or if you click it,
               Frettler will play that voicing, string by string
               as a strum. The speed of that strum is set here.
+            </p>
+            <p>
+              Stereo strums - when chord diagrams in a chord organiser are strummed, the audio can if you prefer,
+              sweep from left to right channels, bass strings on the left across to treble strings on the right.
             </p>
             <p>
               Always right handed - the chord voicing diagrams will by default display their strings using the
